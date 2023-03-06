@@ -1,0 +1,1761 @@
+{
+    "usergroup": "[]",
+    "searchResultPage": {
+        "searchPhrase": "chair",
+        "storeWindow": [],
+        "storeCount": 0,
+        "didYouMean": [],
+        "relatedSearches": [
+            {
+                "count": 167,
+                "text": "desk chair",
+                "metadata": "1339"
+            },
+            {
+                "count": 170,
+                "text": "office chair",
+                "metadata": "1295"
+            },
+            {
+                "count": 358,
+                "text": "dining chair",
+                "metadata": "735"
+            },
+            {
+                "count": 325,
+                "text": "armchair",
+                "metadata": "692"
+            },
+            {
+                "count": 118,
+                "text": "stool",
+                "metadata": "576"
+            },
+            {
+                "count": 904,
+                "text": "table",
+                "metadata": "504"
+            },
+            {
+                "count": 769,
+                "text": "chair accent",
+                "metadata": "429"
+            },
+            {
+                "count": 54,
+                "text": "gaming chair",
+                "metadata": "344"
+            },
+            {
+                "count": 1158,
+                "text": "sofa",
+                "metadata": "335"
+            },
+            {
+                "count": 556,
+                "text": "lamp",
+                "metadata": "330"
+            }
+        ],
+        "retiredProducts": [],
+        "products": {
+            "badge": 766,
+            "filters": [
+                {
+                    "id": "CATEGORIES",
+                    "name": "Category",
+                    "collapsed": false,
+                    "type": "CATEGORY_TREE",
+                    "parameter": "f-subcategories",
+                    "eventAction": "filter_by_category",
+                    "enabled": true,
+                    "selected": false,
+                    "actionTokens": [],
+                    "categories": [
+                        {
+                            "name": "Chairs",
+                            "key": "fu002",
+                            "url": "https://www.ikea.com/us/en/cat/chairs-fu002/",
+                            "imageUrl": "https://www.ikea.com/global/assets/navigation/images/chairs-fu002.jpeg",
+                            "count": 695
+                        },
+                        {
+                            "name": "Armchairs & accent chairs",
+                            "key": "fu006",
+                            "url": "https://www.ikea.com/us/en/cat/armchairs-chaises-fu006/",
+                            "imageUrl": "https://www.ikea.com/global/assets/navigation/images/armchairs-chaise-longues-fu006.jpeg",
+                            "count": 287
+                        },
+                        {
+                            "name": "Desk chairs",
+                            "key": "20652",
+                            "url": "https://www.ikea.com/us/en/cat/desk-chairs-20652/",
+                            "imageUrl": "https://www.ikea.com/global/assets/navigation/images/desk-chairs-20652.jpeg",
+                            "count": 123
+                        },
+                        {
+                            "name": "Outdoor & patio furniture",
+                            "key": "od003",
+                            "url": "https://www.ikea.com/us/en/cat/outdoor-patio-furniture-od003/",
+                            "imageUrl": "https://www.ikea.com/global/assets/navigation/images/outdoor-furniture-od003.jpeg",
+                            "count": 88
+                        },
+                        {
+                            "name": "Furniture sets",
+                            "key": "55036",
+                            "url": "https://www.ikea.com/us/en/cat/furniture-sets-55036/",
+                            "imageUrl": "https://www.ikea.com/global/assets/navigation/images/furniture-sets-55036.jpeg",
+                            "count": 75
+                        },
+                        {
+                            "name": "Sofas & sectionals",
+                            "key": "fu003",
+                            "url": "https://www.ikea.com/us/en/cat/sofas-sectionals-fu003/",
+                            "imageUrl": "https://www.ikea.com/global/assets/navigation/images/sofas-fu003.jpeg",
+                            "count": 69
+                        },
+                        {
+                            "name": "Tables & desks",
+                            "key": "fu004",
+                            "url": "https://www.ikea.com/us/en/cat/tables-desks-fu004/",
+                            "imageUrl": "https://www.ikea.com/global/assets/navigation/images/tables-desks-fu004.jpeg",
+                            "count": 67
+                        },
+                        {
+                            "name": "Baby & kids",
+                            "key": "bc001",
+                            "url": "https://www.ikea.com/us/en/cat/baby-kids-bc001/",
+                            "imageUrl": "https://www.ikea.com/global/assets/navigation/images/baby-children-bc001.jpeg",
+                            "count": 31
+                        },
+                        {
+                            "name": "Kids furniture",
+                            "key": "18767",
+                            "url": "https://www.ikea.com/us/en/cat/kids-furniture-18767/",
+                            "imageUrl": "https://www.ikea.com/global/assets/navigation/images/childrens-furniture-18767.jpeg",
+                            "count": 28
+                        },
+                        {
+                            "name": "Bar furniture",
+                            "key": "16244",
+                            "url": "https://www.ikea.com/us/en/cat/bar-furniture-16244/",
+                            "imageUrl": "https://www.ikea.com/global/assets/navigation/images/bar-furniture-16244.jpeg",
+                            "count": 26
+                        },
+                        {
+                            "name": "Gaming furniture",
+                            "key": "55002",
+                            "url": "https://www.ikea.com/us/en/cat/gaming-furniture-55002/",
+                            "imageUrl": "https://www.ikea.com/global/assets/navigation/images/gaming-furniture-55002.jpeg",
+                            "count": 11
+                        },
+                        {
+                            "name": "Caf\u00e9 furniture",
+                            "key": "19141",
+                            "url": "https://www.ikea.com/us/en/cat/cafe-furniture-19141/",
+                            "imageUrl": "https://www.ikea.com/global/assets/navigation/images/cafe-furniture-19141.jpeg",
+                            "count": 6
+                        },
+                        {
+                            "name": "Nursery Furniture",
+                            "key": "45780",
+                            "url": "https://www.ikea.com/us/en/cat/nursery-furniture-45780/",
+                            "imageUrl": "https://www.ikea.com/global/assets/navigation/images/nursery-furniture-45780.jpeg",
+                            "count": 6
+                        },
+                        {
+                            "name": "Beds",
+                            "key": "bm003",
+                            "url": "https://www.ikea.com/us/en/cat/beds-bm003/",
+                            "imageUrl": "https://www.ikea.com/us/en/navigation/images/beds-bm003.jpeg",
+                            "count": 4
+                        },
+                        {
+                            "name": "Chair pads",
+                            "key": "20542",
+                            "url": "https://www.ikea.com/us/en/cat/chair-pads-20542/",
+                            "imageUrl": "https://www.ikea.com/global/assets/navigation/images/chair-pads-20542.jpeg",
+                            "count": 3
+                        }
+                    ]
+                },
+                {
+                    "id": "PRICE",
+                    "name": "Price",
+                    "collapsed": false,
+                    "type": "CLASS_FILTER",
+                    "parameter": "f-price-buckets",
+                    "eventAction": "filter_by_price",
+                    "enabled": true,
+                    "selected": false,
+                    "actionTokens": [],
+                    "values": [
+                        {
+                            "name": "$0.00\u00a0-\u00a049.99",
+                            "id": "PRICE_0_5000",
+                            "count": 66,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "$50.00\u00a0-\u00a099.99",
+                            "id": "PRICE_5000_10000",
+                            "count": 147,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "$100.00\u00a0-\u00a0149.99",
+                            "id": "PRICE_10000_15000",
+                            "count": 123,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "$150.00\u00a0-\u00a0199.99",
+                            "id": "PRICE_15000_20000",
+                            "count": 78,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "$200.00+",
+                            "id": "PRICE_20000_2147483647",
+                            "count": 352,
+                            "selected": false,
+                            "enabled": true
+                        }
+                    ]
+                },
+                {
+                    "id": "COLOR",
+                    "name": "Color",
+                    "collapsed": false,
+                    "type": "CLASS_FILTER",
+                    "parameter": "f-colors",
+                    "eventAction": "filter_by_color",
+                    "enabled": true,
+                    "selected": false,
+                    "actionTokens": [],
+                    "values": [
+                        {
+                            "name": "gray",
+                            "id": "10028",
+                            "count": 271,
+                            "selected": false,
+                            "enabled": true,
+                            "hex": "949494"
+                        },
+                        {
+                            "name": "beige",
+                            "id": "10003",
+                            "count": 205,
+                            "selected": false,
+                            "enabled": true,
+                            "hex": "f4f3d7"
+                        },
+                        {
+                            "name": "black",
+                            "id": "10139",
+                            "count": 197,
+                            "selected": false,
+                            "enabled": true,
+                            "hex": "000000"
+                        },
+                        {
+                            "name": "white",
+                            "id": "10156",
+                            "count": 178,
+                            "selected": false,
+                            "enabled": true,
+                            "hex": "ffffff"
+                        },
+                        {
+                            "name": "brown",
+                            "id": "10019",
+                            "count": 173,
+                            "selected": false,
+                            "enabled": true,
+                            "hex": "814820"
+                        },
+                        {
+                            "name": "blue",
+                            "id": "10007",
+                            "count": 56,
+                            "selected": false,
+                            "enabled": true,
+                            "hex": "0058a3"
+                        },
+                        {
+                            "name": "green",
+                            "id": "10033",
+                            "count": 36,
+                            "selected": false,
+                            "enabled": true,
+                            "hex": "3b7d22"
+                        },
+                        {
+                            "name": "yellow",
+                            "id": "10042",
+                            "count": 25,
+                            "selected": false,
+                            "enabled": true,
+                            "hex": "ffdb00"
+                        },
+                        {
+                            "name": "pink",
+                            "id": "10119",
+                            "count": 23,
+                            "selected": false,
+                            "enabled": true,
+                            "hex": "ffb8c3"
+                        },
+                        {
+                            "name": "red",
+                            "id": "10124",
+                            "count": 16,
+                            "selected": false,
+                            "enabled": true,
+                            "hex": "f00f00"
+                        },
+                        {
+                            "name": "multicolor",
+                            "id": "10583",
+                            "count": 10,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "turquoise",
+                            "id": "10152",
+                            "count": 7,
+                            "selected": false,
+                            "enabled": true,
+                            "hex": "77ddd0"
+                        },
+                        {
+                            "name": "orange",
+                            "id": "10112",
+                            "count": 2,
+                            "selected": false,
+                            "enabled": true,
+                            "hex": "ff9a02"
+                        },
+                        {
+                            "name": "lilac",
+                            "id": "10064",
+                            "count": 1,
+                            "selected": false,
+                            "enabled": true,
+                            "hex": "a96ecc"
+                        }
+                    ]
+                },
+                {
+                    "id": "MATERIAL",
+                    "name": "Material",
+                    "collapsed": false,
+                    "type": "CLASS_FILTER",
+                    "parameter": "f-materials",
+                    "eventAction": "filter_by_materials",
+                    "enabled": true,
+                    "selected": false,
+                    "actionTokens": [],
+                    "values": [
+                        {
+                            "name": "Fabric",
+                            "id": "38828",
+                            "count": 521,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Solid wood",
+                            "id": "50788",
+                            "count": 197,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Metal",
+                            "id": "47350",
+                            "count": 167,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Wood (including board)",
+                            "id": "47349",
+                            "count": 101,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Plastic",
+                            "id": "47675",
+                            "count": 70,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Wood veneer",
+                            "id": "53958",
+                            "count": 66,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Leather",
+                            "id": "38829",
+                            "count": 38,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Coated fabric",
+                            "id": "38830",
+                            "count": 15,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Rattan",
+                            "id": "39393",
+                            "count": 12,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Plastic rattan",
+                            "id": "50350",
+                            "count": 9,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Bamboo",
+                            "id": "47653",
+                            "count": 1,
+                            "selected": false,
+                            "enabled": true
+                        }
+                    ]
+                },
+                {
+                    "id": "FEATURE",
+                    "name": "Features",
+                    "collapsed": false,
+                    "type": "CLASS_FILTER",
+                    "parameter": "f-feature",
+                    "eventAction": "filter_by_feature",
+                    "enabled": true,
+                    "selected": false,
+                    "actionTokens": [],
+                    "values": [
+                        {
+                            "name": "Upholstered",
+                            "id": "47490",
+                            "count": 199,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Armrest",
+                            "id": "52365",
+                            "count": 182,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Washable cover",
+                            "id": "47644",
+                            "count": 140,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Swivel function",
+                            "id": "53961",
+                            "count": 113,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Height adjustable",
+                            "id": "53486",
+                            "count": 111,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "With armrests",
+                            "id": "53497",
+                            "count": 87,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Headrest",
+                            "id": "52367",
+                            "count": 82,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "With castors",
+                            "id": "53032",
+                            "count": 80,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Tilt function",
+                            "id": "53957",
+                            "count": 77,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Extra covers available",
+                            "id": "55373",
+                            "count": 67,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Removable cover",
+                            "id": "51527",
+                            "count": 65,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "With footrest",
+                            "id": "55374",
+                            "count": 46,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Stackable",
+                            "id": "47354",
+                            "count": 41,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Extendable",
+                            "id": "47462",
+                            "count": 31,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Rocking chair",
+                            "id": "52649",
+                            "count": 28,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Foldable",
+                            "id": "47467",
+                            "count": 24,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Legs",
+                            "id": "47668",
+                            "count": 24,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "With headrest",
+                            "id": "53498",
+                            "count": 15,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Wing chair",
+                            "id": "58336",
+                            "count": 14,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Store under table",
+                            "id": "58876",
+                            "count": 12,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Hang on wall",
+                            "id": "58875",
+                            "count": 11,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Height adjustable headrest",
+                            "id": "53491",
+                            "count": 10,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Adjustable seat depth",
+                            "id": "53495",
+                            "count": 10,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Small size",
+                            "id": "59017",
+                            "count": 10,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "With storage",
+                            "id": "51424",
+                            "count": 8,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Height adjustable armrest",
+                            "id": "53492",
+                            "count": 8,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Recliner",
+                            "id": "52359",
+                            "count": 6,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Height adjustable back",
+                            "id": "53474",
+                            "count": 6,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "With drawer",
+                            "id": "50684",
+                            "count": 4,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Adjustable lumbar support",
+                            "id": "53496",
+                            "count": 4,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Depth-adjustable headrest",
+                            "id": "59018",
+                            "count": 4,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "With hooks",
+                            "id": "51412",
+                            "count": 2,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Sleeper Sofa",
+                            "id": "51715",
+                            "count": 2,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Swivel chair",
+                            "id": "52358",
+                            "count": 2,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Depth adjustable armrest",
+                            "id": "53493",
+                            "count": 2,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Hang on table",
+                            "id": "58874",
+                            "count": 2,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Modular",
+                            "id": "47673",
+                            "count": 1,
+                            "selected": false,
+                            "enabled": true
+                        }
+                    ]
+                },
+                {
+                    "id": "MEASUREMENT_BUCKETS",
+                    "name": "size",
+                    "collapsed": false,
+                    "type": "TYPED_CLASS_FILTER",
+                    "parameter": "f-measurement-buckets",
+                    "eventAction": "filter_by_measurement_bucket",
+                    "enabled": true,
+                    "selected": false,
+                    "actionTokens": [],
+                    "types": [
+                        {
+                            "id": "WIDTH",
+                            "name": "Width",
+                            "values": [
+                                {
+                                    "name": "0 - 14 \"",
+                                    "id": "WIDTH_0_15",
+                                    "count": 9,
+                                    "selected": false,
+                                    "enabled": true
+                                },
+                                {
+                                    "name": "15 - 19 \"",
+                                    "id": "WIDTH_15_20",
+                                    "count": 115,
+                                    "selected": false,
+                                    "enabled": true
+                                },
+                                {
+                                    "name": "20 - 24 \"",
+                                    "id": "WIDTH_20_25",
+                                    "count": 135,
+                                    "selected": false,
+                                    "enabled": true
+                                },
+                                {
+                                    "name": "25 - 29 \"",
+                                    "id": "WIDTH_25_30",
+                                    "count": 203,
+                                    "selected": false,
+                                    "enabled": true
+                                },
+                                {
+                                    "name": "30+ \"",
+                                    "id": "WIDTH_30_2147483647",
+                                    "count": 156,
+                                    "selected": false,
+                                    "enabled": true
+                                }
+                            ]
+                        },
+                        {
+                            "id": "HEIGHT",
+                            "name": "Height",
+                            "values": [
+                                {
+                                    "name": "0 - 27 \"",
+                                    "id": "HEIGHT_0_28",
+                                    "count": 31,
+                                    "selected": false,
+                                    "enabled": true
+                                },
+                                {
+                                    "name": "28 - 29 \"",
+                                    "id": "HEIGHT_28_30",
+                                    "count": 65,
+                                    "selected": false,
+                                    "enabled": true
+                                },
+                                {
+                                    "name": "30 - 31 \"",
+                                    "id": "HEIGHT_30_32",
+                                    "count": 84,
+                                    "selected": false,
+                                    "enabled": true
+                                },
+                                {
+                                    "name": "32 - 33 \"",
+                                    "id": "HEIGHT_32_34",
+                                    "count": 66,
+                                    "selected": false,
+                                    "enabled": true
+                                },
+                                {
+                                    "name": "34+ \"",
+                                    "id": "HEIGHT_34_2147483647",
+                                    "count": 214,
+                                    "selected": false,
+                                    "enabled": true
+                                }
+                            ]
+                        },
+                        {
+                            "id": "DEPTH",
+                            "name": "Depth",
+                            "values": [
+                                {
+                                    "name": "0 - 14 \"",
+                                    "id": "DEPTH_0_15",
+                                    "count": 12,
+                                    "selected": false,
+                                    "enabled": true
+                                },
+                                {
+                                    "name": "15 - 19 \"",
+                                    "id": "DEPTH_15_20",
+                                    "count": 86,
+                                    "selected": false,
+                                    "enabled": true
+                                },
+                                {
+                                    "name": "20 - 24 \"",
+                                    "id": "DEPTH_20_25",
+                                    "count": 151,
+                                    "selected": false,
+                                    "enabled": true
+                                },
+                                {
+                                    "name": "25 - 29 \"",
+                                    "id": "DEPTH_25_30",
+                                    "count": 134,
+                                    "selected": false,
+                                    "enabled": true
+                                },
+                                {
+                                    "name": "30+ \"",
+                                    "id": "DEPTH_30_2147483647",
+                                    "count": 185,
+                                    "selected": false,
+                                    "enabled": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "SEATS",
+                    "name": "Number of seats",
+                    "collapsed": false,
+                    "type": "CLASS_FILTER",
+                    "parameter": "f-seats",
+                    "eventAction": "filter_by_seats",
+                    "enabled": true,
+                    "selected": false,
+                    "actionTokens": [],
+                    "values": [
+                        {
+                            "name": "1 seat",
+                            "id": "38827",
+                            "count": 23,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Up to 2 seats",
+                            "id": "55376",
+                            "count": 11,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "2 seats",
+                            "id": "38767",
+                            "count": 6,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "3 seats",
+                            "id": "38768",
+                            "count": 5,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Up to 4 seats",
+                            "id": "49518",
+                            "count": 35,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "4 seats",
+                            "id": "38769",
+                            "count": 5,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Up to 6 seats",
+                            "id": "49520",
+                            "count": 26,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Up to 8 seats",
+                            "id": "49521",
+                            "count": 8,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Up to 10 seats",
+                            "id": "49522",
+                            "count": 1,
+                            "selected": false,
+                            "enabled": true
+                        }
+                    ]
+                },
+                {
+                    "id": "RATINGS",
+                    "name": "Customer rating",
+                    "collapsed": false,
+                    "type": "CLASS_FILTER",
+                    "parameter": "f-ratings",
+                    "eventAction": "filter_by_rating_value_integer",
+                    "enabled": true,
+                    "selected": false,
+                    "actionTokens": [],
+                    "values": [
+                        {
+                            "name": "1",
+                            "id": "1",
+                            "count": 3,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "3",
+                            "id": "3",
+                            "count": 19,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "4",
+                            "id": "4",
+                            "count": 582,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "5",
+                            "id": "5",
+                            "count": 68,
+                            "selected": false,
+                            "enabled": true
+                        }
+                    ]
+                },
+                {
+                    "id": "SHAPES",
+                    "name": "Shape",
+                    "collapsed": false,
+                    "type": "CLASS_FILTER",
+                    "parameter": "f-shape",
+                    "eventAction": "filter_by_shape",
+                    "enabled": true,
+                    "selected": false,
+                    "actionTokens": [],
+                    "values": [
+                        {
+                            "name": "Rectangular",
+                            "id": "44838",
+                            "count": 62,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Standard",
+                            "id": "38823",
+                            "count": 23,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Round",
+                            "id": "44840",
+                            "count": 9,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Corner",
+                            "id": "38825",
+                            "count": 7,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Square",
+                            "id": "44839",
+                            "count": 6,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "Oval",
+                            "id": "51373",
+                            "count": 3,
+                            "selected": false,
+                            "enabled": true
+                        }
+                    ]
+                },
+                {
+                    "id": "TOP_SELLER",
+                    "name": "Top seller",
+                    "collapsed": false,
+                    "type": "BOOLEAN",
+                    "parameter": "f-top-seller",
+                    "eventAction": "filter_by_top_seller",
+                    "enabled": true,
+                    "selected": false,
+                    "actionTokens": [],
+                    "count": 14
+                },
+                {
+                    "id": "SERIES",
+                    "name": "Series",
+                    "collapsed": false,
+                    "type": "CLASS_FILTER",
+                    "parameter": "f-series",
+                    "eventAction": "filter_by_series",
+                    "enabled": true,
+                    "selected": false,
+                    "actionTokens": [],
+                    "values": [
+                        {
+                            "name": "PO\u00c4NG series",
+                            "id": "07472",
+                            "count": 84,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "L\u00c5NGFJ\u00c4LL series",
+                            "id": "36826",
+                            "count": 48,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "BERGMUND series",
+                            "id": "53224",
+                            "count": 39,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "KIVIK series",
+                            "id": "18329",
+                            "count": 19,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "J\u00c4TTEBO series",
+                            "id": "59276",
+                            "count": 18,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "MORABO series",
+                            "id": "47154",
+                            "count": 17,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "EKEDALEN series",
+                            "id": "38609",
+                            "count": 16,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "STRANDMON series",
+                            "id": "57217",
+                            "count": 14,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "INGOLF series",
+                            "id": "54979",
+                            "count": 12,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "BONDHOLMEN series",
+                            "id": "47148",
+                            "count": 10,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "UPPLAND series",
+                            "id": "48968",
+                            "count": 10,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "NORDVIKEN series",
+                            "id": "54967",
+                            "count": 9,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "INGATORP series",
+                            "id": "54978",
+                            "count": 9,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "BACKS\u00c4LEN series",
+                            "id": "54970",
+                            "count": 8,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "ESSEBODA series",
+                            "id": "59277",
+                            "count": 8,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "LISABO series",
+                            "id": "30662",
+                            "count": 7,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "SJ\u00c4LLAND series",
+                            "id": "40238",
+                            "count": 6,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "TULLSTA series",
+                            "id": "57216",
+                            "count": 6,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "VISKAFORS series",
+                            "id": "59275",
+                            "count": 6,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "S\u00d6DERHAMN series",
+                            "id": "22178",
+                            "count": 5,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "MAMMUT series",
+                            "id": "11779",
+                            "count": 4,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "SOLLER\u00d6N series",
+                            "id": "40237",
+                            "count": 4,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "FINNALA series",
+                            "id": "47149",
+                            "count": 4,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "P\u00c4RUP series",
+                            "id": "54971",
+                            "count": 4,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "H\u00c4RLANDA series",
+                            "id": "47152",
+                            "count": 3,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "R\u00d6NNINGE series",
+                            "id": "54966",
+                            "count": 3,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "SUNDVIK series",
+                            "id": "21159",
+                            "count": 2,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "ASKHOLMEN series",
+                            "id": "26792",
+                            "count": 2,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "HAVSTEN series",
+                            "id": "40239",
+                            "count": 2,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "JUTHOLMEN series",
+                            "id": "53218",
+                            "count": 2,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "TORPAR\u00d6 series",
+                            "id": "53223",
+                            "count": 2,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "NYHAMN series",
+                            "id": "57210",
+                            "count": 2,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "EKOLSUND series",
+                            "id": "57213",
+                            "count": 2,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "L\u00c4CK\u00d6 series",
+                            "id": "58016",
+                            "count": 2,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "N\u00c4MMAR\u00d6 series",
+                            "id": "60746",
+                            "count": 2,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "SEGER\u00d6N series",
+                            "id": "60747",
+                            "count": 2,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "FLISAT series",
+                            "id": "34517",
+                            "count": 1,
+                            "selected": false,
+                            "enabled": true
+                        },
+                        {
+                            "name": "SKOGSTA series",
+                            "id": "60753",
+                            "count": 1,
+                            "selected": false,
+                            "enabled": true
+                        }
+                    ]
+                },
+                {
+                    "id": "LAST_CHANCE",
+                    "name": "Last chance",
+                    "collapsed": false,
+                    "type": "BOOLEAN",
+                    "parameter": "f-last-chance",
+                    "eventAction": "filter_by_last_chance",
+                    "enabled": true,
+                    "selected": false,
+                    "actionTokens": [],
+                    "count": 87
+                },
+                {
+                    "id": "SUITABLE_FOR_BUSINESS",
+                    "name": "Suitable for business",
+                    "collapsed": false,
+                    "type": "BOOLEAN",
+                    "parameter": "f-suitable-for-business",
+                    "eventAction": "filter_by_suitable_for_business",
+                    "enabled": true,
+                    "selected": false,
+                    "actionTokens": [],
+                    "count": 106
+                },
+                {
+                    "id": "NEW_PRODUCT",
+                    "name": "New products",
+                    "collapsed": false,
+                    "type": "BOOLEAN",
+                    "parameter": "f-new-product",
+                    "eventAction": "filter_by_new_product",
+                    "enabled": true,
+                    "selected": false,
+                    "actionTokens": [],
+                    "count": 103
+                }
+            ],
+            "sortOrders": {
+                "name": "Sort",
+                "values": [
+                    {
+                        "id": "RELEVANCE",
+                        "name": "Best match",
+                        "eventAction": "sort_by_relevance",
+                        "selected": true
+                    },
+                    {
+                        "id": "PRICE_LOW_TO_HIGH",
+                        "name": "Price: low to high",
+                        "eventAction": "sort_by_price_low",
+                        "selected": false
+                    },
+                    {
+                        "id": "PRICE_HIGH_TO_LOW",
+                        "name": "Price: high to low",
+                        "eventAction": "sort_by_price_high",
+                        "selected": false
+                    },
+                    {
+                        "id": "NEWEST",
+                        "name": "Newest",
+                        "eventAction": "sort_by_newest",
+                        "selected": false
+                    },
+                    {
+                        "id": "RATING",
+                        "name": "Customer rating",
+                        "eventAction": "sort_by_rating",
+                        "selected": false
+                    },
+                    {
+                        "id": "NAME_ASCENDING",
+                        "name": "Name",
+                        "eventAction": "sort_by_name",
+                        "selected": false
+                    },
+                    {
+                        "id": "MOST_POPULAR",
+                        "name": "Most popular",
+                        "eventAction": "sort_by_most_popular",
+                        "selected": false
+                    },
+                    {
+                        "id": "WIDTH",
+                        "name": "Width",
+                        "eventAction": "sort_by_width",
+                        "selected": false
+                    },
+                    {
+                        "id": "HEIGHT",
+                        "name": "Height",
+                        "eventAction": "sort_by_height",
+                        "selected": false
+                    },
+                    {
+                        "id": "DEPTH",
+                        "name": "Depth",
+                        "eventAction": "sort_by_depth",
+                        "selected": false
+                    },
+                    {
+                        "id": "LENGTH",
+                        "name": "Length",
+                        "eventAction": "sort_by_length",
+                        "selected": false
+                    }
+                ]
+            },
+            "main": {
+                "items": [
+                    {
+                        "metadata": "v1;1;PRODUCT;s59305928;products_main;",
+                        "product": {
+                            "name": "PO\u00c4NG",
+                            "typeName": "Armchair",
+                            "itemMeasureReferenceText": "",
+                            "mainImageUrl": "https://www.ikea.com/us/en/images/products/poaeng-armchair-birch-veneer-knisa-light-beige__0571500_pe666933_s5.jpg",
+                            "pipUrl": "https://www.ikea.com/us/en/p/poaeng-armchair-birch-veneer-knisa-light-beige-s59305928/",
+                            "id": "s59305928",
+                            "itemNoGlobal": "39240787",
+                            "onlineSellable": true,
+                            "lastChance": false,
+                            "gprDescription": {
+                                "numberOfVariants": 7,
+                                "variants": [
+                                    {
+                                        "id": "s79305927",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/poaeng-armchair-birch-veneer-knisa-black-s79305927/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/poaeng-armchair-birch-veneer-knisa-black__0571496_pe666929_s5.jpg",
+                                        "imageAlt": "PO\u00c4NG Armchair, birch veneer/Knisa black",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "PO\u00c4NG",
+                                        "typeName": "Armchair",
+                                        "itemMeasureReferenceText": "",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/poaeng-armchair-birch-veneer-knisa-black__0571496_pe666929_s5.jpg",
+                                        "mainImageAlt": "PO\u00c4NG Armchair, birch veneer/Knisa black",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/poaeng-armchair-birch-veneer-knisa-black__0837326_pe666932_s5.jpg",
+                                        "itemNoGlobal": "69240823",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "itemNo": "79305927",
+                                        "itemType": "SPR",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 109.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "109",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    },
+                                    {
+                                        "id": "s49305924",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/poaeng-armchair-birch-veneer-hillared-anthracite-s49305924/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/poaeng-armchair-birch-veneer-hillared-anthracite__0497120_pe628947_s5.jpg",
+                                        "imageAlt": "PO\u00c4NG Armchair, birch veneer/Hillared anthracite",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "PO\u00c4NG",
+                                        "typeName": "Armchair",
+                                        "itemMeasureReferenceText": "",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/poaeng-armchair-birch-veneer-hillared-anthracite__0497120_pe628947_s5.jpg",
+                                        "mainImageAlt": "PO\u00c4NG Armchair, birch veneer/Hillared anthracite",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/poaeng-armchair-birch-veneer-hillared-anthracite__0837219_pe629068_s5.jpg",
+                                        "itemNoGlobal": "19197775",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "badge": {
+                                            "type": "TOP_SELLER",
+                                            "text": "Top seller"
+                                        },
+                                        "itemNo": "49305924",
+                                        "itemType": "SPR",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 169.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "169",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    },
+                                    {
+                                        "id": "s19305925",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/poaeng-armchair-birch-veneer-hillared-beige-s19305925/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/poaeng-armchair-birch-veneer-hillared-beige__0497125_pe628952_s5.jpg",
+                                        "imageAlt": "PO\u00c4NG Armchair, birch veneer/Hillared beige",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "PO\u00c4NG",
+                                        "typeName": "Armchair",
+                                        "itemMeasureReferenceText": "",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/poaeng-armchair-birch-veneer-hillared-beige__0497125_pe628952_s5.jpg",
+                                        "mainImageAlt": "PO\u00c4NG Armchair, birch veneer/Hillared beige",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/poaeng-armchair-birch-veneer-hillared-beige__1184589_ph187101_s5.jpg",
+                                        "itemNoGlobal": "49197750",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "itemNo": "19305925",
+                                        "itemType": "SPR",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 169.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "169",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    },
+                                    {
+                                        "id": "s79388461",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/poaeng-armchair-birch-veneer-skiftebo-dark-gray-s79388461/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/poaeng-armchair-birch-veneer-skiftebo-dark-gray__0937014_pe793536_s5.jpg",
+                                        "imageAlt": "PO\u00c4NG Armchair, birch veneer/Skiftebo dark gray",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "PO\u00c4NG",
+                                        "typeName": "Armchair",
+                                        "itemMeasureReferenceText": "",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/poaeng-armchair-birch-veneer-skiftebo-dark-gray__0937014_pe793536_s5.jpg",
+                                        "mainImageAlt": "PO\u00c4NG Armchair, birch veneer/Skiftebo dark gray",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/poaeng-armchair-birch-veneer-skiftebo-dark-gray__0937015_pe793537_s5.jpg",
+                                        "itemNoGlobal": "79388461",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "itemNo": "79388461",
+                                        "itemType": "SPR",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 119.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "119",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    },
+                                    {
+                                        "id": "s69387080",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/poaeng-armchair-birch-veneer-skiftebo-yellow-s69387080/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/poaeng-armchair-birch-veneer-skiftebo-yellow__0936990_pe793502_s5.jpg",
+                                        "imageAlt": "PO\u00c4NG Armchair, birch veneer/Skiftebo yellow",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "PO\u00c4NG",
+                                        "typeName": "Armchair",
+                                        "itemMeasureReferenceText": "",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/poaeng-armchair-birch-veneer-skiftebo-yellow__0936990_pe793502_s5.jpg",
+                                        "mainImageAlt": "PO\u00c4NG Armchair, birch veneer/Skiftebo yellow",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/poaeng-armchair-birch-veneer-skiftebo-yellow__0936991_pe793517_s5.jpg",
+                                        "itemNoGlobal": "49387076",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "itemNo": "69387080",
+                                        "itemType": "SPR",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 119.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "119",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    },
+                                    {
+                                        "id": "s19424056",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/poaeng-armchair-birch-veneer-storudden-white-black-s19424056/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/poaeng-armchair-birch-veneer-storudden-white-black__1085730_pe860199_s5.jpg",
+                                        "imageAlt": "PO\u00c4NG Armchair, birch veneer/Storudden white/black",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "PO\u00c4NG",
+                                        "typeName": "Armchair",
+                                        "itemMeasureReferenceText": "",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/poaeng-armchair-birch-veneer-storudden-white-black__1085730_pe860199_s5.jpg",
+                                        "mainImageAlt": "PO\u00c4NG Armchair, birch veneer/Storudden white/black",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/poaeng-armchair-birch-veneer-storudden-white-black__1085727_pe860198_s5.jpg",
+                                        "itemNoGlobal": "19424056",
+                                        "onlineSellable": true,
+                                        "lastChance": true,
+                                        "itemNo": "19424056",
+                                        "itemType": "SPR",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 119.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "119",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    }
+                                ]
+                            },
+                            "colors": [
+                                {
+                                    "name": "beige",
+                                    "id": "10003",
+                                    "hex": "f4f3d7"
+                                }
+                            ],
+                            "tag": "NONE",
+                            "quickFacts": [],
+                            "features": [],
+                            "availability": [],
+                            "itemNo": "59305928",
+                            "itemType": "SPR",
+                            "salesPrice": {
+                                "currencyCode": "USD",
+                                "numeral": 109.0,
+                                "current": {
+                                    "prefix": "$",
+                                    "wholeNumber": "109",
+                                    "separator": ".",
+                                    "decimals": "00",
+                                    "suffix": "",
+                                    "isRegularCurrency": false
+                                },
+                                "isBreathTaking": false,
+                                "discount": "",
+                                "tag": "NONE"
+                            },
+                            "contextualImageUrl": "https://www.ikea.com/us/en/images/products/poaeng-armchair-birch-veneer-knisa-light-beige__0837298_pe666936_s5.jpg",
+                            "mainImageAlt": "PO\u00c4NG Armchair, birch veneer/Knisa light beige",
+                            "businessStructure": {
+                                "homeFurnishingBusinessName": "Living room seating",
+                                "homeFurnishingBusinessNo": "01",
+                                "productAreaName": "Armchairs,",
+                                "productAreaNo": "0125",
+                                "productRangeAreaName": "Armchairs, footstool & sofa tables",
+                                "productRangeAreaNo": "012"
+                            },
+                            "categoryPath": [
+                                {
+                                    "name": "Furniture",
+                                    "key": "fu001"
+                                },
+                                {
+                                    "name": "Chairs",
+                                    "key": "fu002"
+                                },
+                                {
+                                    "name": "Armchairs & accent chairs",
+                                    "key": "fu006"
+                                },
+                                {
+                                    "name": "Armchairs",
+                                    "key": "16239"
+                                },
+                                {
+                                    "name": "Fabric armchairs",
+                                    "key": "10687"
+                                }
+                            ],
+                            "heroBackoffData": {},
+                            "optimizelyAttributes": {
+                                "PRODUCT_TYPE": "hero"
+                            }
+                        },
+                        "type": "PRODUCT",
+                        "label": "Product",
+                        "actionTokens": []
+                    }
+                ],
+                "start": 0,
+                "end": 1,
+                "max": 766,
+                "moreToken": "H4sIAAAAAAAA_6tWysksLlGyUgoI8ncJdQ4Jjvd19PRT0lFKzUtRsjKsBQBwMyhzIAAAAA"
+            },
+            "shelves": [],
+            "pageMessages": []
+        },
+        "content": {
+            "badge": 228,
+            "filters": [],
+            "sortOrders": {
+                "name": "Sort",
+                "values": []
+            },
+            "main": {
+                "items": [
+                    {
+                        "metadata": "v1;1;CONTENT;22610d30401511ed85a2ad3e40f058e2;content_main;",
+                        "content": {
+                            "url": "https://www.ikea.com/us/en/rooms/home-office/",
+                            "imageUrl": "https://www.ikea.com/images/a-sunlit-workspace-formed-by-a-bekant-sit-stand-desk-and-an--7c4afbb02a1aad65081602a02ae1dbd0.jpg",
+                            "imageAltText": "Home Office Furniture, Storage & Accessories",
+                            "title": "Home office",
+                            "metadata": "",
+                            "id": "22610d30401511ed85a2ad3e40f058e2"
+                        },
+                        "type": "CONTENT",
+                        "label": "Home office",
+                        "actionTokens": []
+                    }
+                ],
+                "start": 0,
+                "end": 1,
+                "max": 228,
+                "moreToken": "H4sIAAAAAAAA_6tWysksLlGyUnL29wtx9QuJ93X09FPSUUrNS1GyMqwFABUj9TIfAAAA"
+            },
+            "shelves": [],
+            "pageMessages": []
+        }
+    }
+}
