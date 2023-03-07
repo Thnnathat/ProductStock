@@ -719,7 +719,6 @@
                 ]
             },
             "main": {
-                "รายละเอียด": "// ! ข้อมูลที่ต้องใช้",
                 "items": [
                     {
                         "metadata": "v1;1;PRODUCT;00473546;products_main;",
@@ -1622,12 +1621,2843 @@
                         "type": "PRODUCT",
                         "label": "Product",
                         "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;6;PRODUCT;s59417619;products_main;",
+                        "product": {
+                            "name": "LAGKAPTEN / ALEX",
+                            "typeName": "Desk",
+                            "itemMeasureReferenceText": "78 3/4x23 5/8 \"",
+                            "mainImageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-white__0976159_pe813052_s5.jpg",
+                            "pipUrl": "https://www.ikea.com/us/en/p/lagkapten-alex-desk-white-s59417619/",
+                            "id": "s59417619",
+                            "itemNoGlobal": "59417619",
+                            "onlineSellable": true,
+                            "lastChance": false,
+                            "gprDescription": {
+                                "numberOfVariants": 5,
+                                "variants": [
+                                    {
+                                        "id": "s69417690",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/lagkapten-alex-desk-black-brown-black-s69417690/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-black-brown-black__0976183_pe813077_s5.jpg",
+                                        "imageAlt": "LAGKAPTEN / ALEX Desk, black-brown/black, 78 3/4x23 5/8 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "LAGKAPTEN / ALEX",
+                                        "typeName": "Desk",
+                                        "itemMeasureReferenceText": "78 3/4x23 5/8 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-black-brown-black__0976183_pe813077_s5.jpg",
+                                        "mainImageAlt": "LAGKAPTEN / ALEX Desk, black-brown/black, 78 3/4x23 5/8 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-black-brown-black__1028403_pe835337_s5.jpg",
+                                        "itemNoGlobal": "69417690",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "itemNo": "69417690",
+                                        "itemType": "SPR",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 356.5,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "356",
+                                                "separator": ".",
+                                                "decimals": "50",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    },
+                                    {
+                                        "id": "s99417622",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/lagkapten-alex-desk-white-black-brown-s99417622/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-white-black-brown__0976160_pe813053_s5.jpg",
+                                        "imageAlt": "LAGKAPTEN / ALEX Desk, white/black-brown, 78 3/4x23 5/8 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "LAGKAPTEN / ALEX",
+                                        "typeName": "Desk",
+                                        "itemMeasureReferenceText": "78 3/4x23 5/8 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-white-black-brown__0976160_pe813053_s5.jpg",
+                                        "mainImageAlt": "LAGKAPTEN / ALEX Desk, white/black-brown, 78 3/4x23 5/8 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-white-black-brown__1158860_pe888214_s5.jpg",
+                                        "itemNoGlobal": "99417622",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "itemNo": "99417622",
+                                        "itemType": "SPR",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 356.5,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "356",
+                                                "separator": ".",
+                                                "decimals": "50",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    },
+                                    {
+                                        "id": "s89417571",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/lagkapten-alex-desk-dark-gray-black-brown-s89417571/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-dark-gray-black-brown__0976154_pe813051_s5.jpg",
+                                        "imageAlt": "LAGKAPTEN / ALEX Desk, dark gray/black-brown, 78 3/4x23 5/8 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "LAGKAPTEN / ALEX",
+                                        "typeName": "Desk",
+                                        "itemMeasureReferenceText": "78 3/4x23 5/8 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-dark-gray-black-brown__0976154_pe813051_s5.jpg",
+                                        "mainImageAlt": "LAGKAPTEN / ALEX Desk, dark gray/black-brown, 78 3/4x23 5/8 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-dark-gray-black-brown__1158845_pe888210_s5.jpg",
+                                        "itemNoGlobal": "89417571",
+                                        "onlineSellable": true,
+                                        "lastChance": true,
+                                        "itemNo": "89417571",
+                                        "itemType": "SPR",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 356.5,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "356",
+                                                "separator": ".",
+                                                "decimals": "50",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    },
+                                    {
+                                        "id": "s29417687",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/lagkapten-alex-desk-black-brown-white-s29417687/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-black-brown-white__0976184_pe813078_s5.jpg",
+                                        "imageAlt": "LAGKAPTEN / ALEX Desk, black-brown/white, 78 3/4x23 5/8 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "LAGKAPTEN / ALEX",
+                                        "typeName": "Desk",
+                                        "itemMeasureReferenceText": "78 3/4x23 5/8 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-black-brown-white__0976184_pe813078_s5.jpg",
+                                        "mainImageAlt": "LAGKAPTEN / ALEX Desk, black-brown/white, 78 3/4x23 5/8 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-black-brown-white__1158843_pe888209_s5.jpg",
+                                        "itemNoGlobal": "29417687",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "itemNo": "29417687",
+                                        "itemType": "SPR",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 316.5,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "316",
+                                                "separator": ".",
+                                                "decimals": "50",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    },
+                                    {
+                                        "id": "s49417568",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/lagkapten-alex-desk-dark-gray-white-s49417568/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-dark-gray-white__0976155_pe813048_s5.jpg",
+                                        "imageAlt": "LAGKAPTEN / ALEX Desk, dark gray/white, 78 3/4x23 5/8 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "LAGKAPTEN / ALEX",
+                                        "typeName": "Desk",
+                                        "itemMeasureReferenceText": "78 3/4x23 5/8 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-dark-gray-white__0976155_pe813048_s5.jpg",
+                                        "mainImageAlt": "LAGKAPTEN / ALEX Desk, dark gray/white, 78 3/4x23 5/8 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-dark-gray-white__1028404_pe835340_s5.jpg",
+                                        "itemNoGlobal": "49417568",
+                                        "onlineSellable": true,
+                                        "lastChance": true,
+                                        "itemNo": "49417568",
+                                        "itemType": "SPR",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 316.5,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "316",
+                                                "separator": ".",
+                                                "decimals": "50",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    }
+                                ]
+                            },
+                            "colors": [
+                                {
+                                    "name": "white",
+                                    "id": "10156",
+                                    "hex": "ffffff"
+                                }
+                            ],
+                            "tag": "NONE",
+                            "quickFacts": [],
+                            "features": [],
+                            "availability": [],
+                            "itemNo": "59417619",
+                            "itemType": "SPR",
+                            "salesPrice": {
+                                "currencyCode": "USD",
+                                "numeral": 316.5,
+                                "current": {
+                                    "prefix": "$",
+                                    "wholeNumber": "316",
+                                    "separator": ".",
+                                    "decimals": "50",
+                                    "suffix": "",
+                                    "isRegularCurrency": false
+                                },
+                                "isBreathTaking": false,
+                                "discount": "",
+                                "tag": "NONE"
+                            },
+                            "mainImageAlt": "LAGKAPTEN / ALEX Desk, white, 78 3/4x23 5/8 \"",
+                            "businessStructure": {
+                                "homeFurnishingBusinessName": "Workspaces",
+                                "homeFurnishingBusinessNo": "03",
+                                "productAreaName": "Home desks.",
+                                "productAreaNo": "0341",
+                                "productRangeAreaName": "Home workspace",
+                                "productRangeAreaNo": "034"
+                            },
+                            "categoryPath": [
+                                {
+                                    "name": "Furniture",
+                                    "key": "fu001"
+                                },
+                                {
+                                    "name": "Tables & desks",
+                                    "key": "fu004"
+                                },
+                                {
+                                    "name": "Desks & computer desks",
+                                    "key": "20649"
+                                },
+                                {
+                                    "name": "Table & desk systems",
+                                    "key": "47423"
+                                },
+                                {
+                                    "name": "Table bar system",
+                                    "key": "11811"
+                                },
+                                {
+                                    "name": "Combinations",
+                                    "key": "18623"
+                                }
+                            ],
+                            "heroBackoffData": {},
+                            "optimizelyAttributes": {
+                                "PRODUCT_TYPE": "standard"
+                            }
+                        },
+                        "type": "PRODUCT",
+                        "label": "Product",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;7;PRODUCT;20192828;products_main;",
+                        "product": {
+                            "name": "EKBY ALEX",
+                            "typeName": "Shelf with drawers",
+                            "itemMeasureReferenceText": "46 7/8x11 3/8 \"",
+                            "mainImageUrl": "https://www.ikea.com/us/en/images/products/ekby-alex-shelf-with-drawers-white__0100681_pe244016_s5.jpg",
+                            "pipUrl": "https://www.ikea.com/us/en/p/ekby-alex-shelf-with-drawers-white-20192828/",
+                            "id": "20192828",
+                            "itemNoGlobal": "20192828",
+                            "onlineSellable": true,
+                            "lastChance": false,
+                            "gprDescription": {
+                                "numberOfVariants": 0,
+                                "variants": []
+                            },
+                            "colors": [
+                                {
+                                    "name": "white",
+                                    "id": "10156",
+                                    "hex": "ffffff"
+                                }
+                            ],
+                            "tag": "NONE",
+                            "quickFacts": [],
+                            "features": [],
+                            "availability": [],
+                            "itemNo": "20192828",
+                            "itemType": "ART",
+                            "salesPrice": {
+                                "currencyCode": "USD",
+                                "numeral": 64.99,
+                                "current": {
+                                    "prefix": "$",
+                                    "wholeNumber": "64",
+                                    "separator": ".",
+                                    "decimals": "99",
+                                    "suffix": "",
+                                    "isRegularCurrency": false
+                                },
+                                "isBreathTaking": false,
+                                "discount": "",
+                                "tag": "NONE"
+                            },
+                            "contextualImageUrl": "https://www.ikea.com/us/en/images/products/ekby-alex-shelf-with-drawers-white__0850945_pe720979_s5.jpg",
+                            "mainImageAlt": "EKBY ALEX Shelf with drawers, white, 46 7/8x11 3/8 \"",
+                            "businessStructure": {
+                                "homeFurnishingBusinessName": "Store and organise furniture",
+                                "homeFurnishingBusinessNo": "02",
+                                "productAreaName": "Wall shelves.",
+                                "productAreaNo": "0216",
+                                "productRangeAreaName": "Storage.",
+                                "productRangeAreaNo": "021"
+                            },
+                            "categoryPath": [
+                                {
+                                    "name": "Storage & organization",
+                                    "key": "st001"
+                                },
+                                {
+                                    "name": "Wall shelves",
+                                    "key": "10398"
+                                },
+                                {
+                                    "name": "Shelves",
+                                    "key": "20658"
+                                }
+                            ],
+                            "heroBackoffData": {},
+                            "optimizelyAttributes": {
+                                "PRODUCT_TYPE": "standard"
+                            }
+                        },
+                        "type": "PRODUCT",
+                        "label": "Product",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;8;PRODUCT;s69416817;products_main;",
+                        "product": {
+                            "name": "LAGKAPTEN / ALEX",
+                            "typeName": "Desk",
+                            "itemMeasureReferenceText": "47 1/4x23 5/8 \"",
+                            "mainImageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-white__0977483_pe813612_s5.jpg",
+                            "pipUrl": "https://www.ikea.com/us/en/p/lagkapten-alex-desk-white-s69416817/",
+                            "id": "s69416817",
+                            "itemNoGlobal": "69416817",
+                            "onlineSellable": true,
+                            "lastChance": false,
+                            "gprDescription": {
+                                "numberOfVariants": 5,
+                                "variants": [
+                                    {
+                                        "id": "s89417057",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/lagkapten-alex-desk-black-brown-black-s89417057/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-black-brown-black__0977233_pe813476_s5.jpg",
+                                        "imageAlt": "LAGKAPTEN / ALEX Desk, black-brown/black, 47 1/4x23 5/8 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "LAGKAPTEN / ALEX",
+                                        "typeName": "Desk",
+                                        "itemMeasureReferenceText": "47 1/4x23 5/8 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-black-brown-black__0977233_pe813476_s5.jpg",
+                                        "mainImageAlt": "LAGKAPTEN / ALEX Desk, black-brown/black, 47 1/4x23 5/8 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-black-brown-black__1028364_pe835302_s5.jpg",
+                                        "itemNoGlobal": "89417057",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "itemNo": "89417057",
+                                        "itemType": "SPR",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 194.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "194",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    },
+                                    {
+                                        "id": "s19417051",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/lagkapten-alex-desk-black-brown-white-s19417051/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-black-brown-white__0977234_pe813477_s5.jpg",
+                                        "imageAlt": "LAGKAPTEN / ALEX Desk, black-brown/white, 47 1/4x23 5/8 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "LAGKAPTEN / ALEX",
+                                        "typeName": "Desk",
+                                        "itemMeasureReferenceText": "47 1/4x23 5/8 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-black-brown-white__0977234_pe813477_s5.jpg",
+                                        "mainImageAlt": "LAGKAPTEN / ALEX Desk, black-brown/white, 47 1/4x23 5/8 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-black-brown-white__1158813_pe888197_s5.jpg",
+                                        "itemNoGlobal": "19417051",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "itemNo": "19417051",
+                                        "itemType": "SPR",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 174.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "174",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    },
+                                    {
+                                        "id": "s59416865",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/lagkapten-alex-desk-white-black-brown-s59416865/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-white-black-brown__0977484_pe813613_s5.jpg",
+                                        "imageAlt": "LAGKAPTEN / ALEX Desk, white/black-brown, 47 1/4x23 5/8 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "LAGKAPTEN / ALEX",
+                                        "typeName": "Desk",
+                                        "itemMeasureReferenceText": "47 1/4x23 5/8 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-white-black-brown__0977484_pe813613_s5.jpg",
+                                        "mainImageAlt": "LAGKAPTEN / ALEX Desk, white/black-brown, 47 1/4x23 5/8 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-white-black-brown__1159388_pe888458_s5.jpg",
+                                        "itemNoGlobal": "59416865",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "itemNo": "59416865",
+                                        "itemType": "SPR",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 194.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "194",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    },
+                                    {
+                                        "id": "s39416814",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/lagkapten-alex-desk-dark-gray-white-s39416814/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-dark-gray-white__0977238_pe813481_s5.jpg",
+                                        "imageAlt": "LAGKAPTEN / ALEX Desk, dark gray/white, 47 1/4x23 5/8 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "LAGKAPTEN / ALEX",
+                                        "typeName": "Desk",
+                                        "itemMeasureReferenceText": "47 1/4x23 5/8 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-dark-gray-white__0977238_pe813481_s5.jpg",
+                                        "mainImageAlt": "LAGKAPTEN / ALEX Desk, dark gray/white, 47 1/4x23 5/8 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-dark-gray-white__1160054_pe888731_s5.jpg",
+                                        "itemNoGlobal": "39416814",
+                                        "onlineSellable": true,
+                                        "lastChance": true,
+                                        "itemNo": "39416814",
+                                        "itemType": "SPR",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 174.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "174",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    },
+                                    {
+                                        "id": "s79478367",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/lagkapten-alex-desk-light-green-white-s79478367/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-light-green-white__1079054_pe857387_s5.jpg",
+                                        "imageAlt": "LAGKAPTEN / ALEX Desk, light green/white, 47 1/4x23 5/8 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "LAGKAPTEN / ALEX",
+                                        "typeName": "Desk",
+                                        "itemMeasureReferenceText": "47 1/4x23 5/8 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-light-green-white__1079054_pe857387_s5.jpg",
+                                        "mainImageAlt": "LAGKAPTEN / ALEX Desk, light green/white, 47 1/4x23 5/8 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-light-green-white__1079058_pe857393_s5.jpg",
+                                        "itemNoGlobal": "79478367",
+                                        "onlineSellable": true,
+                                        "lastChance": true,
+                                        "itemNo": "79478367",
+                                        "itemType": "SPR",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 174.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "174",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    }
+                                ]
+                            },
+                            "colors": [
+                                {
+                                    "name": "white",
+                                    "id": "10156",
+                                    "hex": "ffffff"
+                                }
+                            ],
+                            "tag": "NONE",
+                            "quickFacts": [],
+                            "features": [],
+                            "availability": [],
+                            "itemNo": "69416817",
+                            "itemType": "SPR",
+                            "salesPrice": {
+                                "currencyCode": "USD",
+                                "numeral": 174.0,
+                                "current": {
+                                    "prefix": "$",
+                                    "wholeNumber": "174",
+                                    "separator": ".",
+                                    "decimals": "00",
+                                    "suffix": "",
+                                    "isRegularCurrency": false
+                                },
+                                "isBreathTaking": false,
+                                "discount": "",
+                                "tag": "NONE"
+                            },
+                            "contextualImageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-white__1028366_pe835304_s5.jpg",
+                            "mainImageAlt": "LAGKAPTEN / ALEX Desk, white, 47 1/4x23 5/8 \"",
+                            "businessStructure": {
+                                "homeFurnishingBusinessName": "Workspaces",
+                                "homeFurnishingBusinessNo": "03",
+                                "productAreaName": "Home desks.",
+                                "productAreaNo": "0341",
+                                "productRangeAreaName": "Home workspace",
+                                "productRangeAreaNo": "034"
+                            },
+                            "categoryPath": [
+                                {
+                                    "name": "Furniture",
+                                    "key": "fu001"
+                                },
+                                {
+                                    "name": "Tables & desks",
+                                    "key": "fu004"
+                                },
+                                {
+                                    "name": "Desks & computer desks",
+                                    "key": "20649"
+                                },
+                                {
+                                    "name": "Table & desk systems",
+                                    "key": "47423"
+                                },
+                                {
+                                    "name": "Table bar system",
+                                    "key": "11811"
+                                },
+                                {
+                                    "name": "Combinations",
+                                    "key": "18623"
+                                }
+                            ],
+                            "heroBackoffData": {},
+                            "optimizelyAttributes": {
+                                "PRODUCT_TYPE": "standard"
+                            }
+                        },
+                        "type": "PRODUCT",
+                        "label": "Product",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;9;PRODUCT;s59422220;products_main;",
+                        "product": {
+                            "name": "ALEX",
+                            "typeName": "Drawer unit on casters",
+                            "itemMeasureReferenceText": "14 1/8x29 7/8 \"",
+                            "mainImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-on-casters-white-black__0993108_pe820411_s5.jpg",
+                            "pipUrl": "https://www.ikea.com/us/en/p/alex-drawer-unit-on-casters-white-black-s59422220/",
+                            "id": "s59422220",
+                            "itemNoGlobal": "59422220",
+                            "onlineSellable": true,
+                            "lastChance": false,
+                            "gprDescription": {
+                                "numberOfVariants": 2,
+                                "variants": [
+                                    {
+                                        "id": "s29422194",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/alex-drawer-unit-on-casters-black-brown-s29422194/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-on-casters-black-brown__0993105_pe820410_s5.jpg",
+                                        "imageAlt": "ALEX Drawer unit on casters, black-brown, 14 1/8x29 7/8 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "ALEX",
+                                        "typeName": "Drawer unit on casters",
+                                        "itemMeasureReferenceText": "14 1/8x29 7/8 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-on-casters-black-brown__0993105_pe820410_s5.jpg",
+                                        "mainImageAlt": "ALEX Drawer unit on casters, black-brown, 14 1/8x29 7/8 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-on-casters-black-brown__1053128_pe846722_s5.jpg",
+                                        "itemNoGlobal": "29422194",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "itemNo": "29422194",
+                                        "itemType": "SPR",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 140.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "140",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    },
+                                    {
+                                        "id": "s39422198",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/alex-drawer-unit-on-casters-gray-turquoise-black-s39422198/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-on-casters-gray-turquoise-black__0993106_pe820413_s5.jpg",
+                                        "imageAlt": "ALEX Drawer unit on casters, gray-turquoise/black, 14 1/8x29 7/8 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "ALEX",
+                                        "typeName": "Drawer unit on casters",
+                                        "itemMeasureReferenceText": "14 1/8x29 7/8 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-on-casters-gray-turquoise-black__0993106_pe820413_s5.jpg",
+                                        "mainImageAlt": "ALEX Drawer unit on casters, gray-turquoise/black, 14 1/8x29 7/8 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-on-casters-gray-turquoise-black__1053432_pe846945_s5.jpg",
+                                        "itemNoGlobal": "39422198",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "itemNo": "39422198",
+                                        "itemType": "SPR",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 140.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "140",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    }
+                                ]
+                            },
+                            "colors": [
+                                {
+                                    "name": "white",
+                                    "id": "10156",
+                                    "hex": "ffffff"
+                                }
+                            ],
+                            "tag": "NONE",
+                            "quickFacts": [],
+                            "features": [],
+                            "availability": [],
+                            "itemNo": "59422220",
+                            "itemType": "SPR",
+                            "salesPrice": {
+                                "currencyCode": "USD",
+                                "numeral": 120.0,
+                                "current": {
+                                    "prefix": "$",
+                                    "wholeNumber": "120",
+                                    "separator": ".",
+                                    "decimals": "00",
+                                    "suffix": "",
+                                    "isRegularCurrency": false
+                                },
+                                "isBreathTaking": false,
+                                "discount": "",
+                                "tag": "NONE"
+                            },
+                            "contextualImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-on-casters-white-black__1053437_pe846948_s5.jpg",
+                            "mainImageAlt": "ALEX Drawer unit on casters, white/black, 14 1/8x29 7/8 \"",
+                            "businessStructure": {
+                                "homeFurnishingBusinessName": "Workspaces",
+                                "homeFurnishingBusinessNo": "03",
+                                "productAreaName": "Home desk storage",
+                                "productAreaNo": "0343",
+                                "productRangeAreaName": "Home workspace",
+                                "productRangeAreaNo": "034"
+                            },
+                            "categoryPath": [
+                                {
+                                    "name": "Working from home",
+                                    "key": "700291"
+                                },
+                                {
+                                    "name": "Drawer units",
+                                    "key": "10711"
+                                },
+                                {
+                                    "name": "Drawer units for home",
+                                    "key": "47081"
+                                }
+                            ],
+                            "heroBackoffData": {},
+                            "optimizelyAttributes": {
+                                "PRODUCT_TYPE": "standard"
+                            }
+                        },
+                        "type": "PRODUCT",
+                        "label": "Product",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;10;PRODUCT;80483438;products_main;",
+                        "product": {
+                            "name": "ALEX",
+                            "typeName": "Desk",
+                            "itemMeasureReferenceText": "52x22 7/8 \"",
+                            "mainImageUrl": "https://www.ikea.com/us/en/images/products/alex-desk-white__0977666_pe813729_s5.jpg",
+                            "pipUrl": "https://www.ikea.com/us/en/p/alex-desk-white-80483438/",
+                            "id": "80483438",
+                            "itemNoGlobal": "80483438",
+                            "onlineSellable": true,
+                            "lastChance": false,
+                            "gprDescription": {
+                                "numberOfVariants": 2,
+                                "variants": [
+                                    {
+                                        "id": "00483442",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/alex-desk-black-brown-00483442/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/alex-desk-black-brown__0977660_pe813727_s5.jpg",
+                                        "imageAlt": "ALEX Desk, black-brown, 52x22 7/8 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "ALEX",
+                                        "typeName": "Desk",
+                                        "itemMeasureReferenceText": "52x22 7/8 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/alex-desk-black-brown__0977660_pe813727_s5.jpg",
+                                        "mainImageAlt": "ALEX Desk, black-brown, 52x22 7/8 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/alex-desk-black-brown__0824316_pe776058_s5.jpg",
+                                        "itemNoGlobal": "00483442",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "itemNo": "00483442",
+                                        "itemType": "ART",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 269.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "269",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    },
+                                    {
+                                        "id": "80483805",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/alex-desk-gray-turquoise-80483805/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/alex-desk-gray-turquoise__0977665_pe813728_s5.jpg",
+                                        "imageAlt": "ALEX Desk, gray-turquoise, 52x22 7/8 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "ALEX",
+                                        "typeName": "Desk",
+                                        "itemMeasureReferenceText": "52x22 7/8 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/alex-desk-gray-turquoise__0977665_pe813728_s5.jpg",
+                                        "mainImageAlt": "ALEX Desk, gray-turquoise, 52x22 7/8 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/alex-desk-gray-turquoise__0995565_pe821755_s5.jpg",
+                                        "itemNoGlobal": "80483805",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "itemNo": "80483805",
+                                        "itemType": "ART",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 269.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "269",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    }
+                                ]
+                            },
+                            "colors": [
+                                {
+                                    "name": "white",
+                                    "id": "10156",
+                                    "hex": "ffffff"
+                                }
+                            ],
+                            "tag": "NONE",
+                            "quickFacts": [],
+                            "features": [],
+                            "availability": [],
+                            "itemNo": "80483438",
+                            "itemType": "ART",
+                            "salesPrice": {
+                                "currencyCode": "USD",
+                                "numeral": 249.0,
+                                "current": {
+                                    "prefix": "$",
+                                    "wholeNumber": "249",
+                                    "separator": ".",
+                                    "decimals": "00",
+                                    "suffix": "",
+                                    "isRegularCurrency": false
+                                },
+                                "isBreathTaking": false,
+                                "discount": "",
+                                "tag": "NONE"
+                            },
+                            "contextualImageUrl": "https://www.ikea.com/us/en/images/products/alex-desk-white__0995566_pe821754_s5.jpg",
+                            "mainImageAlt": "ALEX Desk, white, 52x22 7/8 \"",
+                            "businessStructure": {
+                                "homeFurnishingBusinessName": "Workspaces",
+                                "homeFurnishingBusinessNo": "03",
+                                "productAreaName": "Home desks.",
+                                "productAreaNo": "0341",
+                                "productRangeAreaName": "Home workspace",
+                                "productRangeAreaNo": "034"
+                            },
+                            "categoryPath": [
+                                {
+                                    "name": "Furniture",
+                                    "key": "fu001"
+                                },
+                                {
+                                    "name": "Tables & desks",
+                                    "key": "fu004"
+                                },
+                                {
+                                    "name": "Desks & computer desks",
+                                    "key": "20649"
+                                },
+                                {
+                                    "name": "Desks for home",
+                                    "key": "20651"
+                                }
+                            ],
+                            "heroBackoffData": {},
+                            "optimizelyAttributes": {
+                                "PRODUCT_TYPE": "standard"
+                            }
+                        },
+                        "type": "PRODUCT",
+                        "label": "Product",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;11;PRODUCT;10473555;products_main;",
+                        "product": {
+                            "name": "ALEX",
+                            "typeName": "Desk",
+                            "itemMeasureReferenceText": "39 3/8x18 7/8 \"",
+                            "mainImageUrl": "https://www.ikea.com/us/en/images/products/alex-desk-white__0977658_pe813725_s5.jpg",
+                            "pipUrl": "https://www.ikea.com/us/en/p/alex-desk-white-10473555/",
+                            "id": "10473555",
+                            "itemNoGlobal": "10473555",
+                            "onlineSellable": true,
+                            "lastChance": false,
+                            "gprDescription": {
+                                "numberOfVariants": 2,
+                                "variants": [
+                                    {
+                                        "id": "50473563",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/alex-desk-black-brown-50473563/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/alex-desk-black-brown__0977655_pe813723_s5.jpg",
+                                        "imageAlt": "ALEX Desk, black-brown, 39 3/8x18 7/8 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "ALEX",
+                                        "typeName": "Desk",
+                                        "itemMeasureReferenceText": "39 3/8x18 7/8 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/alex-desk-black-brown__0977655_pe813723_s5.jpg",
+                                        "mainImageAlt": "ALEX Desk, black-brown, 39 3/8x18 7/8 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/alex-desk-black-brown__0824316_pe776058_s5.jpg",
+                                        "itemNoGlobal": "50473563",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "itemNo": "50473563",
+                                        "itemType": "ART",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 219.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "219",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    },
+                                    {
+                                        "id": "20483808",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/alex-desk-gray-turquoise-20483808/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/alex-desk-gray-turquoise__0977656_pe813724_s5.jpg",
+                                        "imageAlt": "ALEX Desk, gray-turquoise, 39 3/8x18 7/8 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "ALEX",
+                                        "typeName": "Desk",
+                                        "itemMeasureReferenceText": "39 3/8x18 7/8 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/alex-desk-gray-turquoise__0977656_pe813724_s5.jpg",
+                                        "mainImageAlt": "ALEX Desk, gray-turquoise, 39 3/8x18 7/8 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/alex-desk-gray-turquoise__0995565_pe821755_s5.jpg",
+                                        "itemNoGlobal": "20483808",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "itemNo": "20483808",
+                                        "itemType": "ART",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 219.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "219",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    }
+                                ]
+                            },
+                            "colors": [
+                                {
+                                    "name": "white",
+                                    "id": "10156",
+                                    "hex": "ffffff"
+                                }
+                            ],
+                            "tag": "NONE",
+                            "quickFacts": [],
+                            "features": [],
+                            "availability": [],
+                            "itemNo": "10473555",
+                            "itemType": "ART",
+                            "salesPrice": {
+                                "currencyCode": "USD",
+                                "numeral": 199.0,
+                                "current": {
+                                    "prefix": "$",
+                                    "wholeNumber": "199",
+                                    "separator": ".",
+                                    "decimals": "00",
+                                    "suffix": "",
+                                    "isRegularCurrency": false
+                                },
+                                "isBreathTaking": false,
+                                "discount": "",
+                                "tag": "NONE"
+                            },
+                            "contextualImageUrl": "https://www.ikea.com/us/en/images/products/alex-desk-white__0995566_pe821754_s5.jpg",
+                            "mainImageAlt": "ALEX Desk, white, 39 3/8x18 7/8 \"",
+                            "businessStructure": {
+                                "homeFurnishingBusinessName": "Workspaces",
+                                "homeFurnishingBusinessNo": "03",
+                                "productAreaName": "Home desks.",
+                                "productAreaNo": "0341",
+                                "productRangeAreaName": "Home workspace",
+                                "productRangeAreaNo": "034"
+                            },
+                            "categoryPath": [
+                                {
+                                    "name": "Furniture",
+                                    "key": "fu001"
+                                },
+                                {
+                                    "name": "Tables & desks",
+                                    "key": "fu004"
+                                },
+                                {
+                                    "name": "Desks & computer desks",
+                                    "key": "20649"
+                                },
+                                {
+                                    "name": "Desks for home",
+                                    "key": "20651"
+                                }
+                            ],
+                            "heroBackoffData": {},
+                            "optimizelyAttributes": {
+                                "PRODUCT_TYPE": "standard"
+                            }
+                        },
+                        "type": "PRODUCT",
+                        "label": "Product",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;12;PRODUCT;s49431927;products_main;",
+                        "product": {
+                            "name": "LAGKAPTEN / ALEX",
+                            "typeName": "Desk",
+                            "itemMeasureReferenceText": "55 1/8x23 5/8 \"",
+                            "mainImageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-white__1022428_pe832716_s5.jpg",
+                            "pipUrl": "https://www.ikea.com/us/en/p/lagkapten-alex-desk-white-s49431927/",
+                            "id": "s49431927",
+                            "itemNoGlobal": "49431927",
+                            "onlineSellable": true,
+                            "lastChance": false,
+                            "gprDescription": {
+                                "numberOfVariants": 4,
+                                "variants": [
+                                    {
+                                        "id": "s59432163",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/lagkapten-alex-desk-black-brown-white-s59432163/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-black-brown-white__1022391_pe832702_s5.jpg",
+                                        "imageAlt": "LAGKAPTEN / ALEX Desk, black-brown/white, 55 1/8x23 5/8 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "LAGKAPTEN / ALEX",
+                                        "typeName": "Desk",
+                                        "itemMeasureReferenceText": "55 1/8x23 5/8 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-black-brown-white__1022391_pe832702_s5.jpg",
+                                        "mainImageAlt": "LAGKAPTEN / ALEX Desk, black-brown/white, 55 1/8x23 5/8 \"",
+                                        "itemNoGlobal": "59432163",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "itemNo": "59432163",
+                                        "itemType": "SPR",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 184.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "184",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    },
+                                    {
+                                        "id": "s89432171",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/lagkapten-alex-desk-black-brown-s89432171/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-black-brown__1022390_pe832701_s5.jpg",
+                                        "imageAlt": "LAGKAPTEN / ALEX Desk, black-brown, 55 1/8x23 5/8 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "LAGKAPTEN / ALEX",
+                                        "typeName": "Desk",
+                                        "itemMeasureReferenceText": "55 1/8x23 5/8 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-black-brown__1022390_pe832701_s5.jpg",
+                                        "mainImageAlt": "LAGKAPTEN / ALEX Desk, black-brown, 55 1/8x23 5/8 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-black-brown__1028398_pe835333_s5.jpg",
+                                        "itemNoGlobal": "89432171",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "itemNo": "89432171",
+                                        "itemType": "SPR",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 204.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "204",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    },
+                                    {
+                                        "id": "s49431852",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/lagkapten-alex-desk-dark-gray-white-s49431852/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-dark-gray-white__1021973_pe832383_s5.jpg",
+                                        "imageAlt": "LAGKAPTEN / ALEX Desk, dark gray/white, 55 1/8x23 5/8 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "LAGKAPTEN / ALEX",
+                                        "typeName": "Desk",
+                                        "itemMeasureReferenceText": "55 1/8x23 5/8 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-dark-gray-white__1021973_pe832383_s5.jpg",
+                                        "mainImageAlt": "LAGKAPTEN / ALEX Desk, dark gray/white, 55 1/8x23 5/8 \"",
+                                        "itemNoGlobal": "49431852",
+                                        "onlineSellable": true,
+                                        "lastChance": true,
+                                        "itemNo": "49431852",
+                                        "itemType": "SPR",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 184.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "184",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    },
+                                    {
+                                        "id": "s89478300",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/lagkapten-alex-desk-light-green-white-s89478300/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-light-green-white__1078928_pe857330_s5.jpg",
+                                        "imageAlt": "LAGKAPTEN / ALEX Desk, light green/white, 55 1/8x23 5/8 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "LAGKAPTEN / ALEX",
+                                        "typeName": "Desk",
+                                        "itemMeasureReferenceText": "55 1/8x23 5/8 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-light-green-white__1078928_pe857330_s5.jpg",
+                                        "mainImageAlt": "LAGKAPTEN / ALEX Desk, light green/white, 55 1/8x23 5/8 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-light-green-white__1078936_pe857335_s5.jpg",
+                                        "itemNoGlobal": "89478300",
+                                        "onlineSellable": true,
+                                        "lastChance": true,
+                                        "itemNo": "89478300",
+                                        "itemType": "SPR",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 184.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "184",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    }
+                                ]
+                            },
+                            "colors": [
+                                {
+                                    "name": "white",
+                                    "id": "10156",
+                                    "hex": "ffffff"
+                                }
+                            ],
+                            "tag": "NONE",
+                            "quickFacts": [],
+                            "features": [],
+                            "availability": [],
+                            "itemNo": "49431927",
+                            "itemType": "SPR",
+                            "salesPrice": {
+                                "currencyCode": "USD",
+                                "numeral": 184.0,
+                                "current": {
+                                    "prefix": "$",
+                                    "wholeNumber": "184",
+                                    "separator": ".",
+                                    "decimals": "00",
+                                    "suffix": "",
+                                    "isRegularCurrency": false
+                                },
+                                "isBreathTaking": false,
+                                "discount": "",
+                                "tag": "NONE"
+                            },
+                            "contextualImageUrl": "https://www.ikea.com/us/en/images/products/lagkapten-alex-desk-white__1028399_pe835336_s5.jpg",
+                            "mainImageAlt": "LAGKAPTEN / ALEX Desk, white, 55 1/8x23 5/8 \"",
+                            "businessStructure": {
+                                "homeFurnishingBusinessName": "Workspaces",
+                                "homeFurnishingBusinessNo": "03",
+                                "productAreaName": "Home desks.",
+                                "productAreaNo": "0341",
+                                "productRangeAreaName": "Home workspace",
+                                "productRangeAreaNo": "034"
+                            },
+                            "categoryPath": [
+                                {
+                                    "name": "Furniture",
+                                    "key": "fu001"
+                                },
+                                {
+                                    "name": "Tables & desks",
+                                    "key": "fu004"
+                                },
+                                {
+                                    "name": "Desks & computer desks",
+                                    "key": "20649"
+                                },
+                                {
+                                    "name": "Table & desk systems",
+                                    "key": "47423"
+                                },
+                                {
+                                    "name": "Table bar system",
+                                    "key": "11811"
+                                },
+                                {
+                                    "name": "Combinations",
+                                    "key": "18623"
+                                }
+                            ],
+                            "heroBackoffData": {},
+                            "optimizelyAttributes": {
+                                "PRODUCT_TYPE": "standard"
+                            }
+                        },
+                        "type": "PRODUCT",
+                        "label": "Product",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;13;PRODUCT;s59417742;products_main;",
+                        "product": {
+                            "name": "ANFALLARE / ALEX",
+                            "typeName": "Desk",
+                            "itemMeasureReferenceText": "55 1/8x25 5/8 \"",
+                            "mainImageUrl": "https://www.ikea.com/us/en/images/products/anfallare-alex-desk-bamboo-white__0976200_pe813093_s5.jpg",
+                            "pipUrl": "https://www.ikea.com/us/en/p/anfallare-alex-desk-bamboo-white-s59417742/",
+                            "id": "s59417742",
+                            "itemNoGlobal": "59417742",
+                            "onlineSellable": true,
+                            "lastChance": false,
+                            "gprDescription": {
+                                "numberOfVariants": 1,
+                                "variants": [
+                                    {
+                                        "id": "s89417745",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/anfallare-alex-desk-bamboo-black-brown-s89417745/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/anfallare-alex-desk-bamboo-black-brown__0976199_pe813092_s5.jpg",
+                                        "imageAlt": "ANFALLARE / ALEX Desk, bamboo/black-brown, 55 1/8x25 5/8 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "ANFALLARE / ALEX",
+                                        "typeName": "Desk",
+                                        "itemMeasureReferenceText": "55 1/8x25 5/8 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/anfallare-alex-desk-bamboo-black-brown__0976199_pe813092_s5.jpg",
+                                        "mainImageAlt": "ANFALLARE / ALEX Desk, bamboo/black-brown, 55 1/8x25 5/8 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/anfallare-alex-desk-bamboo-black-brown__1159994_pe888692_s5.jpg",
+                                        "itemNoGlobal": "89417745",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "itemNo": "89417745",
+                                        "itemType": "SPR",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 264.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "264",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    }
+                                ]
+                            },
+                            "colors": [
+                                {
+                                    "name": "beige",
+                                    "id": "10003",
+                                    "hex": "f4f3d7"
+                                },
+                                {
+                                    "name": "white",
+                                    "id": "10156",
+                                    "hex": "ffffff"
+                                }
+                            ],
+                            "tag": "NONE",
+                            "quickFacts": [],
+                            "features": [],
+                            "availability": [],
+                            "itemNo": "59417742",
+                            "itemType": "SPR",
+                            "salesPrice": {
+                                "currencyCode": "USD",
+                                "numeral": 244.0,
+                                "current": {
+                                    "prefix": "$",
+                                    "wholeNumber": "244",
+                                    "separator": ".",
+                                    "decimals": "00",
+                                    "suffix": "",
+                                    "isRegularCurrency": false
+                                },
+                                "isBreathTaking": false,
+                                "discount": "",
+                                "tag": "NONE"
+                            },
+                            "contextualImageUrl": "https://www.ikea.com/us/en/images/products/anfallare-alex-desk-bamboo-white__1028459_pe835360_s5.jpg",
+                            "mainImageAlt": "ANFALLARE / ALEX Desk, bamboo/white, 55 1/8x25 5/8 \"",
+                            "businessStructure": {
+                                "homeFurnishingBusinessName": "Workspaces",
+                                "homeFurnishingBusinessNo": "03",
+                                "productAreaName": "Home desks.",
+                                "productAreaNo": "0341",
+                                "productRangeAreaName": "Home workspace",
+                                "productRangeAreaNo": "034"
+                            },
+                            "categoryPath": [
+                                {
+                                    "name": "Furniture",
+                                    "key": "fu001"
+                                },
+                                {
+                                    "name": "Tables & desks",
+                                    "key": "fu004"
+                                },
+                                {
+                                    "name": "Desks & computer desks",
+                                    "key": "20649"
+                                },
+                                {
+                                    "name": "Table & desk systems",
+                                    "key": "47423"
+                                },
+                                {
+                                    "name": "Table bar system",
+                                    "key": "11811"
+                                },
+                                {
+                                    "name": "Combinations",
+                                    "key": "18623"
+                                }
+                            ],
+                            "heroBackoffData": {},
+                            "optimizelyAttributes": {
+                                "PRODUCT_TYPE": "standard"
+                            }
+                        },
+                        "type": "PRODUCT",
+                        "label": "Product",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;14;PRODUCT;s39290956;products_main;",
+                        "product": {
+                            "name": "EKBY ALEX / RAMSHULT",
+                            "typeName": "Wall shelf",
+                            "itemMeasureReferenceText": "46 7/8x11 3/8 \"",
+                            "mainImageUrl": "https://www.ikea.com/us/en/images/products/ekby-alex-ramshult-wall-shelf-white-white__0671596_pe716307_s5.jpg",
+                            "pipUrl": "https://www.ikea.com/us/en/p/ekby-alex-ramshult-wall-shelf-white-white-s39290956/",
+                            "id": "s39290956",
+                            "itemNoGlobal": "39290956",
+                            "onlineSellable": true,
+                            "lastChance": false,
+                            "gprDescription": {
+                                "numberOfVariants": 1,
+                                "variants": [
+                                    {
+                                        "id": "s09290953",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/ekby-alex-ramshult-wall-shelf-white-black-s09290953/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/ekby-alex-ramshult-wall-shelf-white-black__0671595_pe716308_s5.jpg",
+                                        "imageAlt": "EKBY ALEX / RAMSHULT Wall shelf, white/black, 46 7/8x11 3/8 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "EKBY ALEX / RAMSHULT",
+                                        "typeName": "Wall shelf",
+                                        "itemMeasureReferenceText": "46 7/8x11 3/8 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/ekby-alex-ramshult-wall-shelf-white-black__0671595_pe716308_s5.jpg",
+                                        "mainImageAlt": "EKBY ALEX / RAMSHULT Wall shelf, white/black, 46 7/8x11 3/8 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/ekby-alex-ramshult-wall-shelf-white-black__0850325_pe720980_s5.jpg",
+                                        "itemNoGlobal": "09290953",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "itemNo": "09290953",
+                                        "itemType": "SPR",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 88.99,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "88",
+                                                "separator": ".",
+                                                "decimals": "99",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    }
+                                ]
+                            },
+                            "colors": [
+                                {
+                                    "name": "white",
+                                    "id": "10156",
+                                    "hex": "ffffff"
+                                }
+                            ],
+                            "tag": "NONE",
+                            "quickFacts": [],
+                            "features": [],
+                            "availability": [],
+                            "itemNo": "39290956",
+                            "itemType": "SPR",
+                            "salesPrice": {
+                                "currencyCode": "USD",
+                                "numeral": 88.99,
+                                "current": {
+                                    "prefix": "$",
+                                    "wholeNumber": "88",
+                                    "separator": ".",
+                                    "decimals": "99",
+                                    "suffix": "",
+                                    "isRegularCurrency": false
+                                },
+                                "isBreathTaking": false,
+                                "discount": "",
+                                "tag": "NONE"
+                            },
+                            "contextualImageUrl": "https://www.ikea.com/us/en/images/products/ekby-alex-ramshult-wall-shelf-white-white__0850945_pe720979_s5.jpg",
+                            "mainImageAlt": "EKBY ALEX / RAMSHULT Wall shelf, white/white, 46 7/8x11 3/8 \"",
+                            "businessStructure": {
+                                "homeFurnishingBusinessName": "Store and organise furniture",
+                                "homeFurnishingBusinessNo": "02",
+                                "productAreaName": "Wall shelves.",
+                                "productAreaNo": "0216",
+                                "productRangeAreaName": "Storage.",
+                                "productRangeAreaNo": "021"
+                            },
+                            "categoryPath": [
+                                {
+                                    "name": "Storage & organization",
+                                    "key": "st001"
+                                },
+                                {
+                                    "name": "Wall shelves",
+                                    "key": "10398"
+                                },
+                                {
+                                    "name": "Complete wall shelves",
+                                    "key": "20660"
+                                }
+                            ],
+                            "heroBackoffData": {},
+                            "optimizelyAttributes": {
+                                "PRODUCT_TYPE": "standard"
+                            }
+                        },
+                        "type": "PRODUCT",
+                        "label": "Product",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;15;PRODUCT;s59440016;products_main;",
+                        "product": {
+                            "name": "M\u00c5LVAKT / ALEX",
+                            "typeName": "Desk",
+                            "itemMeasureReferenceText": "47 1/4x31 1/2 \"",
+                            "mainImageUrl": "https://www.ikea.com/us/en/images/products/malvakt-alex-desk-black-black-brown__1032040_pe836745_s5.jpg",
+                            "pipUrl": "https://www.ikea.com/us/en/p/malvakt-alex-desk-black-black-brown-s59440016/",
+                            "id": "s59440016",
+                            "itemNoGlobal": "59440016",
+                            "onlineSellable": true,
+                            "lastChance": false,
+                            "gprDescription": {
+                                "numberOfVariants": 1,
+                                "variants": [
+                                    {
+                                        "id": "s69440011",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/malvakt-alex-desk-black-white-s69440011/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/malvakt-alex-desk-black-white__1032042_pe836750_s5.jpg",
+                                        "imageAlt": "M\u00c5LVAKT / ALEX Desk, black/white, 47 1/4x31 1/2 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "M\u00c5LVAKT / ALEX",
+                                        "typeName": "Desk",
+                                        "itemMeasureReferenceText": "47 1/4x31 1/2 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/malvakt-alex-desk-black-white__1032042_pe836750_s5.jpg",
+                                        "mainImageAlt": "M\u00c5LVAKT / ALEX Desk, black/white, 47 1/4x31 1/2 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/malvakt-alex-desk-black-white__1043383_pe841741_s5.jpg",
+                                        "itemNoGlobal": "69440011",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "itemNo": "69440011",
+                                        "itemType": "SPR",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 194.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "194",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    }
+                                ]
+                            },
+                            "colors": [
+                                {
+                                    "name": "black",
+                                    "id": "10139",
+                                    "hex": "000000"
+                                }
+                            ],
+                            "tag": "NONE",
+                            "quickFacts": [],
+                            "features": [],
+                            "availability": [],
+                            "itemNo": "59440016",
+                            "itemType": "SPR",
+                            "salesPrice": {
+                                "currencyCode": "USD",
+                                "numeral": 214.0,
+                                "current": {
+                                    "prefix": "$",
+                                    "wholeNumber": "214",
+                                    "separator": ".",
+                                    "decimals": "00",
+                                    "suffix": "",
+                                    "isRegularCurrency": false
+                                },
+                                "isBreathTaking": false,
+                                "discount": "",
+                                "tag": "NONE"
+                            },
+                            "contextualImageUrl": "https://www.ikea.com/us/en/images/products/malvakt-alex-desk-black-black-brown__1043382_pe841739_s5.jpg",
+                            "mainImageAlt": "M\u00c5LVAKT / ALEX Desk, black/black-brown, 47 1/4x31 1/2 \"",
+                            "businessStructure": {
+                                "homeFurnishingBusinessName": "Workspaces",
+                                "homeFurnishingBusinessNo": "03",
+                                "productAreaName": "Home desks.",
+                                "productAreaNo": "0341",
+                                "productRangeAreaName": "Home workspace",
+                                "productRangeAreaNo": "034"
+                            },
+                            "categoryPath": [
+                                {
+                                    "name": "Furniture",
+                                    "key": "fu001"
+                                },
+                                {
+                                    "name": "Tables & desks",
+                                    "key": "fu004"
+                                },
+                                {
+                                    "name": "Desks & computer desks",
+                                    "key": "20649"
+                                },
+                                {
+                                    "name": "Table & desk systems",
+                                    "key": "47423"
+                                },
+                                {
+                                    "name": "Table bar system",
+                                    "key": "11811"
+                                },
+                                {
+                                    "name": "Combinations",
+                                    "key": "18623"
+                                }
+                            ],
+                            "heroBackoffData": {},
+                            "optimizelyAttributes": {
+                                "PRODUCT_TYPE": "standard"
+                            }
+                        },
+                        "type": "PRODUCT",
+                        "label": "Product",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;16;PRODUCT;s79417802;products_main;",
+                        "product": {
+                            "name": "M\u00c5LSKYTT / ALEX",
+                            "typeName": "Desk",
+                            "itemMeasureReferenceText": "55 1/8x23 5/8 \"",
+                            "mainImageUrl": "https://www.ikea.com/us/en/images/products/malskytt-alex-desk-birch-white__0976215_pe813108_s5.jpg",
+                            "pipUrl": "https://www.ikea.com/us/en/p/malskytt-alex-desk-birch-white-s79417802/",
+                            "id": "s79417802",
+                            "itemNoGlobal": "79417802",
+                            "onlineSellable": true,
+                            "lastChance": false,
+                            "gprDescription": {
+                                "numberOfVariants": 0,
+                                "variants": []
+                            },
+                            "colors": [
+                                {
+                                    "name": "beige",
+                                    "id": "10003",
+                                    "hex": "f4f3d7"
+                                },
+                                {
+                                    "name": "white",
+                                    "id": "10156",
+                                    "hex": "ffffff"
+                                }
+                            ],
+                            "tag": "NONE",
+                            "quickFacts": [],
+                            "features": [],
+                            "availability": [],
+                            "itemNo": "79417802",
+                            "itemType": "SPR",
+                            "salesPrice": {
+                                "currencyCode": "USD",
+                                "numeral": 224.0,
+                                "current": {
+                                    "prefix": "$",
+                                    "wholeNumber": "224",
+                                    "separator": ".",
+                                    "decimals": "00",
+                                    "suffix": "",
+                                    "isRegularCurrency": false
+                                },
+                                "isBreathTaking": false,
+                                "discount": "",
+                                "tag": "NONE"
+                            },
+                            "contextualImageUrl": "https://www.ikea.com/us/en/images/products/malskytt-alex-desk-birch-white__1160190_pe888797_s5.jpg",
+                            "mainImageAlt": "M\u00c5LSKYTT / ALEX Desk, birch/white, 55 1/8x23 5/8 \"",
+                            "businessStructure": {
+                                "homeFurnishingBusinessName": "Workspaces",
+                                "homeFurnishingBusinessNo": "03",
+                                "productAreaName": "Home desks.",
+                                "productAreaNo": "0341",
+                                "productRangeAreaName": "Home workspace",
+                                "productRangeAreaNo": "034"
+                            },
+                            "categoryPath": [
+                                {
+                                    "name": "Furniture",
+                                    "key": "fu001"
+                                },
+                                {
+                                    "name": "Tables & desks",
+                                    "key": "fu004"
+                                },
+                                {
+                                    "name": "Desks & computer desks",
+                                    "key": "20649"
+                                },
+                                {
+                                    "name": "Table & desk systems",
+                                    "key": "47423"
+                                },
+                                {
+                                    "name": "Table bar system",
+                                    "key": "11811"
+                                },
+                                {
+                                    "name": "Combinations",
+                                    "key": "18623"
+                                }
+                            ],
+                            "heroBackoffData": {},
+                            "optimizelyAttributes": {
+                                "PRODUCT_TYPE": "standard"
+                            }
+                        },
+                        "type": "PRODUCT",
+                        "label": "Product",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;17;PRODUCT;10480607;products_main;",
+                        "product": {
+                            "name": "ALEX",
+                            "typeName": "Caster",
+                            "itemMeasureReferenceText": "2 \"",
+                            "mainImageUrl": "https://www.ikea.com/us/en/images/products/alex-caster-black__0977642_pe813716_s5.jpg",
+                            "pipUrl": "https://www.ikea.com/us/en/p/alex-caster-black-10480607/",
+                            "id": "10480607",
+                            "itemNoGlobal": "10480607",
+                            "onlineSellable": true,
+                            "lastChance": false,
+                            "gprDescription": {
+                                "numberOfVariants": 0,
+                                "variants": []
+                            },
+                            "colors": [
+                                {
+                                    "name": "black",
+                                    "id": "10139",
+                                    "hex": "000000"
+                                }
+                            ],
+                            "tag": "NONE",
+                            "quickFacts": [],
+                            "features": [],
+                            "availability": [],
+                            "itemNo": "10480607",
+                            "itemType": "ART",
+                            "salesPrice": {
+                                "currencyCode": "USD",
+                                "numeral": 10.0,
+                                "current": {
+                                    "prefix": "$",
+                                    "wholeNumber": "10",
+                                    "separator": ".",
+                                    "decimals": "00",
+                                    "suffix": "",
+                                    "isRegularCurrency": false
+                                },
+                                "isBreathTaking": false,
+                                "priceUnit": "4 pack",
+                                "discount": "",
+                                "tag": "NONE"
+                            },
+                            "contextualImageUrl": "https://www.ikea.com/us/en/images/products/alex-caster-black__0799469_ph165466_s5.jpg",
+                            "mainImageAlt": "ALEX Caster, black, 2 \"",
+                            "businessStructure": {
+                                "homeFurnishingBusinessName": "Workspaces",
+                                "homeFurnishingBusinessNo": "03",
+                                "productAreaName": "Home desk storage",
+                                "productAreaNo": "0343",
+                                "productRangeAreaName": "Home workspace",
+                                "productRangeAreaNo": "034"
+                            },
+                            "categoryPath": [
+                                {
+                                    "name": "Working from home",
+                                    "key": "700291"
+                                },
+                                {
+                                    "name": "Drawer units",
+                                    "key": "10711"
+                                },
+                                {
+                                    "name": "Drawer units for home",
+                                    "key": "47081"
+                                }
+                            ],
+                            "heroBackoffData": {},
+                            "optimizelyAttributes": {
+                                "PRODUCT_TYPE": "standard"
+                            }
+                        },
+                        "type": "PRODUCT",
+                        "label": "Product",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;18;PRODUCT;s49436760;products_main;",
+                        "product": {
+                            "name": "ALEX/L\u00c5NGFJ\u00c4LL / KALLAX",
+                            "typeName": "Desk and storage combination",
+                            "itemMeasureReferenceText": "",
+                            "mainImageUrl": "https://www.ikea.com/us/en/images/products/alex-langfjaell-kallax-desk-and-storage-combination-and-swivel-chair-gray-turquoise-black__1026848_pe834567_s5.jpg",
+                            "pipUrl": "https://www.ikea.com/us/en/p/alex-langfjaell-kallax-desk-and-storage-combination-and-swivel-chair-gray-turquoise-black-s49436760/",
+                            "id": "s49436760",
+                            "itemNoGlobal": "09436757",
+                            "onlineSellable": true,
+                            "lastChance": false,
+                            "gprDescription": {
+                                "numberOfVariants": 0,
+                                "variants": []
+                            },
+                            "colors": [
+                                {
+                                    "name": "gray",
+                                    "id": "10028",
+                                    "hex": "949494"
+                                },
+                                {
+                                    "name": "black",
+                                    "id": "10139",
+                                    "hex": "000000"
+                                }
+                            ],
+                            "tag": "NONE",
+                            "quickFacts": [],
+                            "features": [],
+                            "availability": [],
+                            "itemNo": "49436760",
+                            "itemType": "SPR",
+                            "salesPrice": {
+                                "currencyCode": "USD",
+                                "numeral": 547.99,
+                                "current": {
+                                    "prefix": "$",
+                                    "wholeNumber": "547",
+                                    "separator": ".",
+                                    "decimals": "99",
+                                    "suffix": "",
+                                    "isRegularCurrency": false
+                                },
+                                "isBreathTaking": false,
+                                "discount": "",
+                                "tag": "NONE"
+                            },
+                            "contextualImageUrl": "https://www.ikea.com/us/en/images/products/alex-langfjaell-kallax-desk-and-storage-combination-and-swivel-chair-gray-turquoise-black__1026848_pe834567_s5.jpg",
+                            "mainImageAlt": "ALEX/L\u00c5NGFJ\u00c4LL / KALLAX Desk and storage combination, and swivel chair gray-turquoise/black",
+                            "businessStructure": {
+                                "homeFurnishingBusinessName": "Workspaces",
+                                "homeFurnishingBusinessNo": "03",
+                                "productAreaName": "Home desks.",
+                                "productAreaNo": "0341",
+                                "productRangeAreaName": "Home workspace",
+                                "productRangeAreaNo": "034"
+                            },
+                            "categoryPath": [
+                                {
+                                    "name": "Furniture",
+                                    "key": "fu001"
+                                },
+                                {
+                                    "name": "Furniture sets",
+                                    "key": "55036"
+                                },
+                                {
+                                    "name": "Desk & chair sets",
+                                    "key": "53249"
+                                }
+                            ],
+                            "heroBackoffData": {},
+                            "optimizelyAttributes": {
+                                "PRODUCT_TYPE": "standard"
+                            }
+                        },
+                        "type": "PRODUCT",
+                        "label": "Product",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;19;PRODUCT;60473548;products_main;",
+                        "product": {
+                            "name": "ALEX",
+                            "typeName": "Drawer unit",
+                            "itemMeasureReferenceText": "14 1/8x27 1/2 \"",
+                            "mainImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-black-brown__0977786_pe813770_s5.jpg",
+                            "pipUrl": "https://www.ikea.com/us/en/p/alex-drawer-unit-black-brown-60473548/",
+                            "id": "60473548",
+                            "itemNoGlobal": "60473548",
+                            "onlineSellable": true,
+                            "lastChance": false,
+                            "gprDescription": {
+                                "numberOfVariants": 2,
+                                "variants": [
+                                    {
+                                        "id": "30483799",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/alex-drawer-unit-gray-turquoise-30483799/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-gray-turquoise__0977774_pe813762_s5.jpg",
+                                        "imageAlt": "ALEX Drawer unit, gray-turquoise, 14 1/8x27 1/2 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "ALEX",
+                                        "typeName": "Drawer unit",
+                                        "itemMeasureReferenceText": "14 1/8x27 1/2 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-gray-turquoise__0977774_pe813762_s5.jpg",
+                                        "mainImageAlt": "ALEX Drawer unit, gray-turquoise, 14 1/8x27 1/2 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-gray-turquoise__0995609_pe821782_s5.jpg",
+                                        "itemNoGlobal": "30483799",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "itemNo": "30483799",
+                                        "itemType": "ART",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 130.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "130",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    },
+                                    {
+                                        "id": "00473546",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/alex-drawer-unit-white-00473546/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-white__0977775_pe813763_s5.jpg",
+                                        "imageAlt": "ALEX Drawer unit, white, 14 1/8x27 1/2 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "ALEX",
+                                        "typeName": "Drawer unit",
+                                        "itemMeasureReferenceText": "14 1/8x27 1/2 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-white__0977775_pe813763_s5.jpg",
+                                        "mainImageAlt": "ALEX Drawer unit, white, 14 1/8x27 1/2 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-white__0995610_pe821781_s5.jpg",
+                                        "itemNoGlobal": "00473546",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "badge": {
+                                            "type": "TOP_SELLER",
+                                            "text": "Top seller"
+                                        },
+                                        "itemNo": "00473546",
+                                        "itemType": "ART",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 110.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "110",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    }
+                                ]
+                            },
+                            "colors": [
+                                {
+                                    "name": "brown",
+                                    "id": "10019",
+                                    "hex": "814820"
+                                },
+                                {
+                                    "name": "black",
+                                    "id": "10139",
+                                    "hex": "000000"
+                                }
+                            ],
+                            "tag": "NONE",
+                            "quickFacts": [],
+                            "features": [],
+                            "availability": [],
+                            "itemNo": "60473548",
+                            "itemType": "ART",
+                            "salesPrice": {
+                                "currencyCode": "USD",
+                                "numeral": 130.0,
+                                "current": {
+                                    "prefix": "$",
+                                    "wholeNumber": "130",
+                                    "separator": ".",
+                                    "decimals": "00",
+                                    "suffix": "",
+                                    "isRegularCurrency": false
+                                },
+                                "isBreathTaking": false,
+                                "discount": "",
+                                "tag": "NONE"
+                            },
+                            "contextualImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-black-brown__0995608_pe821779_s5.jpg",
+                            "mainImageAlt": "ALEX Drawer unit, black-brown, 14 1/8x27 1/2 \"",
+                            "businessStructure": {
+                                "homeFurnishingBusinessName": "Workspaces",
+                                "homeFurnishingBusinessNo": "03",
+                                "productAreaName": "Home desks.",
+                                "productAreaNo": "0341",
+                                "productRangeAreaName": "Home workspace",
+                                "productRangeAreaNo": "034"
+                            },
+                            "categoryPath": [
+                                {
+                                    "name": "Furniture",
+                                    "key": "fu001"
+                                },
+                                {
+                                    "name": "Tables & desks",
+                                    "key": "fu004"
+                                },
+                                {
+                                    "name": "Desks & computer desks",
+                                    "key": "20649"
+                                },
+                                {
+                                    "name": "Table & desk systems",
+                                    "key": "47423"
+                                },
+                                {
+                                    "name": "Table bar system",
+                                    "key": "11811"
+                                },
+                                {
+                                    "name": "Legs & trestles",
+                                    "key": "11845"
+                                }
+                            ],
+                            "heroBackoffData": {},
+                            "optimizelyAttributes": {
+                                "PRODUCT_TYPE": "standard"
+                            }
+                        },
+                        "type": "PRODUCT",
+                        "label": "Product",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;20;PRODUCT;30483799;products_main;",
+                        "product": {
+                            "name": "ALEX",
+                            "typeName": "Drawer unit",
+                            "itemMeasureReferenceText": "14 1/8x27 1/2 \"",
+                            "mainImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-gray-turquoise__0977774_pe813762_s5.jpg",
+                            "pipUrl": "https://www.ikea.com/us/en/p/alex-drawer-unit-gray-turquoise-30483799/",
+                            "id": "30483799",
+                            "itemNoGlobal": "30483799",
+                            "onlineSellable": true,
+                            "lastChance": false,
+                            "gprDescription": {
+                                "numberOfVariants": 2,
+                                "variants": [
+                                    {
+                                        "id": "60473548",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/alex-drawer-unit-black-brown-60473548/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-black-brown__0977786_pe813770_s5.jpg",
+                                        "imageAlt": "ALEX Drawer unit, black-brown, 14 1/8x27 1/2 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "ALEX",
+                                        "typeName": "Drawer unit",
+                                        "itemMeasureReferenceText": "14 1/8x27 1/2 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-black-brown__0977786_pe813770_s5.jpg",
+                                        "mainImageAlt": "ALEX Drawer unit, black-brown, 14 1/8x27 1/2 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-black-brown__0995608_pe821779_s5.jpg",
+                                        "itemNoGlobal": "60473548",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "itemNo": "60473548",
+                                        "itemType": "ART",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 130.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "130",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    },
+                                    {
+                                        "id": "00473546",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/alex-drawer-unit-white-00473546/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-white__0977775_pe813763_s5.jpg",
+                                        "imageAlt": "ALEX Drawer unit, white, 14 1/8x27 1/2 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "ALEX",
+                                        "typeName": "Drawer unit",
+                                        "itemMeasureReferenceText": "14 1/8x27 1/2 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-white__0977775_pe813763_s5.jpg",
+                                        "mainImageAlt": "ALEX Drawer unit, white, 14 1/8x27 1/2 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-white__0995610_pe821781_s5.jpg",
+                                        "itemNoGlobal": "00473546",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "badge": {
+                                            "type": "TOP_SELLER",
+                                            "text": "Top seller"
+                                        },
+                                        "itemNo": "00473546",
+                                        "itemType": "ART",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 110.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "110",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    }
+                                ]
+                            },
+                            "colors": [
+                                {
+                                    "name": "gray",
+                                    "id": "10028",
+                                    "hex": "949494"
+                                },
+                                {
+                                    "name": "turquoise",
+                                    "id": "10152",
+                                    "hex": "77ddd0"
+                                }
+                            ],
+                            "tag": "NONE",
+                            "quickFacts": [],
+                            "features": [],
+                            "availability": [],
+                            "itemNo": "30483799",
+                            "itemType": "ART",
+                            "salesPrice": {
+                                "currencyCode": "USD",
+                                "numeral": 130.0,
+                                "current": {
+                                    "prefix": "$",
+                                    "wholeNumber": "130",
+                                    "separator": ".",
+                                    "decimals": "00",
+                                    "suffix": "",
+                                    "isRegularCurrency": false
+                                },
+                                "isBreathTaking": false,
+                                "discount": "",
+                                "tag": "NONE"
+                            },
+                            "contextualImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-gray-turquoise__0995609_pe821782_s5.jpg",
+                            "mainImageAlt": "ALEX Drawer unit, gray-turquoise, 14 1/8x27 1/2 \"",
+                            "businessStructure": {
+                                "homeFurnishingBusinessName": "Workspaces",
+                                "homeFurnishingBusinessNo": "03",
+                                "productAreaName": "Home desks.",
+                                "productAreaNo": "0341",
+                                "productRangeAreaName": "Home workspace",
+                                "productRangeAreaNo": "034"
+                            },
+                            "categoryPath": [
+                                {
+                                    "name": "Furniture",
+                                    "key": "fu001"
+                                },
+                                {
+                                    "name": "Tables & desks",
+                                    "key": "fu004"
+                                },
+                                {
+                                    "name": "Desks & computer desks",
+                                    "key": "20649"
+                                },
+                                {
+                                    "name": "Table & desk systems",
+                                    "key": "47423"
+                                },
+                                {
+                                    "name": "Table bar system",
+                                    "key": "11811"
+                                },
+                                {
+                                    "name": "Legs & trestles",
+                                    "key": "11845"
+                                }
+                            ],
+                            "heroBackoffData": {},
+                            "optimizelyAttributes": {
+                                "PRODUCT_TYPE": "standard"
+                            }
+                        },
+                        "type": "PRODUCT",
+                        "label": "Product",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;21;PRODUCT;70483429;products_main;",
+                        "product": {
+                            "name": "ALEX",
+                            "typeName": "Drawer unit on casters",
+                            "itemMeasureReferenceText": "26 3/8x26 \"",
+                            "mainImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-on-casters-black-brown__0977783_pe813768_s5.jpg",
+                            "pipUrl": "https://www.ikea.com/us/en/p/alex-drawer-unit-on-casters-black-brown-70483429/",
+                            "id": "70483429",
+                            "itemNoGlobal": "70483429",
+                            "onlineSellable": true,
+                            "lastChance": false,
+                            "gprDescription": {
+                                "numberOfVariants": 2,
+                                "variants": [
+                                    {
+                                        "id": "50483449",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/alex-drawer-unit-on-casters-gray-turquoise-50483449/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-on-casters-gray-turquoise__0977737_pe813731_s5.jpg",
+                                        "imageAlt": "ALEX Drawer unit on casters, gray-turquoise, 26 3/8x26 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "ALEX",
+                                        "typeName": "Drawer unit on casters",
+                                        "itemMeasureReferenceText": "26 3/8x26 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-on-casters-gray-turquoise__0977737_pe813731_s5.jpg",
+                                        "mainImageAlt": "ALEX Drawer unit on casters, gray-turquoise, 26 3/8x26 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-on-casters-gray-turquoise__0995596_pe821775_s5.jpg",
+                                        "itemNoGlobal": "50483449",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "itemNo": "50483449",
+                                        "itemType": "ART",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 199.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "199",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    },
+                                    {
+                                        "id": "80485423",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/alex-drawer-unit-on-casters-white-80485423/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-on-casters-white__0977785_pe813769_s5.jpg",
+                                        "imageAlt": "ALEX Drawer unit on casters, white, 26 3/8x26 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "ALEX",
+                                        "typeName": "Drawer unit on casters",
+                                        "itemMeasureReferenceText": "26 3/8x26 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-on-casters-white__0977785_pe813769_s5.jpg",
+                                        "mainImageAlt": "ALEX Drawer unit on casters, white, 26 3/8x26 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-on-casters-white__0995597_pe821774_s5.jpg",
+                                        "itemNoGlobal": "80485423",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "itemNo": "80485423",
+                                        "itemType": "ART",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 189.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "189",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    }
+                                ]
+                            },
+                            "colors": [
+                                {
+                                    "name": "brown",
+                                    "id": "10019",
+                                    "hex": "814820"
+                                },
+                                {
+                                    "name": "black",
+                                    "id": "10139",
+                                    "hex": "000000"
+                                }
+                            ],
+                            "tag": "NONE",
+                            "quickFacts": [],
+                            "features": [],
+                            "availability": [],
+                            "itemNo": "70483429",
+                            "itemType": "ART",
+                            "salesPrice": {
+                                "currencyCode": "USD",
+                                "numeral": 199.0,
+                                "current": {
+                                    "prefix": "$",
+                                    "wholeNumber": "199",
+                                    "separator": ".",
+                                    "decimals": "00",
+                                    "suffix": "",
+                                    "isRegularCurrency": false
+                                },
+                                "isBreathTaking": false,
+                                "discount": "",
+                                "tag": "NONE"
+                            },
+                            "contextualImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-on-casters-black-brown__0995595_pe821772_s5.jpg",
+                            "mainImageAlt": "ALEX Drawer unit on casters, black-brown, 26 3/8x26 \"",
+                            "businessStructure": {
+                                "homeFurnishingBusinessName": "Workspaces",
+                                "homeFurnishingBusinessNo": "03",
+                                "productAreaName": "Home desk storage",
+                                "productAreaNo": "0343",
+                                "productRangeAreaName": "Home workspace",
+                                "productRangeAreaNo": "034"
+                            },
+                            "categoryPath": [
+                                {
+                                    "name": "Working from home",
+                                    "key": "700291"
+                                },
+                                {
+                                    "name": "Drawer units",
+                                    "key": "10711"
+                                },
+                                {
+                                    "name": "Drawer units for home",
+                                    "key": "47081"
+                                }
+                            ],
+                            "heroBackoffData": {},
+                            "optimizelyAttributes": {
+                                "PRODUCT_TYPE": "standard"
+                            }
+                        },
+                        "type": "PRODUCT",
+                        "label": "Product",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;22;PRODUCT;50483449;products_main;",
+                        "product": {
+                            "name": "ALEX",
+                            "typeName": "Drawer unit on casters",
+                            "itemMeasureReferenceText": "26 3/8x26 \"",
+                            "mainImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-on-casters-gray-turquoise__0977737_pe813731_s5.jpg",
+                            "pipUrl": "https://www.ikea.com/us/en/p/alex-drawer-unit-on-casters-gray-turquoise-50483449/",
+                            "id": "50483449",
+                            "itemNoGlobal": "50483449",
+                            "onlineSellable": true,
+                            "lastChance": false,
+                            "gprDescription": {
+                                "numberOfVariants": 2,
+                                "variants": [
+                                    {
+                                        "id": "70483429",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/alex-drawer-unit-on-casters-black-brown-70483429/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-on-casters-black-brown__0977783_pe813768_s5.jpg",
+                                        "imageAlt": "ALEX Drawer unit on casters, black-brown, 26 3/8x26 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "ALEX",
+                                        "typeName": "Drawer unit on casters",
+                                        "itemMeasureReferenceText": "26 3/8x26 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-on-casters-black-brown__0977783_pe813768_s5.jpg",
+                                        "mainImageAlt": "ALEX Drawer unit on casters, black-brown, 26 3/8x26 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-on-casters-black-brown__0995595_pe821772_s5.jpg",
+                                        "itemNoGlobal": "70483429",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "itemNo": "70483429",
+                                        "itemType": "ART",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 199.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "199",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    },
+                                    {
+                                        "id": "80485423",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/alex-drawer-unit-on-casters-white-80485423/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-on-casters-white__0977785_pe813769_s5.jpg",
+                                        "imageAlt": "ALEX Drawer unit on casters, white, 26 3/8x26 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "ALEX",
+                                        "typeName": "Drawer unit on casters",
+                                        "itemMeasureReferenceText": "26 3/8x26 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-on-casters-white__0977785_pe813769_s5.jpg",
+                                        "mainImageAlt": "ALEX Drawer unit on casters, white, 26 3/8x26 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-on-casters-white__0995597_pe821774_s5.jpg",
+                                        "itemNoGlobal": "80485423",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "itemNo": "80485423",
+                                        "itemType": "ART",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 189.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "189",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    }
+                                ]
+                            },
+                            "colors": [
+                                {
+                                    "name": "gray",
+                                    "id": "10028",
+                                    "hex": "949494"
+                                },
+                                {
+                                    "name": "turquoise",
+                                    "id": "10152",
+                                    "hex": "77ddd0"
+                                }
+                            ],
+                            "tag": "NONE",
+                            "quickFacts": [],
+                            "features": [],
+                            "availability": [],
+                            "itemNo": "50483449",
+                            "itemType": "ART",
+                            "salesPrice": {
+                                "currencyCode": "USD",
+                                "numeral": 199.0,
+                                "current": {
+                                    "prefix": "$",
+                                    "wholeNumber": "199",
+                                    "separator": ".",
+                                    "decimals": "00",
+                                    "suffix": "",
+                                    "isRegularCurrency": false
+                                },
+                                "isBreathTaking": false,
+                                "discount": "",
+                                "tag": "NONE"
+                            },
+                            "contextualImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-on-casters-gray-turquoise__0995596_pe821775_s5.jpg",
+                            "mainImageAlt": "ALEX Drawer unit on casters, gray-turquoise, 26 3/8x26 \"",
+                            "businessStructure": {
+                                "homeFurnishingBusinessName": "Workspaces",
+                                "homeFurnishingBusinessNo": "03",
+                                "productAreaName": "Home desk storage",
+                                "productAreaNo": "0343",
+                                "productRangeAreaName": "Home workspace",
+                                "productRangeAreaNo": "034"
+                            },
+                            "categoryPath": [
+                                {
+                                    "name": "Working from home",
+                                    "key": "700291"
+                                },
+                                {
+                                    "name": "Drawer units",
+                                    "key": "10711"
+                                },
+                                {
+                                    "name": "Drawer units for home",
+                                    "key": "47081"
+                                }
+                            ],
+                            "heroBackoffData": {},
+                            "optimizelyAttributes": {
+                                "PRODUCT_TYPE": "standard"
+                            }
+                        },
+                        "type": "PRODUCT",
+                        "label": "Product",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;23;PRODUCT;10508178;products_main;",
+                        "product": {
+                            "name": "ALEX",
+                            "typeName": "Drawer unit/drop file storage",
+                            "itemMeasureReferenceText": "14 1/8x27 1/2 \"",
+                            "mainImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-drop-file-storage-black-brown__0377856_pe554182_s5.jpg",
+                            "pipUrl": "https://www.ikea.com/us/en/p/alex-drawer-unit-drop-file-storage-black-brown-10508178/",
+                            "id": "10508178",
+                            "itemNoGlobal": "10508178",
+                            "onlineSellable": true,
+                            "lastChance": false,
+                            "gprDescription": {
+                                "numberOfVariants": 2,
+                                "variants": [
+                                    {
+                                        "id": "10508183",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/alex-drawer-unit-drop-file-storage-white-stained-oak-effect-10508183/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-drop-file-storage-white-stained-oak-effect__0968009_pe810299_s5.jpg",
+                                        "imageAlt": "ALEX Drawer unit/drop file storage, white stained/oak effect, 14 1/8x27 1/2 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "ALEX",
+                                        "typeName": "Drawer unit/drop file storage",
+                                        "itemMeasureReferenceText": "14 1/8x27 1/2 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-drop-file-storage-white-stained-oak-effect__0968009_pe810299_s5.jpg",
+                                        "mainImageAlt": "ALEX Drawer unit/drop file storage, white stained/oak effect, 14 1/8x27 1/2 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-drop-file-storage-white-stained-oak-effect__0968012_pe810300_s5.jpg",
+                                        "itemNoGlobal": "10508183",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "itemNo": "10508183",
+                                        "itemType": "ART",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 149.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "149",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    },
+                                    {
+                                        "id": "50508176",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/alex-drawer-unit-drop-file-storage-white-50508176/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-drop-file-storage-white__0377858_pe554184_s5.jpg",
+                                        "imageAlt": "ALEX Drawer unit/drop file storage, white, 14 1/8x27 1/2 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "ALEX",
+                                        "typeName": "Drawer unit/drop file storage",
+                                        "itemMeasureReferenceText": "14 1/8x27 1/2 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-drop-file-storage-white__0377858_pe554184_s5.jpg",
+                                        "mainImageAlt": "ALEX Drawer unit/drop file storage, white, 14 1/8x27 1/2 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-drop-file-storage-white__0377859_pe554185_s5.jpg",
+                                        "itemNoGlobal": "50508176",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "badge": {
+                                            "type": "TOP_SELLER",
+                                            "text": "Top seller"
+                                        },
+                                        "itemNo": "50508176",
+                                        "itemType": "ART",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 149.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "149",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    }
+                                ]
+                            },
+                            "colors": [
+                                {
+                                    "name": "brown",
+                                    "id": "10019",
+                                    "hex": "814820"
+                                },
+                                {
+                                    "name": "black",
+                                    "id": "10139",
+                                    "hex": "000000"
+                                }
+                            ],
+                            "tag": "NONE",
+                            "quickFacts": [],
+                            "features": [],
+                            "availability": [],
+                            "itemNo": "10508178",
+                            "itemType": "ART",
+                            "salesPrice": {
+                                "currencyCode": "USD",
+                                "numeral": 149.0,
+                                "current": {
+                                    "prefix": "$",
+                                    "wholeNumber": "149",
+                                    "separator": ".",
+                                    "decimals": "00",
+                                    "suffix": "",
+                                    "isRegularCurrency": false
+                                },
+                                "isBreathTaking": false,
+                                "discount": "",
+                                "tag": "NONE"
+                            },
+                            "contextualImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-drop-file-storage-black-brown__0377857_pe554183_s5.jpg",
+                            "mainImageAlt": "ALEX Drawer unit/drop file storage, black-brown, 14 1/8x27 1/2 \"",
+                            "businessStructure": {
+                                "homeFurnishingBusinessName": "Workspaces",
+                                "homeFurnishingBusinessNo": "03",
+                                "productAreaName": "Home desk storage",
+                                "productAreaNo": "0343",
+                                "productRangeAreaName": "Home workspace",
+                                "productRangeAreaNo": "034"
+                            },
+                            "categoryPath": [
+                                {
+                                    "name": "Working from home",
+                                    "key": "700291"
+                                },
+                                {
+                                    "name": "Drawer units",
+                                    "key": "10711"
+                                },
+                                {
+                                    "name": "Drawer units for home",
+                                    "key": "47081"
+                                }
+                            ],
+                            "heroBackoffData": {},
+                            "optimizelyAttributes": {
+                                "PRODUCT_TYPE": "standard"
+                            }
+                        },
+                        "type": "PRODUCT",
+                        "label": "Product",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;24;PRODUCT;10508183;products_main;",
+                        "product": {
+                            "name": "ALEX",
+                            "typeName": "Drawer unit/drop file storage",
+                            "itemMeasureReferenceText": "14 1/8x27 1/2 \"",
+                            "mainImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-drop-file-storage-white-stained-oak-effect__0968009_pe810299_s5.jpg",
+                            "pipUrl": "https://www.ikea.com/us/en/p/alex-drawer-unit-drop-file-storage-white-stained-oak-effect-10508183/",
+                            "id": "10508183",
+                            "itemNoGlobal": "10508183",
+                            "onlineSellable": true,
+                            "lastChance": false,
+                            "gprDescription": {
+                                "numberOfVariants": 2,
+                                "variants": [
+                                    {
+                                        "id": "10508178",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/alex-drawer-unit-drop-file-storage-black-brown-10508178/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-drop-file-storage-black-brown__0377856_pe554182_s5.jpg",
+                                        "imageAlt": "ALEX Drawer unit/drop file storage, black-brown, 14 1/8x27 1/2 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "ALEX",
+                                        "typeName": "Drawer unit/drop file storage",
+                                        "itemMeasureReferenceText": "14 1/8x27 1/2 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-drop-file-storage-black-brown__0377856_pe554182_s5.jpg",
+                                        "mainImageAlt": "ALEX Drawer unit/drop file storage, black-brown, 14 1/8x27 1/2 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-drop-file-storage-black-brown__0377857_pe554183_s5.jpg",
+                                        "itemNoGlobal": "10508178",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "itemNo": "10508178",
+                                        "itemType": "ART",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 149.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "149",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    },
+                                    {
+                                        "id": "50508176",
+                                        "pipUrl": "https://www.ikea.com/us/en/p/alex-drawer-unit-drop-file-storage-white-50508176/",
+                                        "imageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-drop-file-storage-white__0377858_pe554184_s5.jpg",
+                                        "imageAlt": "ALEX Drawer unit/drop file storage, white, 14 1/8x27 1/2 \"",
+                                        "quickFacts": [],
+                                        "availability": [],
+                                        "name": "ALEX",
+                                        "typeName": "Drawer unit/drop file storage",
+                                        "itemMeasureReferenceText": "14 1/8x27 1/2 \"",
+                                        "mainImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-drop-file-storage-white__0377858_pe554184_s5.jpg",
+                                        "mainImageAlt": "ALEX Drawer unit/drop file storage, white, 14 1/8x27 1/2 \"",
+                                        "contextualImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-drop-file-storage-white__0377859_pe554185_s5.jpg",
+                                        "itemNoGlobal": "50508176",
+                                        "onlineSellable": true,
+                                        "lastChance": false,
+                                        "badge": {
+                                            "type": "TOP_SELLER",
+                                            "text": "Top seller"
+                                        },
+                                        "itemNo": "50508176",
+                                        "itemType": "ART",
+                                        "salesPrice": {
+                                            "currencyCode": "USD",
+                                            "numeral": 149.0,
+                                            "current": {
+                                                "prefix": "$",
+                                                "wholeNumber": "149",
+                                                "separator": ".",
+                                                "decimals": "00",
+                                                "suffix": "",
+                                                "isRegularCurrency": false
+                                            },
+                                            "isBreathTaking": false,
+                                            "discount": "",
+                                            "tag": "NONE"
+                                        }
+                                    }
+                                ]
+                            },
+                            "colors": [
+                                {
+                                    "name": "beige",
+                                    "id": "10003",
+                                    "hex": "f4f3d7"
+                                },
+                                {
+                                    "name": "brown",
+                                    "id": "10019",
+                                    "hex": "814820"
+                                }
+                            ],
+                            "tag": "NONE",
+                            "quickFacts": [],
+                            "features": [],
+                            "availability": [],
+                            "itemNo": "10508183",
+                            "itemType": "ART",
+                            "salesPrice": {
+                                "currencyCode": "USD",
+                                "numeral": 149.0,
+                                "current": {
+                                    "prefix": "$",
+                                    "wholeNumber": "149",
+                                    "separator": ".",
+                                    "decimals": "00",
+                                    "suffix": "",
+                                    "isRegularCurrency": false
+                                },
+                                "isBreathTaking": false,
+                                "discount": "",
+                                "tag": "NONE"
+                            },
+                            "contextualImageUrl": "https://www.ikea.com/us/en/images/products/alex-drawer-unit-drop-file-storage-white-stained-oak-effect__0968012_pe810300_s5.jpg",
+                            "mainImageAlt": "ALEX Drawer unit/drop file storage, white stained/oak effect, 14 1/8x27 1/2 \"",
+                            "businessStructure": {
+                                "homeFurnishingBusinessName": "Workspaces",
+                                "homeFurnishingBusinessNo": "03",
+                                "productAreaName": "Home desk storage",
+                                "productAreaNo": "0343",
+                                "productRangeAreaName": "Home workspace",
+                                "productRangeAreaNo": "034"
+                            },
+                            "categoryPath": [
+                                {
+                                    "name": "Working from home",
+                                    "key": "700291"
+                                },
+                                {
+                                    "name": "Drawer units",
+                                    "key": "10711"
+                                },
+                                {
+                                    "name": "Drawer units for home",
+                                    "key": "47081"
+                                }
+                            ],
+                            "heroBackoffData": {},
+                            "optimizelyAttributes": {
+                                "PRODUCT_TYPE": "standard"
+                            }
+                        },
+                        "type": "PRODUCT",
+                        "label": "Product",
+                        "actionTokens": []
                     }
                 ],
                 "start": 0,
-                "end": 5,
+                "end": 24,
                 "max": 57,
-                "moreToken": "H4sIAAAAAAAA_6tWysksLlGyUgoI8ncJdQ4Jjvd19PRT0lFKzUtRsjKtBQB09kQXIAAAAA"
+                "moreToken": "H4sIAAAAAAAA_6tWysksLlGyUgoI8ncJdQ4Jjvd19PRT0lFKzUtRsjIyqQUAFvE9jyEAAAA"
             },
             "shelves": [
                 {
@@ -4274,12 +7104,221 @@
                         "type": "CONTENT",
                         "label": "Home furnishings",
                         "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;6;CONTENT;adaf1baab16c11eaab17773be6636135;content_main;",
+                        "content": {
+                            "url": "https://www.ikea.com/us/en/campaigns/workspaces-pubadaf1baa",
+                            "imageUrl": "https://www.ikea.com/images/micke-desk-with-alex-drawer-until-in-form-bedroom-09ec0d0a67614a47ab4fd1420ce46cdf.jpg",
+                            "imageAltText": "College Dorm Desks & Chairs",
+                            "title": "Workspaces",
+                            "metadata": "",
+                            "id": "adaf1baab16c11eaab17773be6636135"
+                        },
+                        "type": "CONTENT",
+                        "label": "Campaigns",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;7;CONTENT;2c99fae0f7ed11eaaa91d1cedffc82a8;content_main;",
+                        "content": {
+                            "url": "https://www.ikea.com/us/en/rooms/home-office/how-to/how-to-furnish-a-small-workspace-on-a-tight-budget-pub2c99fae0",
+                            "imageUrl": "https://www.ikea.com/images/a-laptop-notepads-and-spectacles-on-a-birch-plywood-ravaror--31c70546931888899da9f8a0280ff4ef.jpg",
+                            "imageAltText": "A laptop, notepads and spectacles on a birch plywood, R\u00c5VAROR tray that stands on an oak veneer, R\u00c5VAROR console table.",
+                            "title": "How to furnish a small workspace on a tight budget",
+                            "metadata": "",
+                            "id": "2c99fae0f7ed11eaaa91d1cedffc82a8"
+                        },
+                        "type": "CONTENT",
+                        "label": "Home office",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;8;CONTENT;c9ee7a702f4d11ed94136b963246cf0e;content_main;",
+                        "content": {
+                            "url": "https://www.ikea.com/us/en/rooms/home-office/how-to/",
+                            "imageUrl": "https://www.ikea.com/images/a-woman-is-sitting-at-a-dining-table-using-oevning-desk-divi-d357f00460f04067f54f4118981c50a5.jpg",
+                            "imageAltText": "A gallery of home workspace tips",
+                            "title": "Home office tips and ideas",
+                            "metadata": "",
+                            "id": "c9ee7a702f4d11ed94136b963246cf0e"
+                        },
+                        "type": "CONTENT",
+                        "label": "Home office",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;9;CONTENT;ac31b95096bc11eb93fdafa889a7933e;content_main;",
+                        "content": {
+                            "url": "https://www.ikea.com/us/en/rooms/hallway/how-to/a-hallway-for-smooth-takeoffs-and-landings-pubac31b950",
+                            "imageUrl": "https://www.ikea.com/images/hallway-turned-vanity-space-with-woman-doing-her-makeup-sitt-2aae698785f060301e0c58b885a7a3df.jpg",
+                            "imageAltText": "Hallway turned vanity space with woman doing her makeup sitting on a shoebench using a wall shelf, lighting and mirrors.",
+                            "title": "A hallway for smooth takeoffs and landings",
+                            "metadata": "",
+                            "id": "ac31b95096bc11eb93fdafa889a7933e"
+                        },
+                        "type": "CONTENT",
+                        "label": "Hallway",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;10;CONTENT;9d2cec90855a11ebab7cfffcb7eea3ce;content_main;",
+                        "content": {
+                            "url": "https://www.ikea.com/us/en/ideas/home-furnishings/ask-a-designer-work-home-balance-pub9d2cec90",
+                            "imageUrl": "https://www.ikea.com/images/a-man-sitting-at-a-naerspel-desk-in-front-of-three-billy-boo-65381f08b0c64785898b42737d2175af.jpg",
+                            "imageAltText": "A man sitting at a N\u00c4RSPEL desk in front of three BILLY bookcases filled with books and mementos.",
+                            "title": "Ask a designer: work-home balance",
+                            "metadata": "",
+                            "id": "9d2cec90855a11ebab7cfffcb7eea3ce"
+                        },
+                        "type": "CONTENT",
+                        "label": "Home furnishings",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;11;CONTENT;9af95bb0643c11ea9e22bf68fd53fc44;content_main;",
+                        "content": {
+                            "url": "https://www.ikea.com/us/en/rooms/living-room/how-to/furnish-your-living-room-with-open-and-closed-storage-pub9af95bb0",
+                            "imageUrl": "https://www.ikea.com/images/storage-in-a-living-room-with-fabrikoer-glass-door-cabinets--d36423c2c9c49fedff7030aae2acb6b3.jpg",
+                            "imageAltText": "Storage in a living room with FABRIK\u00d6R glass-door cabinets in blue.",
+                            "title": "Furnish your living room with open and closed storage",
+                            "metadata": "",
+                            "id": "9af95bb0643c11ea9e22bf68fd53fc44"
+                        },
+                        "type": "CONTENT",
+                        "label": "Living room",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;12;CONTENT;2223b1d0170611eca8ec274157f9c7bc;content_main;",
+                        "content": {
+                            "url": "https://www.ikea.com/us/en/rooms/childrens-room/how-to/a-study-space-to-call-my-own-pub2223b1d0",
+                            "imageUrl": "https://www.ikea.com/images/two-side-by-side-workspaces-one-of-them-centered-around-a-wh-926f9fe7d0374c25c848b7f01c4d544a.jpg",
+                            "imageAltText": "Two side-by-side workspaces, one of them centered around a white LAGKAPTEN table and a brown-pink L\u00c5NGFJ\u00c4LL conference chair.",
+                            "title": "A study space to call my own",
+                            "metadata": "",
+                            "id": "2223b1d0170611eca8ec274157f9c7bc"
+                        },
+                        "type": "CONTENT",
+                        "label": "Kids room",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;13;CONTENT;f148c9d0ebb511ec87428b4a67bbbf1f;content_main;",
+                        "content": {
+                            "url": "https://www.ikea.com/us/en/rooms/bedroom/how-to/6-essentials-for-a-teen-bedroom-pubf148c9d0",
+                            "imageUrl": "https://www.ikea.com/images/a-blue-upholstered-bed-with-white-black-checked-vitkloever-b-285ae6abb8f0a66cb87c459edf83edc0.jpg",
+                            "imageAltText": "A blue upholstered bed with white/black checked VITKL\u00d6VER bed linen and various cushions, plus FREDVANG under-bed storage.",
+                            "title": "6 essentials for a teen bedroom",
+                            "metadata": "",
+                            "id": "f148c9d0ebb511ec87428b4a67bbbf1f"
+                        },
+                        "type": "CONTENT",
+                        "label": "Bedroom",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;14;CONTENT;fe4d9f301b7b11ecaa0ad38609bf6efb;content_main;",
+                        "content": {
+                            "url": "https://www.ikea.com/us/en/ideas/home-furnishings/our-home-away-from-home-a-stylish-shared-apartment-pubfe4d9f30",
+                            "imageUrl": "https://www.ikea.com/images/a-grey-backsaelen-sofa-with-four-scatter-cushions-in-front-o-eef66921ad2ea8d1d85d45d42548511a.jpg",
+                            "imageAltText": "A grey BACKS\u00c4LEN sofa with four scatter cushions in front of a dining table and chairs with framed art on the wall.",
+                            "title": "Our home away from home: a stylish eclectic apartment design",
+                            "metadata": "",
+                            "id": "fe4d9f301b7b11ecaa0ad38609bf6efb"
+                        },
+                        "type": "CONTENT",
+                        "label": "Home furnishings",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;15;CONTENT;583b5d00239811eda88da1e85dd2515f;content_main;",
+                        "content": {
+                            "url": "https://www.ikea.com/us/en/ideas/home-furnishings/imagination-station-a-small-budget-friendly-apartment-for-two-pub583b5d00",
+                            "imageUrl": "https://www.ikea.com/images/a-child-and-adult-kneel-and-stand-on-a-sofa-drawing-pictures-584c92b770437459cceba8e3ce2c8a8f.jpg",
+                            "imageAltText": "A child and adult kneel and stand on a sofa drawing pictures on a blackboard wall. Coloured cushions are scattered below.",
+                            "title": "Imagination station: a small, budget-friendly apartment for two",
+                            "metadata": "",
+                            "id": "583b5d00239811eda88da1e85dd2515f"
+                        },
+                        "type": "CONTENT",
+                        "label": "Home furnishings",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;16;CONTENT;709735002f4511ed94136b963246cf0e;content_main;",
+                        "content": {
+                            "url": "https://www.ikea.com/us/en/rooms/bedroom/how-to/",
+                            "imageUrl": "https://www.ikea.com/images/a-bed-with-a-pine-bedframe-and-white-black-checked-bed-linen-86f032b952d95e740ce12e3e0b0a4808.jpg",
+                            "imageAltText": "A gallery of bedroom tips",
+                            "title": "Bedroom tips and ideas",
+                            "metadata": "",
+                            "id": "709735002f4511ed94136b963246cf0e"
+                        },
+                        "type": "CONTENT",
+                        "label": "Bedroom",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;17;CONTENT;fea5fdc0e63111ecaa30f1ff1fc0055d;content_main;",
+                        "content": {
+                            "url": "https://www.ikea.com/us/en/ideas/home-furnishings/divide-and-conquer-privacy-for-all-in-a-shared-home-pubfea5fdc0",
+                            "imageUrl": "https://www.ikea.com/images/two-people-playing-cards-on-a-black-kragsta-coffee-table-wit-15ed344c55bdda338cb43828f7140e20.jpg",
+                            "imageAltText": "Two people playing cards on a black KRAGSTA coffee table with a gallery wall behind them with assorted framed BILD posters.",
+                            "title": "Divide and conquer: privacy for all in a shared home",
+                            "metadata": "",
+                            "id": "fea5fdc0e63111ecaa30f1ff1fc0055d"
+                        },
+                        "type": "CONTENT",
+                        "label": "Home furnishings",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;18;CONTENT;3f8ee9e023a511eda88da1e85dd2515f;content_main;",
+                        "content": {
+                            "url": "https://www.ikea.com/us/en/ideas/home-furnishings/welcome-to-the-multigenerational-home-pub3f8ee9e0",
+                            "imageUrl": "https://www.ikea.com/images/a-family-sits-together-at-a-strandtorp-dining-table-a-person-5ae6062f343fbc5d434159de03c2b394.jpg",
+                            "imageAltText": "A family sits together at a STRANDTORP dining table. A person stands ready to serve food from a HUSKNUT pot with lid.",
+                            "title": "Welcome to the multigenerational home",
+                            "metadata": "",
+                            "id": "3f8ee9e023a511eda88da1e85dd2515f"
+                        },
+                        "type": "CONTENT",
+                        "label": "Home furnishings",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;19;CONTENT;973f4700c20e11eca40dad5053f4ca6a;content_main;",
+                        "content": {
+                            "url": "https://www.ikea.com/us/en/ideas/home-furnishings/blended-a-combined-household-with-space-for-a-big-family-pub973f4700",
+                            "imageUrl": "https://www.ikea.com/images/a-toddler-hugging-a-dog-on-a-beige-vimle-three-seat-sofa-whi-8741a05c8f3b47130489c0e45a2f0e64.jpg",
+                            "imageAltText": "A toddler hugging a dog on a beige VIMLE three-seat sofa while another toddler stands to the side with a hand on the sofa.",
+                            "title": "A combined household with space for a big family",
+                            "metadata": "",
+                            "id": "973f4700c20e11eca40dad5053f4ca6a"
+                        },
+                        "type": "CONTENT",
+                        "label": "Home furnishings",
+                        "actionTokens": []
+                    },
+                    {
+                        "metadata": "v1;20;CONTENT;e9ceb530b6d911edaab5a7607058f7e6;content_main;",
+                        "content": {
+                            "url": "https://www.ikea.com/us/en/stores/fishers/",
+                            "imageUrl": "https://www.ikea.com/images/ikea-store-front-482ce0fe0355831ae7e2fb55442268f3.jpg",
+                            "imageAltText": "Furniture Store in Indianapolis, IN",
+                            "title": "IKEA Fishers Furniture & Home Accessories Store",
+                            "metadata": "",
+                            "id": "e9ceb530b6d911edaab5a7607058f7e6"
+                        },
+                        "type": "CONTENT",
+                        "label": "Fishers",
+                        "actionTokens": []
                     }
                 ],
                 "start": 0,
-                "end": 5,
-                "max": 20,
-                "moreToken": "H4sIAAAAAAAA_6tWysksLlGyUnL29wtx9QuJ93X09FPSUUrNS1GyMq0FABHmmVYfAAAA"
+                "end": 20,
+                "max": 20
             },
             "shelves": [],
             "pageMessages": []

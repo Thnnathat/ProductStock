@@ -1,0 +1,43 @@
+{
+    "usergroup": "[]",
+    "searchResultPage": {
+        "searchPhrase": "asodjfhaweuishfsdf",
+        "storeWindow": [],
+        "storeCount": 0,
+        "didYouMean": [],
+        "relatedSearches": [],
+        "retiredProducts": [],
+        "products": {
+            "badge": 0,
+            "filters": [],
+            "sortOrders": {
+                "name": "Sort",
+                "values": []
+            },
+            "main": {
+                "items": [],
+                "start": 0,
+                "end": 0,
+                "max": 0
+            },
+            "shelves": [],
+            "pageMessages": []
+        },
+        "content": {
+            "badge": 0,
+            "filters": [],
+            "sortOrders": {
+                "name": "Sort",
+                "values": []
+            },
+            "main": {
+                "items": [],
+                "start": 0,
+                "end": 0,
+                "max": 0
+            },
+            "shelves": [],
+            "pageMessages": []
+        }
+    }
+}
