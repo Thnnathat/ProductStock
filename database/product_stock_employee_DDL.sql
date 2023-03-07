@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: ThnnathatsDatabase
--- Generation Time: Mar 07, 2023 at 10:43 AM
+-- Generation Time: Mar 07, 2023 at 11:53 AM
 -- Server version: 8.0.32
 -- PHP Version: 8.1.16
 
@@ -29,6 +29,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `employees` (
   `id` int NOT NULL,
+  `password` varchar(255) NOT NULL,
   `prefix` enum('mr','ms') DEFAULT NULL,
   `first_name` varchar(255) DEFAULT NULL,
   `last_name` varchar(255) DEFAULT NULL,
