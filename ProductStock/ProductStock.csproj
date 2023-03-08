@@ -62,6 +62,24 @@
     <Compile Include="RJTextbox.Designer.cs">
       <DependentUpon>RJTextbox.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\CreateProductPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\CreateProductPage.designer.cs">
+      <DependentUpon>CreateProductPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EditProductPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\EditProductPage.designer.cs">
+      <DependentUpon>EditProductPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EditEmployeePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\EditEmployeePage.Designer.cs">
+      <DependentUpon>EditEmployeePage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Index.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +94,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\CreateEmployeePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\CreateEmployeePage.Designer.cs">
+      <DependentUpon>CreateEmployeePage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\src\ProductView.cs" />
     <Compile Include="Views\Stock.cs">
       <SubType>Form</SubType>
@@ -96,11 +120,23 @@
     <EmbeddedResource Include="RJTextbox.resx">
       <DependentUpon>RJTextbox.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\CreateProductPage.resx">
+      <DependentUpon>CreateProductPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\EditProductPage.resx">
+      <DependentUpon>EditProductPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\EditEmployeePage.resx">
+      <DependentUpon>EditEmployeePage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\Index.resx">
       <DependentUpon>Index.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CreateEmployeePage.resx">
+      <DependentUpon>CreateEmployeePage.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -149,6 +185,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="_Repository\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business-3d-tech-support 1 %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

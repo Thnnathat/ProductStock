@@ -143,6 +143,16 @@ namespace ProductStock.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap business_3d_tech_support_1__1_ {
+            get {
+                object obj = ResourceManager.GetObject("business-3d-tech-support 1 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap f90c088166002941f6e1006b654cef12 {
             get {
                 object obj = ResourceManager.GetObject("f90c088166002941f6e1006b654cef12", resourceCulture);
