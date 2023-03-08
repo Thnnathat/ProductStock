@@ -332,13 +332,13 @@
             // 
             // pictureBox1
             // 
-            /*this.pictureBox1.Image = global::ProductStock.Properties.Resources.business_3d_tech_support_1;
-            this.pictureBox1.Location = new System.Drawing.Point(44, 48);
+            this.pictureBox1.Image = global::ProductStock.Properties.Resources.business_3d_tech_support_1;
+            this.pictureBox1.Location = new System.Drawing.Point(54, 65);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(180, 180);
+            this.pictureBox1.Size = new System.Drawing.Size(166, 165);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;*/
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
             // 
             // circularPictureBox2
             // 
@@ -350,7 +350,7 @@
             this.circularPictureBox2.TabIndex = 19;
             this.circularPictureBox2.TabStop = false;
             // 
-            // edit_employee
+            // EditEmployeePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -373,7 +373,7 @@
             this.Controls.Add(this.circularPictureBox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.circularPictureBox2);
-            this.Name = "edit_employee";
+            this.Name = "EditEmployeePage";
             this.Text = "edit_employee";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.circularPictureBox1)).EndInit();
