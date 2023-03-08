@@ -165,8 +165,12 @@
     <None Include="Resources\bg7.png" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Folder Include="Models\" />
     <Folder Include="_Repository\" />
+=======
+    <None Include="Resources\bg8.png" />
+>>>>>>> 780e2ac1af794b2e6616e0fefcb30fd000d41368
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
