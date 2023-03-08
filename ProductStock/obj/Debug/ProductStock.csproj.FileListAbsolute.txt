@@ -59,4 +59,3 @@ C:\xampp\htdocs\New folder (2)\ProductStock\obj\Debug\ProductStock.csproj.CopyCo
 C:\xampp\htdocs\New folder (2)\ProductStock\obj\Debug\ProductStock.exe
 C:\xampp\htdocs\New folder (2)\ProductStock\obj\Debug\ProductStock.pdb
 C:\xampp\htdocs\New folder (2)\ProductStock\obj\Debug\CustomControls.RJControls.RJTextBox.resources
-C:\xampp\htdocs\New folder (2)\ProductStock\obj\Debug\ProductStock.Views.create_employee.resources
