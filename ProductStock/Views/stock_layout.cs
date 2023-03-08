@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProductStock.Views
 {
-    public partial class create_employee : Form
+    public partial class stock_layout : Form
     {
-        public create_employee()
+        public stock_layout()
         {
             InitializeComponent();
         }
