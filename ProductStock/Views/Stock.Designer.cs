@@ -1,6 +1,6 @@
 ﻿namespace ProductStock.Views
 {
-    partial class stock_layout
+    partial class Stock
     {
         /// <summary>
         /// Required designer variable.

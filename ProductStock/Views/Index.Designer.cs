@@ -29,9 +29,13 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.logoutBtn = new CustomControls.RJControls.RJButton();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.rjTextBox1 = new CustomControls.RJControls.RJTextBox();
@@ -40,33 +44,53 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rjButton1 = new CustomControls.RJControls.RJButton();
-            this.rjButton2 = new CustomControls.RJControls.RJButton();
+            this.stockBtn = new CustomControls.RJControls.RJButton();
             this.rjButton3 = new CustomControls.RJControls.RJButton();
-            this.rjButton4 = new CustomControls.RJControls.RJButton();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.rjButton2 = new CustomControls.RJControls.RJButton();
+            this.rjButton1 = new CustomControls.RJControls.RJButton();
+            this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel5.SuspendLayout();
+            this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel6.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(145)))), ((int)(((byte)(10)))));
+            this.panel1.Controls.Add(this.logoutBtn);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(991, 169);
             this.panel1.TabIndex = 0;
+            // 
+            // logoutBtn
+            // 
+            this.logoutBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.logoutBtn.BackColor = System.Drawing.Color.DarkRed;
+            this.logoutBtn.BackgroundColor = System.Drawing.Color.DarkRed;
+            this.logoutBtn.BorderColor = System.Drawing.Color.White;
+            this.logoutBtn.BorderRadius = 5;
+            this.logoutBtn.BorderSize = 0;
+            this.logoutBtn.FlatAppearance.BorderSize = 0;
+            this.logoutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.logoutBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logoutBtn.ForeColor = System.Drawing.Color.White;
+            this.logoutBtn.Location = new System.Drawing.Point(811, 12);
+            this.logoutBtn.Name = "logoutBtn";
+            this.logoutBtn.Size = new System.Drawing.Size(168, 40);
+            this.logoutBtn.TabIndex = 4;
+            this.logoutBtn.Text = "Logout";
+            this.logoutBtn.TextColor = System.Drawing.Color.White;
+            this.logoutBtn.UseVisualStyleBackColor = false;
+            this.logoutBtn.Click += new System.EventHandler(this.logoutBtn_Click);
             // 
             // panel2
             // 
@@ -89,6 +113,30 @@
             this.panel5.Size = new System.Drawing.Size(756, 473);
             this.panel5.TabIndex = 2;
             // 
+            // tabControl1
+            // 
+            this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Location = new System.Drawing.Point(12, 0);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(741, 461);
+            this.tabControl1.TabIndex = 2;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.dataGridView1);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(733, 435);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
             // dataGridView1
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
@@ -98,6 +146,16 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(727, 429);
             this.dataGridView1.TabIndex = 0;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(733, 435);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // panel4
             // 
@@ -187,7 +245,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.rjButton4);
+            this.groupBox1.Controls.Add(this.stockBtn);
             this.groupBox1.Controls.Add(this.rjButton3);
             this.groupBox1.Controls.Add(this.rjButton2);
             this.groupBox1.Controls.Add(this.rjButton1);
@@ -198,49 +256,28 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
-            // rjButton1
+            // stockBtn
             // 
-            this.rjButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.stockBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.rjButton1.BackColor = System.Drawing.Color.Green;
-            this.rjButton1.BackgroundColor = System.Drawing.Color.Green;
-            this.rjButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton1.BorderRadius = 5;
-            this.rjButton1.BorderSize = 0;
-            this.rjButton1.FlatAppearance.BorderSize = 0;
-            this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjButton1.ForeColor = System.Drawing.Color.White;
-            this.rjButton1.Location = new System.Drawing.Point(12, 27);
-            this.rjButton1.Name = "rjButton1";
-            this.rjButton1.Size = new System.Drawing.Size(168, 40);
-            this.rjButton1.TabIndex = 0;
-            this.rjButton1.Text = "Add";
-            this.rjButton1.TextColor = System.Drawing.Color.White;
-            this.rjButton1.UseVisualStyleBackColor = false;
-            // 
-            // rjButton2
-            // 
-            this.rjButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.rjButton2.BackColor = System.Drawing.Color.Chocolate;
-            this.rjButton2.BackgroundColor = System.Drawing.Color.Chocolate;
-            this.rjButton2.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton2.BorderRadius = 5;
-            this.rjButton2.BorderSize = 0;
-            this.rjButton2.FlatAppearance.BorderSize = 0;
-            this.rjButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjButton2.ForeColor = System.Drawing.Color.White;
-            this.rjButton2.Location = new System.Drawing.Point(12, 89);
-            this.rjButton2.Name = "rjButton2";
-            this.rjButton2.Size = new System.Drawing.Size(168, 40);
-            this.rjButton2.TabIndex = 1;
-            this.rjButton2.Text = "Edit";
-            this.rjButton2.TextColor = System.Drawing.Color.White;
-            this.rjButton2.UseVisualStyleBackColor = false;
+            this.stockBtn.BackColor = System.Drawing.Color.DodgerBlue;
+            this.stockBtn.BackgroundColor = System.Drawing.Color.DodgerBlue;
+            this.stockBtn.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.stockBtn.BorderRadius = 5;
+            this.stockBtn.BorderSize = 0;
+            this.stockBtn.FlatAppearance.BorderSize = 0;
+            this.stockBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.stockBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stockBtn.ForeColor = System.Drawing.Color.White;
+            this.stockBtn.Location = new System.Drawing.Point(12, 207);
+            this.stockBtn.Name = "stockBtn";
+            this.stockBtn.Size = new System.Drawing.Size(168, 40);
+            this.stockBtn.TabIndex = 3;
+            this.stockBtn.Text = "Stock";
+            this.stockBtn.TextColor = System.Drawing.Color.White;
+            this.stockBtn.UseVisualStyleBackColor = false;
+            this.stockBtn.Click += new System.EventHandler(this.stockBtn_Click);
             // 
             // rjButton3
             // 
@@ -264,61 +301,49 @@
             this.rjButton3.TextColor = System.Drawing.Color.White;
             this.rjButton3.UseVisualStyleBackColor = false;
             // 
-            // rjButton4
+            // rjButton2
             // 
-            this.rjButton4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.rjButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.rjButton4.BackColor = System.Drawing.Color.DodgerBlue;
-            this.rjButton4.BackgroundColor = System.Drawing.Color.DodgerBlue;
-            this.rjButton4.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton4.BorderRadius = 5;
-            this.rjButton4.BorderSize = 0;
-            this.rjButton4.FlatAppearance.BorderSize = 0;
-            this.rjButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjButton4.ForeColor = System.Drawing.Color.White;
-            this.rjButton4.Location = new System.Drawing.Point(12, 207);
-            this.rjButton4.Name = "rjButton4";
-            this.rjButton4.Size = new System.Drawing.Size(168, 40);
-            this.rjButton4.TabIndex = 3;
-            this.rjButton4.Text = "Stock";
-            this.rjButton4.TextColor = System.Drawing.Color.White;
-            this.rjButton4.UseVisualStyleBackColor = false;
+            this.rjButton2.BackColor = System.Drawing.Color.Chocolate;
+            this.rjButton2.BackgroundColor = System.Drawing.Color.Chocolate;
+            this.rjButton2.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.rjButton2.BorderRadius = 5;
+            this.rjButton2.BorderSize = 0;
+            this.rjButton2.FlatAppearance.BorderSize = 0;
+            this.rjButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjButton2.ForeColor = System.Drawing.Color.White;
+            this.rjButton2.Location = new System.Drawing.Point(12, 89);
+            this.rjButton2.Name = "rjButton2";
+            this.rjButton2.Size = new System.Drawing.Size(168, 40);
+            this.rjButton2.TabIndex = 1;
+            this.rjButton2.Text = "Edit";
+            this.rjButton2.TextColor = System.Drawing.Color.White;
+            this.rjButton2.UseVisualStyleBackColor = false;
             // 
-            // tabControl1
+            // rjButton1
             // 
-            this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.rjButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(12, 0);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(741, 461);
-            this.tabControl1.TabIndex = 2;
-            // 
-            // tabPage1
-            // 
-            this.tabPage1.Controls.Add(this.dataGridView1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(733, 435);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "tabPage1";
-            this.tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(748, 447);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.rjButton1.BackColor = System.Drawing.Color.Green;
+            this.rjButton1.BackgroundColor = System.Drawing.Color.Green;
+            this.rjButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.rjButton1.BorderRadius = 5;
+            this.rjButton1.BorderSize = 0;
+            this.rjButton1.FlatAppearance.BorderSize = 0;
+            this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjButton1.ForeColor = System.Drawing.Color.White;
+            this.rjButton1.Location = new System.Drawing.Point(12, 27);
+            this.rjButton1.Name = "rjButton1";
+            this.rjButton1.Size = new System.Drawing.Size(168, 40);
+            this.rjButton1.TabIndex = 0;
+            this.rjButton1.Text = "Add";
+            this.rjButton1.TextColor = System.Drawing.Color.White;
+            this.rjButton1.UseVisualStyleBackColor = false;
             // 
             // Index
             // 
@@ -329,8 +354,11 @@
             this.Controls.Add(this.panel1);
             this.Name = "Index";
             this.Text = "Index";
+            this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
@@ -340,8 +368,6 @@
             this.panel7.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
-            this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -361,11 +387,12 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox1;
         private CustomControls.RJControls.RJButton rjButton1;
-        private CustomControls.RJControls.RJButton rjButton4;
+        private CustomControls.RJControls.RJButton stockBtn;
         private CustomControls.RJControls.RJButton rjButton3;
         private CustomControls.RJControls.RJButton rjButton2;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
+        private CustomControls.RJControls.RJButton logoutBtn;
     }
 }

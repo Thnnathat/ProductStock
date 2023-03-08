@@ -16,5 +16,17 @@ namespace ProductStock.Views
         {
             InitializeComponent();
         }
+
+        private void logoutBtn_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
+        }
+
+        private void stockBtn_Click(object sender, EventArgs e)
+        {
+            Stock stock = new Stock();
+            stock.Show();
+        }
     }
 }
