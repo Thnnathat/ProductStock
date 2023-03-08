@@ -38,5 +38,25 @@ namespace ProductStock
         {
 
         }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rjButton1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rjTextBox2__TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rjTextBox1__TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
