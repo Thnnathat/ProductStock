@@ -59,3 +59,5 @@ C:\xampp\htdocs\New folder (2)\ProductStock\obj\Debug\ProductStock.csproj.CopyCo
 C:\xampp\htdocs\New folder (2)\ProductStock\obj\Debug\ProductStock.exe
 C:\xampp\htdocs\New folder (2)\ProductStock\obj\Debug\ProductStock.pdb
 C:\xampp\htdocs\New folder (2)\ProductStock\obj\Debug\CustomControls.RJControls.RJTextBox.resources
+E:\Computer Engineering\Term IV\Projects\ProductStock\ProductStock\obj\Debug\CustomControls.RJControls.RJTextBox.resources
+E:\Computer Engineering\Term IV\Projects\ProductStock\ProductStock\obj\Debug\ProductStock.Views.Index.resources

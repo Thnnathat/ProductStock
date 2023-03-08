@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\xampp\\htdocs\\New folder (2)\\ProductStock\\ProductStock.csproj": {}
+    "E:\\Computer Engineering\\Term IV\\Projects\\ProductStock\\ProductStock\\ProductStock.csproj": {}
   },
   "projects": {
-    "C:\\xampp\\htdocs\\New folder (2)\\ProductStock\\ProductStock.csproj": {
+    "E:\\Computer Engineering\\Term IV\\Projects\\ProductStock\\ProductStock\\ProductStock.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\xampp\\htdocs\\New folder (2)\\ProductStock\\ProductStock.csproj",
+        "projectUniqueName": "E:\\Computer Engineering\\Term IV\\Projects\\ProductStock\\ProductStock\\ProductStock.csproj",
         "projectName": "ProductStock",
-        "projectPath": "C:\\xampp\\htdocs\\New folder (2)\\ProductStock\\ProductStock.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\xampp\\htdocs\\New folder (2)\\ProductStock\\obj\\",
+        "projectPath": "E:\\Computer Engineering\\Term IV\\Projects\\ProductStock\\ProductStock\\ProductStock.csproj",
+        "packagesPath": "C:\\Users\\thnna\\.nuget\\packages\\",
+        "outputPath": "E:\\Computer Engineering\\Term IV\\Projects\\ProductStock\\ProductStock\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\thnna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

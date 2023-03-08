@@ -8,10 +8,14 @@
           "System.Memory": "4.5.3"
         },
         "compile": {
-          "lib/net45/Google.Protobuf.dll": {}
+          "lib/net45/Google.Protobuf.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net45/Google.Protobuf.dll": {}
+          "lib/net45/Google.Protobuf.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "K4os.Compression.LZ4/1.2.6": {
@@ -20,10 +24,14 @@
           "System.Memory": "4.5.4"
         },
         "compile": {
-          "lib/net46/K4os.Compression.LZ4.dll": {}
+          "lib/net46/K4os.Compression.LZ4.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net46/K4os.Compression.LZ4.dll": {}
+          "lib/net46/K4os.Compression.LZ4.dll": {
+            "related": ".xml"
+          }
         }
       },
       "K4os.Compression.LZ4.Streams/1.2.6": {
@@ -33,10 +41,14 @@
           "K4os.Hash.xxHash": "1.0.6"
         },
         "compile": {
-          "lib/net46/K4os.Compression.LZ4.Streams.dll": {}
+          "lib/net46/K4os.Compression.LZ4.Streams.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net46/K4os.Compression.LZ4.Streams.dll": {}
+          "lib/net46/K4os.Compression.LZ4.Streams.dll": {
+            "related": ".xml"
+          }
         }
       },
       "K4os.Hash.xxHash/1.0.6": {
@@ -45,10 +57,14 @@
           "System.Memory": "4.5.3"
         },
         "compile": {
-          "lib/net46/K4os.Hash.xxHash.dll": {}
+          "lib/net46/K4os.Hash.xxHash.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net46/K4os.Hash.xxHash.dll": {}
+          "lib/net46/K4os.Hash.xxHash.dll": {
+            "related": ".xml"
+          }
         }
       },
       "MySql.Data/8.0.32": {
@@ -69,7 +85,9 @@
           "System.Transactions"
         ],
         "compile": {
-          "lib/net452/MySql.Data.dll": {},
+          "lib/net452/MySql.Data.dll": {
+            "related": ".xml"
+          },
           "lib/net452/ZstdNet.dll": {},
           "lib/net452/comerr64.dll": {},
           "lib/net452/gssapi64.dll": {},
@@ -78,7 +96,9 @@
           "lib/net452/krbcc64.dll": {}
         },
         "runtime": {
-          "lib/net452/MySql.Data.dll": {},
+          "lib/net452/MySql.Data.dll": {
+            "related": ".xml"
+          },
           "lib/net452/ZstdNet.dll": {},
           "lib/net452/comerr64.dll": {},
           "lib/net452/gssapi64.dll": {},
@@ -90,10 +110,14 @@
       "Portable.BouncyCastle/1.9.0": {
         "type": "package",
         "compile": {
-          "lib/net40/BouncyCastle.Crypto.dll": {}
+          "lib/net40/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net40/BouncyCastle.Crypto.dll": {}
+          "lib/net40/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Buffers/4.5.1": {
@@ -102,10 +126,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net45/System.Buffers.dll": {}
+          "ref/net45/System.Buffers.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Buffers.dll": {}
+          "lib/net461/System.Buffers.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Memory/4.5.4": {
@@ -120,10 +148,14 @@
           "mscorlib"
         ],
         "compile": {
-          "lib/net461/System.Memory.dll": {}
+          "lib/net461/System.Memory.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Memory.dll": {}
+          "lib/net461/System.Memory.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Numerics.Vectors/4.5.0": {
@@ -133,10 +165,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net46/System.Numerics.Vectors.dll": {}
+          "ref/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net46/System.Numerics.Vectors.dll": {}
+          "lib/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Runtime.CompilerServices.Unsafe/5.0.0": {
@@ -145,10 +181,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/net45/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       }
     },
@@ -159,10 +199,14 @@
           "System.Memory": "4.5.3"
         },
         "compile": {
-          "lib/net45/Google.Protobuf.dll": {}
+          "lib/net45/Google.Protobuf.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net45/Google.Protobuf.dll": {}
+          "lib/net45/Google.Protobuf.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "K4os.Compression.LZ4/1.2.6": {
@@ -171,10 +215,14 @@
           "System.Memory": "4.5.4"
         },
         "compile": {
-          "lib/net46/K4os.Compression.LZ4.dll": {}
+          "lib/net46/K4os.Compression.LZ4.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net46/K4os.Compression.LZ4.dll": {}
+          "lib/net46/K4os.Compression.LZ4.dll": {
+            "related": ".xml"
+          }
         }
       },
       "K4os.Compression.LZ4.Streams/1.2.6": {
@@ -184,10 +232,14 @@
           "K4os.Hash.xxHash": "1.0.6"
         },
         "compile": {
-          "lib/net46/K4os.Compression.LZ4.Streams.dll": {}
+          "lib/net46/K4os.Compression.LZ4.Streams.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net46/K4os.Compression.LZ4.Streams.dll": {}
+          "lib/net46/K4os.Compression.LZ4.Streams.dll": {
+            "related": ".xml"
+          }
         }
       },
       "K4os.Hash.xxHash/1.0.6": {
@@ -196,10 +248,14 @@
           "System.Memory": "4.5.3"
         },
         "compile": {
-          "lib/net46/K4os.Hash.xxHash.dll": {}
+          "lib/net46/K4os.Hash.xxHash.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net46/K4os.Hash.xxHash.dll": {}
+          "lib/net46/K4os.Hash.xxHash.dll": {
+            "related": ".xml"
+          }
         }
       },
       "MySql.Data/8.0.32": {
@@ -220,7 +276,9 @@
           "System.Transactions"
         ],
         "compile": {
-          "lib/net452/MySql.Data.dll": {},
+          "lib/net452/MySql.Data.dll": {
+            "related": ".xml"
+          },
           "lib/net452/ZstdNet.dll": {},
           "lib/net452/comerr64.dll": {},
           "lib/net452/gssapi64.dll": {},
@@ -229,7 +287,9 @@
           "lib/net452/krbcc64.dll": {}
         },
         "runtime": {
-          "lib/net452/MySql.Data.dll": {},
+          "lib/net452/MySql.Data.dll": {
+            "related": ".xml"
+          },
           "lib/net452/ZstdNet.dll": {},
           "lib/net452/comerr64.dll": {},
           "lib/net452/gssapi64.dll": {},
@@ -241,10 +301,14 @@
       "Portable.BouncyCastle/1.9.0": {
         "type": "package",
         "compile": {
-          "lib/net40/BouncyCastle.Crypto.dll": {}
+          "lib/net40/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net40/BouncyCastle.Crypto.dll": {}
+          "lib/net40/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Buffers/4.5.1": {
@@ -253,10 +317,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net45/System.Buffers.dll": {}
+          "ref/net45/System.Buffers.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Buffers.dll": {}
+          "lib/net461/System.Buffers.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Memory/4.5.4": {
@@ -271,10 +339,14 @@
           "mscorlib"
         ],
         "compile": {
-          "lib/net461/System.Memory.dll": {}
+          "lib/net461/System.Memory.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Memory.dll": {}
+          "lib/net461/System.Memory.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Numerics.Vectors/4.5.0": {
@@ -284,10 +356,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net46/System.Numerics.Vectors.dll": {}
+          "ref/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net46/System.Numerics.Vectors.dll": {}
+          "lib/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Runtime.CompilerServices.Unsafe/5.0.0": {
@@ -296,10 +372,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/net45/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       }
     },
@@ -310,10 +390,14 @@
           "System.Memory": "4.5.3"
         },
         "compile": {
-          "lib/net45/Google.Protobuf.dll": {}
+          "lib/net45/Google.Protobuf.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net45/Google.Protobuf.dll": {}
+          "lib/net45/Google.Protobuf.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "K4os.Compression.LZ4/1.2.6": {
@@ -322,10 +406,14 @@
           "System.Memory": "4.5.4"
         },
         "compile": {
-          "lib/net46/K4os.Compression.LZ4.dll": {}
+          "lib/net46/K4os.Compression.LZ4.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net46/K4os.Compression.LZ4.dll": {}
+          "lib/net46/K4os.Compression.LZ4.dll": {
+            "related": ".xml"
+          }
         }
       },
       "K4os.Compression.LZ4.Streams/1.2.6": {
@@ -335,10 +423,14 @@
           "K4os.Hash.xxHash": "1.0.6"
         },
         "compile": {
-          "lib/net46/K4os.Compression.LZ4.Streams.dll": {}
+          "lib/net46/K4os.Compression.LZ4.Streams.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net46/K4os.Compression.LZ4.Streams.dll": {}
+          "lib/net46/K4os.Compression.LZ4.Streams.dll": {
+            "related": ".xml"
+          }
         }
       },
       "K4os.Hash.xxHash/1.0.6": {
@@ -347,10 +439,14 @@
           "System.Memory": "4.5.3"
         },
         "compile": {
-          "lib/net46/K4os.Hash.xxHash.dll": {}
+          "lib/net46/K4os.Hash.xxHash.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net46/K4os.Hash.xxHash.dll": {}
+          "lib/net46/K4os.Hash.xxHash.dll": {
+            "related": ".xml"
+          }
         }
       },
       "MySql.Data/8.0.32": {
@@ -371,7 +467,9 @@
           "System.Transactions"
         ],
         "compile": {
-          "lib/net452/MySql.Data.dll": {},
+          "lib/net452/MySql.Data.dll": {
+            "related": ".xml"
+          },
           "lib/net452/ZstdNet.dll": {},
           "lib/net452/comerr64.dll": {},
           "lib/net452/gssapi64.dll": {},
@@ -380,7 +478,9 @@
           "lib/net452/krbcc64.dll": {}
         },
         "runtime": {
-          "lib/net452/MySql.Data.dll": {},
+          "lib/net452/MySql.Data.dll": {
+            "related": ".xml"
+          },
           "lib/net452/ZstdNet.dll": {},
           "lib/net452/comerr64.dll": {},
           "lib/net452/gssapi64.dll": {},
@@ -392,10 +492,14 @@
       "Portable.BouncyCastle/1.9.0": {
         "type": "package",
         "compile": {
-          "lib/net40/BouncyCastle.Crypto.dll": {}
+          "lib/net40/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net40/BouncyCastle.Crypto.dll": {}
+          "lib/net40/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Buffers/4.5.1": {
@@ -404,10 +508,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net45/System.Buffers.dll": {}
+          "ref/net45/System.Buffers.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Buffers.dll": {}
+          "lib/net461/System.Buffers.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Memory/4.5.4": {
@@ -422,10 +530,14 @@
           "mscorlib"
         ],
         "compile": {
-          "lib/net461/System.Memory.dll": {}
+          "lib/net461/System.Memory.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Memory.dll": {}
+          "lib/net461/System.Memory.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Numerics.Vectors/4.5.0": {
@@ -435,10 +547,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net46/System.Numerics.Vectors.dll": {}
+          "ref/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net46/System.Numerics.Vectors.dll": {}
+          "lib/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Runtime.CompilerServices.Unsafe/5.0.0": {
@@ -447,10 +563,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/net45/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       }
     },
@@ -461,10 +581,14 @@
           "System.Memory": "4.5.3"
         },
         "compile": {
-          "lib/net45/Google.Protobuf.dll": {}
+          "lib/net45/Google.Protobuf.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net45/Google.Protobuf.dll": {}
+          "lib/net45/Google.Protobuf.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "K4os.Compression.LZ4/1.2.6": {
@@ -473,10 +597,14 @@
           "System.Memory": "4.5.4"
         },
         "compile": {
-          "lib/net46/K4os.Compression.LZ4.dll": {}
+          "lib/net46/K4os.Compression.LZ4.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net46/K4os.Compression.LZ4.dll": {}
+          "lib/net46/K4os.Compression.LZ4.dll": {
+            "related": ".xml"
+          }
         }
       },
       "K4os.Compression.LZ4.Streams/1.2.6": {
@@ -486,10 +614,14 @@
           "K4os.Hash.xxHash": "1.0.6"
         },
         "compile": {
-          "lib/net46/K4os.Compression.LZ4.Streams.dll": {}
+          "lib/net46/K4os.Compression.LZ4.Streams.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net46/K4os.Compression.LZ4.Streams.dll": {}
+          "lib/net46/K4os.Compression.LZ4.Streams.dll": {
+            "related": ".xml"
+          }
         }
       },
       "K4os.Hash.xxHash/1.0.6": {
@@ -498,10 +630,14 @@
           "System.Memory": "4.5.3"
         },
         "compile": {
-          "lib/net46/K4os.Hash.xxHash.dll": {}
+          "lib/net46/K4os.Hash.xxHash.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net46/K4os.Hash.xxHash.dll": {}
+          "lib/net46/K4os.Hash.xxHash.dll": {
+            "related": ".xml"
+          }
         }
       },
       "MySql.Data/8.0.32": {
@@ -522,7 +658,9 @@
           "System.Transactions"
         ],
         "compile": {
-          "lib/net452/MySql.Data.dll": {},
+          "lib/net452/MySql.Data.dll": {
+            "related": ".xml"
+          },
           "lib/net452/ZstdNet.dll": {},
           "lib/net452/comerr64.dll": {},
           "lib/net452/gssapi64.dll": {},
@@ -531,7 +669,9 @@
           "lib/net452/krbcc64.dll": {}
         },
         "runtime": {
-          "lib/net452/MySql.Data.dll": {},
+          "lib/net452/MySql.Data.dll": {
+            "related": ".xml"
+          },
           "lib/net452/ZstdNet.dll": {},
           "lib/net452/comerr64.dll": {},
           "lib/net452/gssapi64.dll": {},
@@ -543,10 +683,14 @@
       "Portable.BouncyCastle/1.9.0": {
         "type": "package",
         "compile": {
-          "lib/net40/BouncyCastle.Crypto.dll": {}
+          "lib/net40/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net40/BouncyCastle.Crypto.dll": {}
+          "lib/net40/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Buffers/4.5.1": {
@@ -555,10 +699,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net45/System.Buffers.dll": {}
+          "ref/net45/System.Buffers.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Buffers.dll": {}
+          "lib/net461/System.Buffers.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Memory/4.5.4": {
@@ -573,10 +721,14 @@
           "mscorlib"
         ],
         "compile": {
-          "lib/net461/System.Memory.dll": {}
+          "lib/net461/System.Memory.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Memory.dll": {}
+          "lib/net461/System.Memory.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Numerics.Vectors/4.5.0": {
@@ -586,10 +738,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net46/System.Numerics.Vectors.dll": {}
+          "ref/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net46/System.Numerics.Vectors.dll": {}
+          "lib/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Runtime.CompilerServices.Unsafe/5.0.0": {
@@ -598,10 +754,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/net45/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       }
     }
@@ -903,20 +1063,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {}
+    "C:\\Users\\thnna\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\xampp\\htdocs\\New folder (2)\\ProductStock\\ProductStock.csproj",
+      "projectUniqueName": "E:\\Computer Engineering\\Term IV\\Projects\\ProductStock\\ProductStock\\ProductStock.csproj",
       "projectName": "ProductStock",
-      "projectPath": "C:\\xampp\\htdocs\\New folder (2)\\ProductStock\\ProductStock.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\xampp\\htdocs\\New folder (2)\\ProductStock\\obj\\",
+      "projectPath": "E:\\Computer Engineering\\Term IV\\Projects\\ProductStock\\ProductStock\\ProductStock.csproj",
+      "packagesPath": "C:\\Users\\thnna\\.nuget\\packages\\",
+      "outputPath": "E:\\Computer Engineering\\Term IV\\Projects\\ProductStock\\ProductStock\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\thnna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
