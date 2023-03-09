@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace ProductStock.Views.src
 {
@@ -15,5 +16,13 @@ namespace ProductStock.Views.src
         string ProductColor {get; set; }
         string ProductImage {get; set; }
         int ProductCount { get; set; }
+
+        event EventHandler SearchEvent;
+        event EventHandler AddNewEvent;
+        event EventHandler EditEvent;
+        event EventHandler DeleteEvent;
+
+        void SetPetListBindingSource(BindingSource petList);
+        void Show();
     }
 }

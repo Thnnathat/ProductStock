@@ -4,6 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ProductStock._Repository;
+using ProductStock.Views.src;
+using ProductStock.Models;
 
 namespace ProductStock
 {
@@ -17,7 +20,7 @@ namespace ProductStock
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Index());
+            Application.Run(new Login());
         }
     }
 }

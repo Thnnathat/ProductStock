@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pvM0rnW7YoXcXdJz4XK0m7pmog9r6RGijw3lPkFPzIO22XAb1XU2S1nHxNR+X88z+tdJinO6qqCwf1HTZUkRCg==",
+  "dgSpecHash": "+qam1xMFick1XTLd8B04IRkH9SDP71mM3w29g292i9efYdIlckFHW1SNOpYD7P9zl0AKtFWHkdUdhwXIhDkaxQ==",
   "success": true,
-  "projectFilePath": "E:\\Computer Engineering\\Term IV\\Projects\\ProductStock\\ProductStock\\ProductStock.csproj",
+  "projectFilePath": "E:\\Computer Engineering\\Term IV\\Projects\\ProblemsSolvingLab\\ProductStock\\ProductStock\\ProductStock.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thnna\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\thnna\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",

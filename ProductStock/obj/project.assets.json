@@ -1069,11 +1069,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Computer Engineering\\Term IV\\Projects\\ProductStock\\ProductStock\\ProductStock.csproj",
+      "projectUniqueName": "E:\\Computer Engineering\\Term IV\\Projects\\ProblemsSolvingLab\\ProductStock\\ProductStock\\ProductStock.csproj",
       "projectName": "ProductStock",
-      "projectPath": "E:\\Computer Engineering\\Term IV\\Projects\\ProductStock\\ProductStock\\ProductStock.csproj",
+      "projectPath": "E:\\Computer Engineering\\Term IV\\Projects\\ProblemsSolvingLab\\ProductStock\\ProductStock\\ProductStock.csproj",
       "packagesPath": "C:\\Users\\thnna\\.nuget\\packages\\",
-      "outputPath": "E:\\Computer Engineering\\Term IV\\Projects\\ProductStock\\ProductStock\\obj\\",
+      "outputPath": "E:\\Computer Engineering\\Term IV\\Projects\\ProblemsSolvingLab\\ProductStock\\ProductStock\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using ProductStock.Views;
+using ProductStock.Models;
+using ProductStock._Repository;
 
 namespace ProductStock
 {
@@ -19,44 +22,48 @@ namespace ProductStock
             InitializeComponent();
         }
 
-        private void rjButton1_Click(object sender, EventArgs e)
-        {
 
+        private void loginBtn_Click(object sender, EventArgs e)
+        {
+            loginHandler();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void exitBtn_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
 
-        private void rjTextBox1__TextChanged(object sender, EventArgs e)
+        private void loginHandler()
         {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void Login_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void rjButton1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void rjTextBox2__TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void rjTextBox1__TextChanged_1(object sender, EventArgs e)
-        {
-
+            EmployeeModel AEmp;
+            DBProject db = new DBProject();
+            string EmpID;
+            string Password;
+            EmpID = empIDTextBox.Texts;
+            Password = empPasswordTextBox.Texts;
+            AEmp = db.getAEmpolyee(EmpID, Password);
+            if (AEmp.EmpID != null && AEmp.Password != null)
+            {
+                if (EmpID == AEmp.EmpID && Password == AEmp.Password)
+                {
+                    this.Hide();
+                    Index index = new Index();
+                    index.AEmp = AEmp;
+                    index.Show();
+                }
+                else
+                {
+                    empIDTextBox.Texts = "";
+                    empPasswordTextBox.Texts = "";
+                    MessageBox.Show("Password ไม่ถูกต้อง", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else
+            {
+                empIDTextBox.Texts = "";
+                empPasswordTextBox.Texts = "";
+                MessageBox.Show("ไม่มีข้อมูลพนักงาน", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

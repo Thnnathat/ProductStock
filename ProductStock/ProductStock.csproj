@@ -51,6 +51,7 @@
     <Compile Include="CircularPictureBox.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Models\EmployeeModel.cs" />
     <Compile Include="Models\ProductModel.cs" />
     <Compile Include="Models\ProductRepository.cs" />
     <Compile Include="RJButton.cs">
@@ -107,6 +108,7 @@
     <Compile Include="Views\Stock.Designer.cs">
       <DependentUpon>Stock.cs</DependentUpon>
     </Compile>
+    <Compile Include="_Repository\DBProject.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -183,9 +185,7 @@
   <ItemGroup>
     <None Include="Resources\bg8.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="_Repository\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\business-3d-tech-support 1 %281%29.png" />
   </ItemGroup>
