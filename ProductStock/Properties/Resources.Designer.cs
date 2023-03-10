@@ -133,16 +133,6 @@ namespace ProductStock.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bg8 {
-            get {
-                object obj = ResourceManager.GetObject("bg8", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap business_3d_tech_support_1 {
             get {
                 object obj = ResourceManager.GetObject("business-3d-tech-support 1", resourceCulture);
@@ -166,6 +156,26 @@ namespace ProductStock.Properties {
         internal static System.Drawing.Bitmap f90c088166002941f6e1006b654cef12 {
             get {
                 object obj = ResourceManager.GetObject("f90c088166002941f6e1006b654cef12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Neovim_Logo {
+            get {
+                object obj = ResourceManager.GetObject("Neovim_Logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Terminal_Logo {
+            get {
+                object obj = ResourceManager.GetObject("Terminal_Logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

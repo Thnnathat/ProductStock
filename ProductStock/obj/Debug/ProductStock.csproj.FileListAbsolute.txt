@@ -101,3 +101,8 @@ E:\Computer Engineering\Term IV\Projects\ProblemsSolvingLab\ProductStock\Product
 E:\Computer Engineering\Term IV\Projects\ProblemsSolvingLab\ProductStock\ProductStock\obj\Debug\ProductStock.csproj.CopyComplete
 E:\Computer Engineering\Term IV\Projects\ProblemsSolvingLab\ProductStock\ProductStock\obj\Debug\ProductStock.exe
 E:\Computer Engineering\Term IV\Projects\ProblemsSolvingLab\ProductStock\ProductStock\obj\Debug\ProductStock.pdb
+E:\Computer Engineering\Term IV\Projects\ProblemsSolvingLab\ProductStock\ProductStock\obj\Debug\ProductStock.Views.DevPage.resources
+E:\Computer Engineering\Term IV\Projects\ProblemsSolvingLab\ProductStock\ProductStock\obj\Debug\ProductStock.Views.Compunents.ProductItems.resources
+E:\Computer Engineering\Term IV\Projects\ProblemsSolvingLab\ProductStock\ProductStock\obj\Debug\ProductStock.Views.Compunents.EmployeeItems.resources
+E:\Computer Engineering\Term IV\Projects\ProblemsSolvingLab\ProductStock\ProductStock\obj\Debug\ProductStock.Views.Compunents.EmployeeSubMenu.resources
+E:\Computer Engineering\Term IV\Projects\ProblemsSolvingLab\ProductStock\ProductStock\obj\Debug\ProductStock.Views.Compunents.ProductSubMenu.resources

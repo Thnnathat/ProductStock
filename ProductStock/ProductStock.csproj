@@ -53,7 +53,11 @@
     </Compile>
     <Compile Include="Models\EmployeeModel.cs" />
     <Compile Include="Models\ProductModel.cs" />
-    <Compile Include="Models\ProductRepository.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="RJButton.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -63,11 +67,59 @@
     <Compile Include="RJTextbox.Designer.cs">
       <DependentUpon>RJTextbox.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\Compunents\EmployeeDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Compunents\EmployeeDetail.Designer.cs">
+      <DependentUpon>EmployeeDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Compunents\EmployeeItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Compunents\EmployeeItems.Designer.cs">
+      <DependentUpon>EmployeeItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Compunents\EmployeeSubMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Compunents\EmployeeSubMenu.Designer.cs">
+      <DependentUpon>EmployeeSubMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Compunents\ProdStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Compunents\ProdStock.Designer.cs">
+      <DependentUpon>ProdStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Compunents\ProductDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Compunents\ProductDetail.Designer.cs">
+      <DependentUpon>ProductDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Compunents\ProductItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Compunents\ProductItems.Designer.cs">
+      <DependentUpon>ProductItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Compunents\ProductSubMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Compunents\ProductSubMenu.Designer.cs">
+      <DependentUpon>ProductSubMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\CreateProductPage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Views\CreateProductPage.designer.cs">
       <DependentUpon>CreateProductPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DevPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\DevPage.Designer.cs">
+      <DependentUpon>DevPage.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\EditProductPage.cs">
       <SubType>Form</SubType>
@@ -111,19 +163,29 @@
     <Compile Include="_Repository\DBProject.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="RJTextbox.resx">
       <DependentUpon>RJTextbox.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\Compunents\EmployeeItems.resx">
+      <DependentUpon>EmployeeItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Compunents\EmployeeSubMenu.resx">
+      <DependentUpon>EmployeeSubMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Compunents\ProductItems.resx">
+      <DependentUpon>ProductItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Compunents\ProductSubMenu.resx">
+      <DependentUpon>ProductSubMenu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\CreateProductPage.resx">
       <DependentUpon>CreateProductPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DevPage.resx">
+      <DependentUpon>DevPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\EditProductPage.resx">
       <DependentUpon>EditProductPage.cs</DependentUpon>
@@ -185,12 +247,21 @@
   <ItemGroup>
     <None Include="Resources\bg8.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Resources\EmployeeImage\" />
+    <Folder Include="Resources\icon\" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\business-3d-tech-support 1 %281%29.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\business-3d-tech-support 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Terminal_Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Neovim_Logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

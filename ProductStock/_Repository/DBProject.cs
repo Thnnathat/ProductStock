@@ -1,14 +1,10 @@
 ﻿using MySql.Data.MySqlClient;
-using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+using Org.BouncyCastle.Utilities;
 using ProductStock.Models;
-using System.Collections;
+using System;
 using System.Data;
+using System.Runtime.InteropServices;
+using System.Windows.Forms;
 
 namespace ProductStock._Repository
 {
@@ -16,7 +12,6 @@ namespace ProductStock._Repository
     internal class DBProject
     {
 
-        string[] employee;
         public static MySqlConnection GetConnection()
         {
             string password = "thnnathat";
@@ -40,7 +35,7 @@ namespace ProductStock._Repository
             EmployeeModel AEmp = new EmployeeModel();
             try
             {
-                string sql = "select * from employees where id='"+ EmpID +"';";
+                string sql = "select * from employees where id='" + EmpID + "';";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 MySqlDataReader reader = cmd.ExecuteReader();
                 while (reader.Read())
@@ -51,7 +46,7 @@ namespace ProductStock._Repository
                     AEmp.FirstName = reader.GetString(3);
                     AEmp.LastName = reader.GetString(4);
                     AEmp.Role = reader.GetString(5);
-                    AEmp.Image = reader.GetString(6);
+                    AEmp.Image = reader.GetFieldValue<byte[]>(6);
                 }
 
             }
@@ -61,6 +56,18 @@ namespace ProductStock._Repository
             }
             conn.Close();
             return AEmp;
+        }
+
+        public DataTable prodDisplay(string query)
+        {
+            string sql = query;
+            MySqlConnection conn = GetConnection();
+            MySqlCommand cmd = new MySqlCommand(sql, conn);
+            MySqlDataAdapter adp = new MySqlDataAdapter(cmd);
+            DataTable prodDt = new DataTable();
+            adp.Fill(prodDt);
+            conn.Close();
+            return prodDt;
         }
     }
 }
