@@ -4,61 +4,79 @@ from PIL import Image
 import json
 import os
 from conn import Conn;
-
+import time
 
 def getIkeaData():
-    # Constants like country, language, base url
     constants = ikea_api.Constants(country="us", language="en")
-    # Search API
     search = ikea_api.Search(constants)
-    # Search endpoint with prepared data
-    endpoint = search.search("ALEX", limit=5)
+    endpoint = search.search("ALEX", limit=1000)
     data = ikea_api.run(endpoint)
     return data
 
-def getIkeaImage():
-    url = "https://www.ikea.com/us/en/images/products/alex-drawer-unit-white__0977775_pe813763_s5.jpg";
+def getIkeaImage(url):
     im = Image.open(requests.get(url, stream=True).raw)
     image_name = url.lstrip("https://www.ikea.com/us/en/images/products/")
-    rgb_im = im.convert("RGB")
-    print(image_name)
-    return rgb_im, image_name
+    rgb_img = im.convert("RGB")
+    return rgb_img, image_name
 
-def binary(filename):
-    with open(filename, 'rb') as image:
-        return image.read()
+def readImageBin(image_name):
+        with open("./temp/"+image_name, 'rb') as image:
+            return image.read()
 
-def saveImageBinary(filename):
-    img_bin = binary(filename)
-    f = open("myfile.bin", "x")
-    f.write(img_bin)
-
-def writeDataFile():
-    f = open("./json/TEST.json", "a")
-    f.write(json.dumps(data))
-    f.close()
-
-ikeaData = getIkeaData()
-rgb_img, image_name = getIkeaImage();
-image_name = "./temp/"+image_name
-rgb_img.save(image_name)
-image = binary(image_name)
-os.remove(image_name)
+def convertImageBinary(rgb_img, image_name):
+    try:
+        rgb_img.save("./temp/"+image_name)
+        image = readImageBin(image_name)
+        os.remove("./temp/"+image_name)
+        return image
+    except:
+        return False;
 
 def ikeaCleanData(product):
-    product["searchResultPage"]["products"]["main"]["items"]
-    
-data = ikeaData(getIkeaData())
-def inserDatabase(image):
-    conn = Conn.con();
-    try:
-        mycursor = conn.cursor()
-        sql = "INSERT INTO products(id, name, type_name, price, color, image, count) VALUES(%s,%s,%s,%s,%s,%s,%s)"
-        value = ("1", "mr", "Thnnathat", "Chaiphutha", "admin", image)
-        mycursor.execute(sql, value)
-        conn.commit()
-    except Exception as e:
-        print(e)
-    conn.close();
+    products = []
+    product = product["searchResultPage"]["products"]["main"]["items"]
+    for i in product:
+        temp = []
+        prod_item = i["product"]
+        temp.append(prod_item["id"])
+        temp.append(prod_item["name"])
+        temp.append(prod_item["typeName"])
+        temp.append(prod_item["salesPrice"]["numeral"])
+        color = prod_item["colors"]
+        if (len(color) > 0):
+            temp.append(prod_item["colors"][0])
+        else :
+            temp.append({"name": None, "id": "00000", "hex": "ffffff"})
+        temp.append(prod_item["mainImageUrl"])
+        temp.append("0")
+        products.append(temp)
+    return products
 
-inserDatabase(image=image)
+
+def inserDatabase(data):
+    count = 1
+    for i in data:
+        conn = Conn.con();
+        rgb_img, image_name = getIkeaImage(i[5]);
+        image = convertImageBinary(rgb_img, image_name)
+        if (image):
+            pass
+        else:
+            image = readImageBin("image-gdc9f050a2_640.png") # default image.
+        try:
+            mycursor = conn.cursor()
+            sql = "INSERT INTO products(id, name, type_name, price, color, color_hex, image, product_count) VALUES(%s,%s,%s,%s,%s,%s,%s,%s)"
+            value = (i[0], i[1], i[2], i[3], i[4]["name"], i[4]["hex"], image, '0')
+            mycursor.execute(sql, value)
+            conn.commit()
+            print(count)
+            count += 1
+        except Exception as e:
+            print(e)
+        conn.close();
+        time.sleep(0.1)
+
+if __name__ == "__main__":
+    ikeaData = getIkeaData()
+    data = ikeaCleanData(ikeaData)
+    inserDatabase(data)
