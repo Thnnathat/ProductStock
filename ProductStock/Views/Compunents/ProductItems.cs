@@ -20,7 +20,7 @@ namespace ProductStock.Views.Compunents
 
         private void OnLoadProductItems(object sender, EventArgs e)
         {
-
+            showProdTable();
         }
 
         private void showProdTable()
@@ -28,7 +28,7 @@ namespace ProductStock.Views.Compunents
             try
             {
                 DBProject db = new DBProject();
-                string query = "SELECT * FROM products";
+                string query = "SELECT id, name, type_name, price, color, color_hex, product_count FROM products";
                 DataTable dt = db.prodDisplay(query);
                 if (dt != null)
                 {
@@ -49,7 +49,7 @@ namespace ProductStock.Views.Compunents
         {
             DBProject db = new DBProject();
             string search = (searchProdText.Texts).Trim();
-            string query = "SELECT * FROM products WHERE id LIKE '%" + search + "%' OR name LIKE '%" + search + "%' OR type_name LIKE '%" + search + "%' OR price LIKE '%" + search + "%' OR color LIKE '%" + search + "%'";
+            string query = "SELECT id, name, type_name, price, color, color_hex, product_count FROM products WHERE id LIKE '%" + search + "%' OR name LIKE '%" + search + "%' OR type_name LIKE '%" + search + "%' OR price LIKE '%" + search + "%' OR color LIKE '%" + search + "%'";
             DataTable dt = db.prodDisplay(query);
             if (dt != null)
             {

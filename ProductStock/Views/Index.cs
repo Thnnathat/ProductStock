@@ -12,6 +12,7 @@ using System.Windows.Forms;
 using ProductStock._Repository;
 using ProductStock.Models;
 using ProductStock.Views.Compunents;
+using ProductStock.Modules;
 namespace ProductStock.Views
 {
     public partial class Index : Form
@@ -93,18 +94,9 @@ namespace ProductStock.Views
             empID.Text = AEmp.EmpID;
             empRole.Text = AEmp.Role;
             empName.Text = AEmp.Prefix + ". " + AEmp.FirstName + " " + AEmp.LastName;
-            byte[] img = (byte[])AEmp.Image;
-            personCircularPictureBox.Image = ByteToImage(img);
-        }
 
-        private Bitmap ByteToImage(byte[] blob)
-        {
-            MemoryStream mStream = new MemoryStream();
-            byte[] pData = blob;
-            mStream.Write(pData, 0, Convert.ToInt32(pData.Length));
-            Bitmap bm = new Bitmap(mStream, false);
-            mStream.Dispose();
-            return bm;
+            ImageBinaryConverter img = new ImageBinaryConverter();
+            personCircularPictureBox.Image = img.ByteToImage(AEmp.Image);
         }
 
         private void logoutBtn_Click(object sender, EventArgs e)
