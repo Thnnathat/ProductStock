@@ -68,6 +68,12 @@
     <Compile Include="RJTextbox.Designer.cs">
       <DependentUpon>RJTextbox.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\Compunents\AddStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Compunents\AddStock.Designer.cs">
+      <DependentUpon>AddStock.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Compunents\EmployeeDetail.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +91,18 @@
     </Compile>
     <Compile Include="Views\Compunents\EmployeeSubMenu.Designer.cs">
       <DependentUpon>EmployeeSubMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Compunents\InStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Compunents\InStock.Designer.cs">
+      <DependentUpon>InStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Compunents\OutStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Compunents\OutStock.Designer.cs">
+      <DependentUpon>OutStock.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Compunents\ProdStock.cs">
       <SubType>Form</SubType>
@@ -170,6 +188,9 @@
     <EmbeddedResource Include="RJTextbox.resx">
       <DependentUpon>RJTextbox.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\Compunents\AddStock.resx">
+      <DependentUpon>AddStock.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\Compunents\EmployeeDetail.resx">
       <DependentUpon>EmployeeDetail.cs</DependentUpon>
     </EmbeddedResource>
@@ -178,6 +199,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Compunents\EmployeeSubMenu.resx">
       <DependentUpon>EmployeeSubMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Compunents\InStock.resx">
+      <DependentUpon>InStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Compunents\OutStock.resx">
+      <DependentUpon>OutStock.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Compunents\ProdStock.resx">
       <DependentUpon>ProdStock.cs</DependentUpon>

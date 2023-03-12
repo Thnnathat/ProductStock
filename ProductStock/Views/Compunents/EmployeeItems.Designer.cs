@@ -35,6 +35,7 @@
             this.count = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.addEmpBtn = new CustomControls.RJControls.RJButton();
             this.searchProdText = new CustomControls.RJControls.RJTextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.empDataGridView = new System.Windows.Forms.DataGridView();
@@ -46,7 +47,6 @@
             this.role = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1 = new System.Windows.Forms.Panel();
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.addEmpBtn = new CustomControls.RJControls.RJButton();
             this.panel4.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.empDataGridView)).BeginInit();
@@ -112,6 +112,27 @@
             this.panel4.Size = new System.Drawing.Size(856, 59);
             this.panel4.TabIndex = 3;
             // 
+            // addEmpBtn
+            // 
+            this.addEmpBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.addEmpBtn.BackColor = System.Drawing.Color.Orange;
+            this.addEmpBtn.BackgroundColor = System.Drawing.Color.Orange;
+            this.addEmpBtn.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.addEmpBtn.BorderRadius = 0;
+            this.addEmpBtn.BorderSize = 0;
+            this.addEmpBtn.FlatAppearance.BorderSize = 0;
+            this.addEmpBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.addEmpBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addEmpBtn.ForeColor = System.Drawing.Color.White;
+            this.addEmpBtn.Location = new System.Drawing.Point(664, 10);
+            this.addEmpBtn.Name = "addEmpBtn";
+            this.addEmpBtn.Size = new System.Drawing.Size(150, 40);
+            this.addEmpBtn.TabIndex = 3;
+            this.addEmpBtn.Text = "Add Employee";
+            this.addEmpBtn.TextColor = System.Drawing.Color.White;
+            this.addEmpBtn.UseVisualStyleBackColor = false;
+            this.addEmpBtn.Click += new System.EventHandler(this.addEmpBtn_Click);
+            // 
             // searchProdText
             // 
             this.searchProdText.BackColor = System.Drawing.SystemColors.Window;
@@ -133,7 +154,7 @@
             this.searchProdText.TabIndex = 0;
             this.searchProdText.Texts = "";
             this.searchProdText.UnderlinedStyle = false;
-            this.searchProdText.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.searchProdKeyPress);
+            this.searchProdText._TextChanged += new System.EventHandler(this.searchEmpChange);
             // 
             // panel2
             // 
@@ -220,27 +241,6 @@
             this.id.DataPropertyName = "id";
             this.id.HeaderText = "Product ID";
             this.id.Name = "id";
-            // 
-            // addEmpBtn
-            // 
-            this.addEmpBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.addEmpBtn.BackColor = System.Drawing.Color.Orange;
-            this.addEmpBtn.BackgroundColor = System.Drawing.Color.Orange;
-            this.addEmpBtn.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.addEmpBtn.BorderRadius = 0;
-            this.addEmpBtn.BorderSize = 0;
-            this.addEmpBtn.FlatAppearance.BorderSize = 0;
-            this.addEmpBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addEmpBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addEmpBtn.ForeColor = System.Drawing.Color.White;
-            this.addEmpBtn.Location = new System.Drawing.Point(664, 10);
-            this.addEmpBtn.Name = "addEmpBtn";
-            this.addEmpBtn.Size = new System.Drawing.Size(150, 40);
-            this.addEmpBtn.TabIndex = 3;
-            this.addEmpBtn.Text = "Add Employee";
-            this.addEmpBtn.TextColor = System.Drawing.Color.White;
-            this.addEmpBtn.UseVisualStyleBackColor = false;
-            this.addEmpBtn.Click += new System.EventHandler(this.addEmpBtn_Click);
             // 
             // EmployeeItems
             // 

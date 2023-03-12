@@ -208,7 +208,7 @@
             this.searchProdText.BorderSize = 2;
             this.searchProdText.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchProdText.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.searchProdText.Location = new System.Drawing.Point(193, 13);
+            this.searchProdText.Location = new System.Drawing.Point(273, 13);
             this.searchProdText.Margin = new System.Windows.Forms.Padding(4);
             this.searchProdText.Multiline = false;
             this.searchProdText.Name = "searchProdText";
@@ -216,11 +216,11 @@
             this.searchProdText.PasswordChar = false;
             this.searchProdText.PlaceholderColor = System.Drawing.Color.DarkGray;
             this.searchProdText.PlaceholderText = "";
-            this.searchProdText.Size = new System.Drawing.Size(402, 31);
+            this.searchProdText.Size = new System.Drawing.Size(322, 31);
             this.searchProdText.TabIndex = 0;
             this.searchProdText.Texts = "";
             this.searchProdText.UnderlinedStyle = false;
-            this.searchProdText.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.searchProdKeyPress);
+            this.searchProdText._TextChanged += new System.EventHandler(this.searchProdChange);
             // 
             // count
             // 

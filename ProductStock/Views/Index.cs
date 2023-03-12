@@ -120,12 +120,12 @@ namespace ProductStock.Views
 
         private void productMenuBtn_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ProductSubMenu(), sender);
+            OpenChildForm(new ProductItems(), sender);
         }
 
         private void employeeMenuBtn_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new EmployeeSubMenu(), sender);
+            OpenChildForm(new EmployeeItems(), sender);
         }
     }
 }

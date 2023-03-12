@@ -26,7 +26,7 @@ namespace ProductStock.Views.Compunents
         EmployeeModel AEmp;
         public string empId;
         public string mode;
-        EmployeeItems obj = (EmployeeItems)Application.OpenForms["EmployeeItems"];
+        EmployeeItems obj2 = (EmployeeItems)Application.OpenForms["EmployeeItems"];
 
         public EmployeeDetail()
         {
@@ -79,7 +79,7 @@ namespace ProductStock.Views.Compunents
 
         private void reloadEmpList()
         {
-            obj.reloadData();
+            obj2.reloadData();
             dgv.Update();
             dgv.Refresh();
             this.Close();

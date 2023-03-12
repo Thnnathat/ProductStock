@@ -44,12 +44,7 @@ namespace ProductStock.Views.Compunents
             }
         }
 
-        private void searchProdKeyPress(object sender, KeyPressEventArgs e)
-        {
-            searchProdTable();
-        }
-
-        private void searchProdTable()
+        private void searchEmpTable()
         {
             DBProject db = new DBProject();
             string search = (searchProdText.Texts).Trim();
@@ -98,6 +93,11 @@ namespace ProductStock.Views.Compunents
             empDetail.btnName = addEmpBtn.Name;
             empDetail.dgv = empDataGridView; 
             empDetail.Show();
+        }
+
+        private void searchEmpChange(object sender, EventArgs e)
+        {
+            searchEmpTable();
         }
     }
 }

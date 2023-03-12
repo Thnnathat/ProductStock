@@ -30,8 +30,9 @@ namespace ProductStock.Views.Compunents
         {
             try
             {
+                string query;
                 DBProject db = new DBProject();
-                string query = "SELECT * FROM products";
+                query = "SELECT * FROM products";
                 DataTable dt = db.displayData(query);
                 if (dt != null)
                 {
@@ -41,11 +42,6 @@ namespace ProductStock.Views.Compunents
             catch
             {
             }
-        }
-
-        private void searchProdKeyPress(object sender, KeyPressEventArgs e)
-        {
-            searchProdTable();
         }
 
         private void searchProdTable()
@@ -88,6 +84,11 @@ namespace ProductStock.Views.Compunents
             activeForm = prodDetail;
             prodDetail.btnName = addProdBtn.Name;
             prodDetail.Show();
+        }
+
+        private void searchProdChange(object sender, EventArgs e)
+        {
+            searchProdTable();
         }
     }
 }

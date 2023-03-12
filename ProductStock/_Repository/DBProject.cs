@@ -6,9 +6,10 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Runtime.InteropServices;
+using System.Threading;
 using System.Windows.Forms;
 using System.Xml.Linq;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace ProductStock._Repository
 {
@@ -188,6 +189,90 @@ namespace ProductStock._Repository
             {
                 conn.Close();
                 return false;
+            }
+        }
+
+        public bool addProdStock(string sql, string prodId, int count)
+        {
+            MySqlConnection conn = GetConnection();
+            try
+            {
+                for (int i = 0; i < count; i++)
+                {
+                    MySqlCommand cmd = new MySqlCommand(sql, conn);
+                    cmd.Parameters.Add("@id", MySqlDbType.VarChar, 255);
+                    cmd.Parameters["@id"].Value = prodId;
+                    cmd.ExecuteNonQuery();
+                }
+                conn.Close();
+                return true;
+            }
+            catch
+            {
+                conn.Close();
+                return false;
+            }
+        }
+
+        public bool transferProdStock(string sql, string prodId, string stock_id)
+        {
+            MySqlConnection conn = GetConnection();
+            try
+            {
+                MySqlCommand cmd = new MySqlCommand(sql, conn);
+                cmd.Parameters.Add("@id", MySqlDbType.VarChar, 255);
+                cmd.Parameters.Add("@stock_id", MySqlDbType.VarChar, 255);
+                cmd.Parameters["@id"].Value = prodId;
+                cmd.Parameters["@stock_id"].Value = stock_id;
+                cmd.ExecuteNonQuery();
+                conn.Close();
+                return true;
+            }
+            catch
+            {
+                conn.Close();
+                return false;
+            }
+        }
+
+        public bool removeStock(string query)
+        {
+            MySqlConnection conn = GetConnection();
+            try
+            {
+                string sql = query;
+                MySqlCommand cmd = new MySqlCommand(sql, conn);
+                cmd.ExecuteNonQuery();
+                conn.Close();
+                return true;
+            }
+            catch
+            {
+                conn.Close();
+                return false;
+            }
+        }
+
+        public string[] getInStock(string sql)
+        {
+            MySqlConnection conn = GetConnection();
+            if (conn != null)
+            {
+                MySqlCommand cmd = new MySqlCommand(sql, conn);
+                MySqlDataAdapter adp = new MySqlDataAdapter(cmd);
+                DataTable prodDt = new DataTable();
+                adp.Fill(prodDt);
+                int count = prodDt.Rows.Count;
+                string[] stock_id = new string[count];
+                for (int i = 0; i < count; i++)
+                {
+                    stock_id[i] = prodDt.Rows[i][0].ToString();
+                }
+                return stock_id;
+            }
+            else
+            {
+                return null;
             }
         }
     }

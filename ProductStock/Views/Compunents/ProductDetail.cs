@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -29,6 +30,7 @@ namespace ProductStock.Views.Compunents
         {
             InitializeComponent();
             disableAllTextBox();
+            stockBtn.Visible = true;
         }
 
         private void disableAllTextBox()
@@ -61,6 +63,7 @@ namespace ProductStock.Views.Compunents
             disableAllTextBox();
         }
 
+        // ตอนนี้ edit ไม่ได้ เนื่องจาก inStock กับ outStock อ้างอิงค์ถึง product อยู่
         private void enableEditMode()
         {
             mode = "editMode";
@@ -68,6 +71,8 @@ namespace ProductStock.Views.Compunents
             editModePanel.Visible = true;
             selectImageBtn.Visible = true;
             enableAllTextBox();
+            prodCountTextBox.Enabled = false;
+            prodCountTextBox.Texts = "0"; // ต้องทำ Product Count ติดไว้
         }
 
         private void addProdMode()
@@ -80,6 +85,10 @@ namespace ProductStock.Views.Compunents
             cancelEditBtn.Visible = false;
             editProdBtn.Visible = false;
             selectImageBtn.Visible = true;
+            stockBtn.Visible = false;
+            prodCountTextBox.Visible = false;
+            prodCountTextBox.Texts = "0"; // ต้องทำ Product Count
+            countLabel.Visible = false;
         }
 
         private void OnProductDetailLoad(object sender, EventArgs e)
@@ -223,6 +232,13 @@ namespace ProductStock.Views.Compunents
                 Bitmap imgBitmap = new Bitmap(imagePathUpload);
                 prodPictureBox.Image = imgBitmap;
             }
+        }
+
+        private void stockBtn_Click(object sender, EventArgs e)
+        {
+            ProdStock prodStock = new ProdStock();
+            prodStock.prodModel = prodModel;
+            prodStock.Show();
         }
     }
 }

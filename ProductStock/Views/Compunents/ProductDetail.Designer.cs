@@ -39,6 +39,14 @@
             this.editProdBtn = new CustomControls.RJControls.RJButton();
             this.removeProdBtn = new CustomControls.RJControls.RJButton();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.stockBtn = new CustomControls.RJControls.RJButton();
+            this.countLabel = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.editModePanel = new System.Windows.Forms.Panel();
             this.saveEditBtn = new CustomControls.RJControls.RJButton();
             this.cancelEditBtn = new CustomControls.RJControls.RJButton();
@@ -209,6 +217,14 @@
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.stockBtn);
+            this.panel3.Controls.Add(this.countLabel);
+            this.panel3.Controls.Add(this.label7);
+            this.panel3.Controls.Add(this.label6);
+            this.panel3.Controls.Add(this.label5);
+            this.panel3.Controls.Add(this.label4);
+            this.panel3.Controls.Add(this.label3);
+            this.panel3.Controls.Add(this.label2);
             this.panel3.Controls.Add(this.editModePanel);
             this.panel3.Controls.Add(this.colorHexPanel);
             this.panel3.Controls.Add(this.prodCountTextBox);
@@ -223,6 +239,89 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(440, 594);
             this.panel3.TabIndex = 0;
+            // 
+            // stockBtn
+            // 
+            this.stockBtn.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.stockBtn.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.stockBtn.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.stockBtn.BorderRadius = 0;
+            this.stockBtn.BorderSize = 0;
+            this.stockBtn.FlatAppearance.BorderSize = 0;
+            this.stockBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.stockBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stockBtn.ForeColor = System.Drawing.Color.White;
+            this.stockBtn.Location = new System.Drawing.Point(133, 414);
+            this.stockBtn.Name = "stockBtn";
+            this.stockBtn.Size = new System.Drawing.Size(150, 40);
+            this.stockBtn.TabIndex = 4;
+            this.stockBtn.Text = "Stock";
+            this.stockBtn.TextColor = System.Drawing.Color.White;
+            this.stockBtn.UseVisualStyleBackColor = false;
+            this.stockBtn.Click += new System.EventHandler(this.stockBtn_Click);
+            // 
+            // countLabel
+            // 
+            this.countLabel.AutoSize = true;
+            this.countLabel.Location = new System.Drawing.Point(72, 362);
+            this.countLabel.Name = "countLabel";
+            this.countLabel.Size = new System.Drawing.Size(35, 13);
+            this.countLabel.TabIndex = 14;
+            this.countLabel.Text = "Count";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(72, 304);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(31, 13);
+            this.label7.TabIndex = 13;
+            this.label7.Text = "Color";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(58, 234);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(62, 13);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "Color Name";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(58, 194);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(31, 13);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "Price";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(55, 137);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(60, 13);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "Type name";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(58, 88);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Name";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(49, 29);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(56, 13);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "Product Id";
             // 
             // editModePanel
             // 
@@ -276,7 +375,7 @@
             // 
             // colorHexPanel
             // 
-            this.colorHexPanel.Location = new System.Drawing.Point(190, 289);
+            this.colorHexPanel.Location = new System.Drawing.Point(294, 286);
             this.colorHexPanel.Name = "colorHexPanel";
             this.colorHexPanel.Size = new System.Drawing.Size(109, 31);
             this.colorHexPanel.TabIndex = 7;
@@ -290,7 +389,7 @@
             this.prodCountTextBox.BorderSize = 2;
             this.prodCountTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.prodCountTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.prodCountTextBox.Location = new System.Drawing.Point(29, 347);
+            this.prodCountTextBox.Location = new System.Drawing.Point(133, 344);
             this.prodCountTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.prodCountTextBox.Multiline = false;
             this.prodCountTextBox.Name = "prodCountTextBox";
@@ -312,7 +411,7 @@
             this.prodColorHexTextBox.BorderSize = 2;
             this.prodColorHexTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.prodColorHexTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.prodColorHexTextBox.Location = new System.Drawing.Point(29, 289);
+            this.prodColorHexTextBox.Location = new System.Drawing.Point(133, 286);
             this.prodColorHexTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.prodColorHexTextBox.Multiline = false;
             this.prodColorHexTextBox.Name = "prodColorHexTextBox";
@@ -334,7 +433,7 @@
             this.prodColorTextBox.BorderSize = 2;
             this.prodColorTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.prodColorTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.prodColorTextBox.Location = new System.Drawing.Point(29, 237);
+            this.prodColorTextBox.Location = new System.Drawing.Point(133, 234);
             this.prodColorTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.prodColorTextBox.Multiline = false;
             this.prodColorTextBox.Name = "prodColorTextBox";
@@ -356,7 +455,7 @@
             this.prodPriceTextBox.BorderSize = 2;
             this.prodPriceTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.prodPriceTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.prodPriceTextBox.Location = new System.Drawing.Point(29, 179);
+            this.prodPriceTextBox.Location = new System.Drawing.Point(133, 176);
             this.prodPriceTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.prodPriceTextBox.Multiline = false;
             this.prodPriceTextBox.Name = "prodPriceTextBox";
@@ -378,7 +477,7 @@
             this.prodTypeNameTextBox.BorderSize = 2;
             this.prodTypeNameTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.prodTypeNameTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.prodTypeNameTextBox.Location = new System.Drawing.Point(29, 130);
+            this.prodTypeNameTextBox.Location = new System.Drawing.Point(133, 127);
             this.prodTypeNameTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.prodTypeNameTextBox.Multiline = false;
             this.prodTypeNameTextBox.Name = "prodTypeNameTextBox";
@@ -400,7 +499,7 @@
             this.prodNameTextBox.BorderSize = 2;
             this.prodNameTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.prodNameTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.prodNameTextBox.Location = new System.Drawing.Point(29, 73);
+            this.prodNameTextBox.Location = new System.Drawing.Point(133, 70);
             this.prodNameTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.prodNameTextBox.Multiline = false;
             this.prodNameTextBox.Name = "prodNameTextBox";
@@ -422,7 +521,7 @@
             this.prodIdTextBox.BorderSize = 2;
             this.prodIdTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.prodIdTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.prodIdTextBox.Location = new System.Drawing.Point(29, 23);
+            this.prodIdTextBox.Location = new System.Drawing.Point(133, 20);
             this.prodIdTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.prodIdTextBox.Multiline = false;
             this.prodIdTextBox.Name = "prodIdTextBox";
@@ -475,6 +574,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.prodPictureBox)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.editModePanel.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
@@ -508,5 +608,13 @@
         private CustomControls.RJControls.RJButton cancelEditBtn;
         private CustomControls.RJControls.RJButton backBtn;
         private CustomControls.RJControls.RJButton selectImageBtn;
+        private System.Windows.Forms.Label countLabel;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private CustomControls.RJControls.RJButton stockBtn;
     }
 }
