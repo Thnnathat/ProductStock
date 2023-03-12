@@ -83,7 +83,6 @@ namespace ProductStock.Views
         {
             if (AEmp.Role != "admin")
             {
-                employeeGroupBox.Enabled = false;
                 employeeMenuBtn.Visible = false;
                 employeeMenuBtn.Enabled = false;
             }

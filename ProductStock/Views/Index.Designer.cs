@@ -30,40 +30,26 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.personCircularPictureBox = new ProductStock.CircularPictureBox();
             this.empName = new System.Windows.Forms.Label();
             this.empRole = new System.Windows.Forms.Label();
             this.empID = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.logoutBtn = new CustomControls.RJControls.RJButton();
             this.panel2 = new System.Windows.Forms.Panel();
             this.indexContentPannel = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.employeeGroupBox = new System.Windows.Forms.GroupBox();
-            this.rjButton3 = new CustomControls.RJControls.RJButton();
-            this.rjButton2 = new CustomControls.RJControls.RJButton();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.productGroupBox = new System.Windows.Forms.GroupBox();
-            this.stockBtn = new CustomControls.RJControls.RJButton();
-            this.rjButton1 = new CustomControls.RJControls.RJButton();
             this.indexMenuPannel = new System.Windows.Forms.Panel();
             this.employeeMenuBtn = new System.Windows.Forms.Button();
             this.productMenuBtn = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.personCircularPictureBox = new ProductStock.CircularPictureBox();
+            this.logoutBtn = new CustomControls.RJControls.RJButton();
             this.panel1.SuspendLayout();
             this.panel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.personCircularPictureBox)).BeginInit();
             this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel7.SuspendLayout();
-            this.employeeGroupBox.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.productGroupBox.SuspendLayout();
             this.indexMenuPannel.SuspendLayout();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.personCircularPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -91,16 +77,6 @@
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(1095, 57);
             this.panel9.TabIndex = 6;
-            // 
-            // personCircularPictureBox
-            // 
-            this.personCircularPictureBox.Image = global::ProductStock.Properties.Resources.Neovim_Logo;
-            this.personCircularPictureBox.Location = new System.Drawing.Point(20, 6);
-            this.personCircularPictureBox.Name = "personCircularPictureBox";
-            this.personCircularPictureBox.Size = new System.Drawing.Size(46, 46);
-            this.personCircularPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.personCircularPictureBox.TabIndex = 1;
-            this.personCircularPictureBox.TabStop = false;
             // 
             // empName
             // 
@@ -168,31 +144,9 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Employee ID:";
             // 
-            // logoutBtn
-            // 
-            this.logoutBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.logoutBtn.BackColor = System.Drawing.Color.DarkRed;
-            this.logoutBtn.BackgroundColor = System.Drawing.Color.DarkRed;
-            this.logoutBtn.BorderColor = System.Drawing.Color.White;
-            this.logoutBtn.BorderRadius = 5;
-            this.logoutBtn.BorderSize = 0;
-            this.logoutBtn.FlatAppearance.BorderSize = 0;
-            this.logoutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.logoutBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.logoutBtn.ForeColor = System.Drawing.Color.White;
-            this.logoutBtn.Location = new System.Drawing.Point(1099, 4);
-            this.logoutBtn.Name = "logoutBtn";
-            this.logoutBtn.Size = new System.Drawing.Size(168, 40);
-            this.logoutBtn.TabIndex = 4;
-            this.logoutBtn.Text = "Logout";
-            this.logoutBtn.TextColor = System.Drawing.Color.White;
-            this.logoutBtn.UseVisualStyleBackColor = false;
-            this.logoutBtn.Click += new System.EventHandler(this.logoutBtn_Click);
-            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.indexContentPannel);
-            this.panel2.Controls.Add(this.panel3);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 43);
             this.panel2.Name = "panel2";
@@ -205,136 +159,8 @@
             this.indexContentPannel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.indexContentPannel.Location = new System.Drawing.Point(0, 0);
             this.indexContentPannel.Name = "indexContentPannel";
-            this.indexContentPannel.Size = new System.Drawing.Size(1048, 625);
+            this.indexContentPannel.Size = new System.Drawing.Size(1283, 625);
             this.indexContentPannel.TabIndex = 2;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.panel3.Controls.Add(this.panel7);
-            this.panel3.Controls.Add(this.panel6);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel3.Location = new System.Drawing.Point(1048, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(235, 625);
-            this.panel3.TabIndex = 0;
-            // 
-            // panel7
-            // 
-            this.panel7.AutoSize = true;
-            this.panel7.Controls.Add(this.employeeGroupBox);
-            this.panel7.Location = new System.Drawing.Point(12, 222);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(200, 229);
-            this.panel7.TabIndex = 1;
-            // 
-            // employeeGroupBox
-            // 
-            this.employeeGroupBox.AutoSize = true;
-            this.employeeGroupBox.Controls.Add(this.rjButton3);
-            this.employeeGroupBox.Controls.Add(this.rjButton2);
-            this.employeeGroupBox.Location = new System.Drawing.Point(3, 18);
-            this.employeeGroupBox.Name = "employeeGroupBox";
-            this.employeeGroupBox.Size = new System.Drawing.Size(194, 188);
-            this.employeeGroupBox.TabIndex = 0;
-            this.employeeGroupBox.TabStop = false;
-            this.employeeGroupBox.Text = "Employee Menu";
-            // 
-            // rjButton3
-            // 
-            this.rjButton3.BackColor = System.Drawing.Color.DodgerBlue;
-            this.rjButton3.BackgroundColor = System.Drawing.Color.DodgerBlue;
-            this.rjButton3.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton3.BorderRadius = 0;
-            this.rjButton3.BorderSize = 0;
-            this.rjButton3.FlatAppearance.BorderSize = 0;
-            this.rjButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjButton3.ForeColor = System.Drawing.Color.White;
-            this.rjButton3.Location = new System.Drawing.Point(12, 116);
-            this.rjButton3.Name = "rjButton3";
-            this.rjButton3.Size = new System.Drawing.Size(168, 40);
-            this.rjButton3.TabIndex = 5;
-            this.rjButton3.Text = "Employees";
-            this.rjButton3.TextColor = System.Drawing.Color.White;
-            this.rjButton3.UseVisualStyleBackColor = false;
-            // 
-            // rjButton2
-            // 
-            this.rjButton2.BackColor = System.Drawing.Color.Green;
-            this.rjButton2.BackgroundColor = System.Drawing.Color.Green;
-            this.rjButton2.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton2.BorderRadius = 0;
-            this.rjButton2.BorderSize = 0;
-            this.rjButton2.FlatAppearance.BorderSize = 0;
-            this.rjButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjButton2.ForeColor = System.Drawing.Color.White;
-            this.rjButton2.Location = new System.Drawing.Point(12, 49);
-            this.rjButton2.Name = "rjButton2";
-            this.rjButton2.Size = new System.Drawing.Size(168, 40);
-            this.rjButton2.TabIndex = 4;
-            this.rjButton2.Text = "Add";
-            this.rjButton2.TextColor = System.Drawing.Color.White;
-            this.rjButton2.UseVisualStyleBackColor = false;
-            // 
-            // panel6
-            // 
-            this.panel6.Controls.Add(this.productGroupBox);
-            this.panel6.Location = new System.Drawing.Point(12, 0);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(200, 216);
-            this.panel6.TabIndex = 0;
-            // 
-            // productGroupBox
-            // 
-            this.productGroupBox.Controls.Add(this.stockBtn);
-            this.productGroupBox.Controls.Add(this.rjButton1);
-            this.productGroupBox.Location = new System.Drawing.Point(3, 16);
-            this.productGroupBox.Name = "productGroupBox";
-            this.productGroupBox.Size = new System.Drawing.Size(194, 175);
-            this.productGroupBox.TabIndex = 0;
-            this.productGroupBox.TabStop = false;
-            this.productGroupBox.Text = "Product Menu";
-            // 
-            // stockBtn
-            // 
-            this.stockBtn.BackColor = System.Drawing.Color.DodgerBlue;
-            this.stockBtn.BackgroundColor = System.Drawing.Color.DodgerBlue;
-            this.stockBtn.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.stockBtn.BorderRadius = 0;
-            this.stockBtn.BorderSize = 0;
-            this.stockBtn.FlatAppearance.BorderSize = 0;
-            this.stockBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.stockBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stockBtn.ForeColor = System.Drawing.Color.White;
-            this.stockBtn.Location = new System.Drawing.Point(12, 110);
-            this.stockBtn.Name = "stockBtn";
-            this.stockBtn.Size = new System.Drawing.Size(168, 40);
-            this.stockBtn.TabIndex = 3;
-            this.stockBtn.Text = "Stock";
-            this.stockBtn.TextColor = System.Drawing.Color.White;
-            this.stockBtn.UseVisualStyleBackColor = false;
-            this.stockBtn.Click += new System.EventHandler(this.stockBtn_Click);
-            // 
-            // rjButton1
-            // 
-            this.rjButton1.BackColor = System.Drawing.Color.Green;
-            this.rjButton1.BackgroundColor = System.Drawing.Color.Green;
-            this.rjButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton1.BorderRadius = 0;
-            this.rjButton1.BorderSize = 0;
-            this.rjButton1.FlatAppearance.BorderSize = 0;
-            this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjButton1.ForeColor = System.Drawing.Color.White;
-            this.rjButton1.Location = new System.Drawing.Point(12, 40);
-            this.rjButton1.Name = "rjButton1";
-            this.rjButton1.Size = new System.Drawing.Size(168, 40);
-            this.rjButton1.TabIndex = 0;
-            this.rjButton1.Text = "Add";
-            this.rjButton1.TextColor = System.Drawing.Color.White;
-            this.rjButton1.UseVisualStyleBackColor = false;
             // 
             // indexMenuPannel
             // 
@@ -393,6 +219,37 @@
             this.panel4.Size = new System.Drawing.Size(1283, 668);
             this.panel4.TabIndex = 3;
             // 
+            // personCircularPictureBox
+            // 
+            this.personCircularPictureBox.Image = global::ProductStock.Properties.Resources.Neovim_Logo;
+            this.personCircularPictureBox.Location = new System.Drawing.Point(20, 6);
+            this.personCircularPictureBox.Name = "personCircularPictureBox";
+            this.personCircularPictureBox.Size = new System.Drawing.Size(46, 46);
+            this.personCircularPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.personCircularPictureBox.TabIndex = 1;
+            this.personCircularPictureBox.TabStop = false;
+            // 
+            // logoutBtn
+            // 
+            this.logoutBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.logoutBtn.BackColor = System.Drawing.Color.DarkRed;
+            this.logoutBtn.BackgroundColor = System.Drawing.Color.DarkRed;
+            this.logoutBtn.BorderColor = System.Drawing.Color.White;
+            this.logoutBtn.BorderRadius = 5;
+            this.logoutBtn.BorderSize = 0;
+            this.logoutBtn.FlatAppearance.BorderSize = 0;
+            this.logoutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.logoutBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logoutBtn.ForeColor = System.Drawing.Color.White;
+            this.logoutBtn.Location = new System.Drawing.Point(1099, 4);
+            this.logoutBtn.Name = "logoutBtn";
+            this.logoutBtn.Size = new System.Drawing.Size(168, 40);
+            this.logoutBtn.TabIndex = 4;
+            this.logoutBtn.Text = "Logout";
+            this.logoutBtn.TextColor = System.Drawing.Color.White;
+            this.logoutBtn.UseVisualStyleBackColor = false;
+            this.logoutBtn.Click += new System.EventHandler(this.logoutBtn_Click);
+            // 
             // Index
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -408,17 +265,10 @@
             this.panel1.ResumeLayout(false);
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.personCircularPictureBox)).EndInit();
             this.panel2.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
-            this.employeeGroupBox.ResumeLayout(false);
-            this.panel6.ResumeLayout(false);
-            this.productGroupBox.ResumeLayout(false);
             this.indexMenuPannel.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.personCircularPictureBox)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -427,14 +277,7 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel indexContentPannel;
-        private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.GroupBox employeeGroupBox;
-        private System.Windows.Forms.GroupBox productGroupBox;
-        private CustomControls.RJControls.RJButton rjButton1;
-        private CustomControls.RJControls.RJButton stockBtn;
         private CustomControls.RJControls.RJButton logoutBtn;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Label label4;
@@ -444,8 +287,6 @@
         private System.Windows.Forms.Label empRole;
         private System.Windows.Forms.Label empID;
         private CircularPictureBox personCircularPictureBox;
-        private CustomControls.RJControls.RJButton rjButton3;
-        private CustomControls.RJControls.RJButton rjButton2;
         private System.Windows.Forms.Panel indexMenuPannel;
         private System.Windows.Forms.Button productMenuBtn;
         private System.Windows.Forms.Button employeeMenuBtn;

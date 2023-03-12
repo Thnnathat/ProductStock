@@ -53,7 +53,6 @@ namespace ProductStock._Repository
                     AEmp.Image = reader.GetFieldValue<byte[]>(6);
                     AEmp.DateTime = reader.GetString(7);
                 }
-
             }
             catch (Exception e)
             {
@@ -111,7 +110,7 @@ namespace ProductStock._Repository
             }
         }
 
-        public bool addProductPara(string sql, string id, string name, string type_name, string price, string color, string color_hex, byte[] image, string product_count)
+        public bool prodDetailRepo(string sql, string id, string name, string type_name, string price, string color, string color_hex, byte[] image, string product_count)
         {
             MySqlConnection conn = GetConnection();
             try
@@ -146,6 +145,38 @@ namespace ProductStock._Repository
             }
         }
 
+        public bool empDetailRepo(string sql, string id, string password, string prefix,string first_name, string last_name, string role, byte[] image)
+        {
+            MySqlConnection conn = GetConnection();
+            try
+            {
+                MySqlCommand cmd = new MySqlCommand(sql, conn);
+
+                cmd.Parameters.Add("@id", MySqlDbType.VarChar, 255);
+                cmd.Parameters.Add("@password", MySqlDbType.VarChar, 255);
+                cmd.Parameters.Add("@prefix", MySqlDbType.VarChar, 255);
+                cmd.Parameters.Add("@first_name", MySqlDbType.VarChar, 255);
+                cmd.Parameters.Add("@last_name", MySqlDbType.VarChar, 255);
+                cmd.Parameters.Add("@role", MySqlDbType.VarChar, 255);
+                cmd.Parameters.Add("@image", MySqlDbType.Blob);
+
+                cmd.Parameters["@id"].Value = id;
+                cmd.Parameters["@password"].Value = password;
+                cmd.Parameters["@prefix"].Value = prefix;
+                cmd.Parameters["@first_name"].Value = first_name;
+                cmd.Parameters["@last_name"].Value = last_name;
+                cmd.Parameters["@role"].Value = role;
+                cmd.Parameters["@image"].Value = image;
+                cmd.ExecuteNonQuery();
+                conn.Close();
+                return true;
+            }
+            catch
+            {
+                conn.Close();
+                return false;
+            }
+        }
     }
 }
 

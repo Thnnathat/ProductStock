@@ -18,6 +18,7 @@ namespace ProductStock.Views.Compunents
         public ProductItems()
         {
             InitializeComponent();
+            prodDataGridView.AllowUserToAddRows = false;
         }
 
         private void OnLoadProductItems(object sender, EventArgs e)

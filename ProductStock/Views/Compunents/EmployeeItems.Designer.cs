@@ -35,6 +35,7 @@
             this.count = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.searchProdText = new CustomControls.RJControls.RJTextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.empDataGridView = new System.Windows.Forms.DataGridView();
             this.employeeId = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -45,7 +46,7 @@
             this.role = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1 = new System.Windows.Forms.Panel();
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.searchProdText = new CustomControls.RJControls.RJTextBox();
+            this.addEmpBtn = new CustomControls.RJControls.RJButton();
             this.panel4.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.empDataGridView)).BeginInit();
@@ -102,6 +103,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.Green;
+            this.panel4.Controls.Add(this.addEmpBtn);
             this.panel4.Controls.Add(this.label1);
             this.panel4.Controls.Add(this.searchProdText);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
@@ -109,6 +111,29 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(856, 59);
             this.panel4.TabIndex = 3;
+            // 
+            // searchProdText
+            // 
+            this.searchProdText.BackColor = System.Drawing.SystemColors.Window;
+            this.searchProdText.BorderColor = System.Drawing.Color.Transparent;
+            this.searchProdText.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(77)))), ((int)(((byte)(0)))));
+            this.searchProdText.BorderRadius = 10;
+            this.searchProdText.BorderSize = 2;
+            this.searchProdText.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.searchProdText.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.searchProdText.Location = new System.Drawing.Point(273, 14);
+            this.searchProdText.Margin = new System.Windows.Forms.Padding(4);
+            this.searchProdText.Multiline = false;
+            this.searchProdText.Name = "searchProdText";
+            this.searchProdText.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.searchProdText.PasswordChar = false;
+            this.searchProdText.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.searchProdText.PlaceholderText = "";
+            this.searchProdText.Size = new System.Drawing.Size(323, 31);
+            this.searchProdText.TabIndex = 0;
+            this.searchProdText.Texts = "";
+            this.searchProdText.UnderlinedStyle = false;
+            this.searchProdText.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.searchProdKeyPress);
             // 
             // panel2
             // 
@@ -196,28 +221,26 @@
             this.id.HeaderText = "Product ID";
             this.id.Name = "id";
             // 
-            // searchProdText
+            // addEmpBtn
             // 
-            this.searchProdText.BackColor = System.Drawing.SystemColors.Window;
-            this.searchProdText.BorderColor = System.Drawing.Color.Transparent;
-            this.searchProdText.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(77)))), ((int)(((byte)(0)))));
-            this.searchProdText.BorderRadius = 10;
-            this.searchProdText.BorderSize = 2;
-            this.searchProdText.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.searchProdText.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.searchProdText.Location = new System.Drawing.Point(273, 14);
-            this.searchProdText.Margin = new System.Windows.Forms.Padding(4);
-            this.searchProdText.Multiline = false;
-            this.searchProdText.Name = "searchProdText";
-            this.searchProdText.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.searchProdText.PasswordChar = false;
-            this.searchProdText.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.searchProdText.PlaceholderText = "";
-            this.searchProdText.Size = new System.Drawing.Size(474, 31);
-            this.searchProdText.TabIndex = 0;
-            this.searchProdText.Texts = "";
-            this.searchProdText.UnderlinedStyle = false;
-            this.searchProdText.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.searchProdKeyPress);
+            this.addEmpBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.addEmpBtn.BackColor = System.Drawing.Color.Orange;
+            this.addEmpBtn.BackgroundColor = System.Drawing.Color.Orange;
+            this.addEmpBtn.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.addEmpBtn.BorderRadius = 0;
+            this.addEmpBtn.BorderSize = 0;
+            this.addEmpBtn.FlatAppearance.BorderSize = 0;
+            this.addEmpBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.addEmpBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addEmpBtn.ForeColor = System.Drawing.Color.White;
+            this.addEmpBtn.Location = new System.Drawing.Point(664, 10);
+            this.addEmpBtn.Name = "addEmpBtn";
+            this.addEmpBtn.Size = new System.Drawing.Size(150, 40);
+            this.addEmpBtn.TabIndex = 3;
+            this.addEmpBtn.Text = "Add Employee";
+            this.addEmpBtn.TextColor = System.Drawing.Color.White;
+            this.addEmpBtn.UseVisualStyleBackColor = false;
+            this.addEmpBtn.Click += new System.EventHandler(this.addEmpBtn_Click);
             // 
             // EmployeeItems
             // 
@@ -257,5 +280,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn firstName;
         private System.Windows.Forms.DataGridViewTextBoxColumn lastName;
         private System.Windows.Forms.DataGridViewTextBoxColumn role;
+        private CustomControls.RJControls.RJButton addEmpBtn;
     }
 }

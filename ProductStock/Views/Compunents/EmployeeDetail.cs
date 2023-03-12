@@ -11,19 +11,22 @@ using System.Windows.Forms;
 using ProductStock._Repository;
 using Org.BouncyCastle.Asn1.Cmp;
 using ProductStock.Models;
-using ProductStock.Models;
 using ProductStock.Modules;
+using System.IO;
+using System.Drawing.Imaging;
 
 namespace ProductStock.Views.Compunents
 {
     public partial class EmployeeDetail : Form
     {
 
-        EmployeeItems obj = (EmployeeItems)Application.OpenForms["EmployeeItems"];
+        public string btnName;
+
         public DataGridView dgv;
         EmployeeModel AEmp;
         public string empId;
-        private string mode;
+        public string mode;
+        EmployeeItems obj = (EmployeeItems)Application.OpenForms["EmployeeItems"];
 
         public EmployeeDetail()
         {
@@ -57,6 +60,7 @@ namespace ProductStock.Views.Compunents
 
         private void disableEditMode()
         {
+            mode = "veiwMode";
             editModePanel.Enabled = false;
             editModePanel.Visible = false;
             selectImageBtn.Visible = false;
@@ -81,10 +85,16 @@ namespace ProductStock.Views.Compunents
             this.Close();
         }
 
-        private void addProdMode()
+        private void addEmpMode()
         {
-            mode = "addProdMode";
+            mode = "addEmpMode";
             enableAllTextBox();
+            editModePanel.Enabled = true;
+            editModePanel.Visible = true;
+            removeEmpBtn.Visible = false;
+            cancelEditBtn.Visible = false;
+            editEmpBtn.Visible = false;
+            selectImageBtn.Visible = true;
         }
 
         private void showEmpDeail()
@@ -104,8 +114,16 @@ namespace ProductStock.Views.Compunents
 
         private void OnEmpLoad(object sender, EventArgs e)
         {
-            disableEditMode();
-            showEmpDeail();
+            if (btnName != null && btnName == "addEmpBtn")
+            {
+                addEmpMode();
+            }
+
+            if (mode == "viewMode")
+            {
+                disableEditMode();
+                showEmpDeail();
+            }
         }
 
         private void editEmpBtn_Click(object sender, EventArgs e)
@@ -125,7 +143,53 @@ namespace ProductStock.Views.Compunents
 
         private void saveEditBtn_Click(object sender, EventArgs e)
         {
-            reloadEmpList();
+            ImageBinaryConverter itb = new ImageBinaryConverter();
+            string id, password, prefix, first_name, last_name, role;
+            string query;
+            bool Success = false;
+
+            id = empIdTextBox.Texts;
+            password = empPasswordTextBox.Texts;
+            prefix = prefixComboBox.Text;
+            first_name = empFirstNameTextBox.Texts;
+            last_name = empLastNameTextBox.Texts;
+            role = roleComboBox.Text;
+            byte[] image;
+
+            // !ไม่สามารถใช้รูปเดิมได้ ms จะเจอข้อมูลซ้ำ ไม่สามารถแปลงได้
+            // แก้ไข ถ้า ms ไม่สามารถอ่านข้อมูลได้ จะให้ใช้รูปเดิมจาก AEmp.Image. (โบกปูนทับ)
+            try
+            {
+                MemoryStream ms = new MemoryStream();
+                empPictureBox.Image.Save(ms, empPictureBox.Image.RawFormat);
+                image = ms.ToArray();
+            }
+            catch
+            {
+                image = AEmp.Image;
+            }
+            DBProject db = new DBProject();
+            if (mode == "editMode")
+            {
+                query = "UPDATE employees SET id=@id, password=@password, prefix=@prefix, first_name=@first_name, last_name=@last_name, role=@role, image=@image where id='" + AEmp.EmpID + "';";
+                Success = db.empDetailRepo(query, id, password, prefix, first_name, last_name, role, image);
+            }
+
+            else if (mode == "addEmpMode")
+            {
+                query = "INSERT INTO employees(id, password, prefix, first_name, last_name, role, image) VALUES(@id, @password, @prefix, @first_name, @last_name, @role, @image)";
+                Success = db.empDetailRepo(query, id, password, prefix, first_name, last_name, role, image);
+            }
+
+            if (Success)
+            {
+                MessageBox.Show("success.", "Edit product");
+                reloadEmpList();
+            }
+            else
+            {
+                MessageBox.Show("failed.", "Edit product", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void removeEmpBtn_Click(object sender, EventArgs e)
@@ -140,6 +204,18 @@ namespace ProductStock.Views.Compunents
             else
             {
                 MessageBox.Show("Delete failed.", "Delete product", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void selectImageBtn_Click(object sender, EventArgs e)
+        {
+            ImageBinaryConverter itb = new ImageBinaryConverter();
+            OpenFileDialog opnfd = itb.getImage();
+            if (opnfd != null)
+            {
+                string imagePathUpload = opnfd.FileName;
+                Bitmap imgBitmap = new Bitmap(imagePathUpload);
+                empPictureBox.Image = imgBitmap;
             }
         }
     }

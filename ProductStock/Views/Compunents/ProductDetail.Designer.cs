@@ -70,7 +70,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1046, 653);
+            this.panel1.Size = new System.Drawing.Size(1070, 653);
             this.panel1.TabIndex = 0;
             // 
             // panel2
@@ -80,7 +80,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 59);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1046, 594);
+            this.panel2.Size = new System.Drawing.Size(1070, 594);
             this.panel2.TabIndex = 5;
             // 
             // panel5
@@ -91,7 +91,7 @@
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(440, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(606, 594);
+            this.panel5.Size = new System.Drawing.Size(630, 594);
             this.panel5.TabIndex = 1;
             // 
             // selectImageBtn
@@ -122,7 +122,7 @@
             this.panel7.Controls.Add(this.prodPictureBox);
             this.panel7.Location = new System.Drawing.Point(76, 37);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(454, 386);
+            this.panel7.Size = new System.Drawing.Size(478, 386);
             this.panel7.TabIndex = 1;
             // 
             // prodPictureBox
@@ -131,7 +131,7 @@
             this.prodPictureBox.Image = global::ProductStock.Properties.Resources.image_gdc9f050a2_640;
             this.prodPictureBox.Location = new System.Drawing.Point(0, 0);
             this.prodPictureBox.Name = "prodPictureBox";
-            this.prodPictureBox.Size = new System.Drawing.Size(454, 386);
+            this.prodPictureBox.Size = new System.Drawing.Size(478, 386);
             this.prodPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.prodPictureBox.TabIndex = 0;
             this.prodPictureBox.TabStop = false;
@@ -144,7 +144,7 @@
             this.panel6.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel6.Location = new System.Drawing.Point(0, 507);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(606, 87);
+            this.panel6.Size = new System.Drawing.Size(630, 87);
             this.panel6.TabIndex = 0;
             // 
             // backBtn
@@ -442,7 +442,7 @@
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1046, 59);
+            this.panel4.Size = new System.Drawing.Size(1070, 59);
             this.panel4.TabIndex = 4;
             // 
             // label1
@@ -461,7 +461,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1046, 653);
+            this.ClientSize = new System.Drawing.Size(1070, 653);
             this.Controls.Add(this.panel1);
             this.MaximizeBox = false;
             this.Name = "ProductDetail";

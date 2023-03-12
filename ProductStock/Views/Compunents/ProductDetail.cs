@@ -174,23 +174,32 @@ namespace ProductStock.Views.Compunents
             price = prodPriceTextBox.Texts;
             color = prodColorTextBox.Texts;
             color_hex = prodColorHexTextBox.Texts;
+            byte[] image;
 
-            MemoryStream ms = new MemoryStream();
-            prodPictureBox.Image.Save(ms, prodPictureBox.Image.RawFormat);
-            byte[] image = ms.ToArray();
+            //แก้แบบ EmployeeDetail เลย (เห้อออ)
+            try
+            {
+                MemoryStream ms = new MemoryStream();
+                prodPictureBox.Image.Save(ms, prodPictureBox.Image.RawFormat);
+                image = ms.ToArray();
+            }
+            catch
+            {
+                image = prodModel.Image;
+            }
 
             product_count = prodCountTextBox.Texts;
             DBProject db = new DBProject();
             if (mode == "editMode")
             {
                 query = "UPDATE products SET id=@id, name=@name, type_name=@type_name, price=@price, color=@color, color_hex=@color_hex, image=@image, product_count=@product_count where id='" + prodModel.Id + "';";
-                Success = db.addProductPara(query, id, name, type_name, price, color, color_hex, image, product_count);
+                Success = db.prodDetailRepo(query, id, name, type_name, price, color, color_hex, image, product_count);
             }
 
             else if (mode == "addProdMode")
             {
                 query = "INSERT INTO products(id, name, type_name, price, color, color_hex, image, product_count) VALUES(@id, @name, @type_name, @price, @color, @color_hex, @image, @product_count)";
-                Success = db.addProductPara(query, id, name, type_name, price, color, color_hex, image, product_count);
+                Success = db.prodDetailRepo(query, id, name, type_name, price, color, color_hex, image, product_count);
             }
 
             if (Success)

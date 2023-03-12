@@ -76,7 +76,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1068, 645);
+            this.panel1.Size = new System.Drawing.Size(1069, 653);
             this.panel1.TabIndex = 1;
             // 
             // panel2
@@ -86,7 +86,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 59);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1068, 586);
+            this.panel2.Size = new System.Drawing.Size(1069, 594);
             this.panel2.TabIndex = 5;
             // 
             // panel5
@@ -97,7 +97,7 @@
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(440, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(628, 586);
+            this.panel5.Size = new System.Drawing.Size(629, 594);
             this.panel5.TabIndex = 1;
             // 
             // selectImageBtn
@@ -118,6 +118,7 @@
             this.selectImageBtn.Text = "Select Image";
             this.selectImageBtn.TextColor = System.Drawing.Color.White;
             this.selectImageBtn.UseVisualStyleBackColor = false;
+            this.selectImageBtn.Click += new System.EventHandler(this.selectImageBtn_Click);
             // 
             // panel7
             // 
@@ -127,7 +128,7 @@
             this.panel7.Controls.Add(this.empPictureBox);
             this.panel7.Location = new System.Drawing.Point(76, 37);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(476, 378);
+            this.panel7.Size = new System.Drawing.Size(477, 386);
             this.panel7.TabIndex = 1;
             // 
             // empPictureBox
@@ -136,7 +137,7 @@
             this.empPictureBox.Image = global::ProductStock.Properties.Resources.image_gdc9f050a2_640;
             this.empPictureBox.Location = new System.Drawing.Point(0, 0);
             this.empPictureBox.Name = "empPictureBox";
-            this.empPictureBox.Size = new System.Drawing.Size(476, 378);
+            this.empPictureBox.Size = new System.Drawing.Size(477, 386);
             this.empPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.empPictureBox.TabIndex = 0;
             this.empPictureBox.TabStop = false;
@@ -147,9 +148,9 @@
             this.panel6.Controls.Add(this.editEmpBtn);
             this.panel6.Controls.Add(this.removeEmpBtn);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel6.Location = new System.Drawing.Point(0, 499);
+            this.panel6.Location = new System.Drawing.Point(0, 507);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(628, 87);
+            this.panel6.Size = new System.Drawing.Size(629, 87);
             this.panel6.TabIndex = 0;
             // 
             // backBtn
@@ -232,7 +233,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(440, 586);
+            this.panel3.Size = new System.Drawing.Size(440, 594);
             this.panel3.TabIndex = 0;
             // 
             // dateTimeLabel
@@ -273,7 +274,7 @@
             // prefixComboBox
             // 
             this.prefixComboBox.FormattingEnabled = true;
-            this.prefixComboBox.Location = new System.Drawing.Point(94, 76);
+            this.prefixComboBox.Location = new System.Drawing.Point(94, 141);
             this.prefixComboBox.Name = "prefixComboBox";
             this.prefixComboBox.Size = new System.Drawing.Size(121, 21);
             this.prefixComboBox.TabIndex = 11;
@@ -281,7 +282,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(27, 84);
+            this.label6.Location = new System.Drawing.Point(27, 149);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(33, 13);
             this.label6.TabIndex = 10;
@@ -308,7 +309,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(27, 140);
+            this.label3.Location = new System.Drawing.Point(27, 96);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(53, 13);
             this.label3.TabIndex = 5;
@@ -328,7 +329,7 @@
             this.editModePanel.Controls.Add(this.saveEditBtn);
             this.editModePanel.Controls.Add(this.cancelEditBtn);
             this.editModePanel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.editModePanel.Location = new System.Drawing.Point(0, 499);
+            this.editModePanel.Location = new System.Drawing.Point(0, 507);
             this.editModePanel.Name = "editModePanel";
             this.editModePanel.Size = new System.Drawing.Size(440, 87);
             this.editModePanel.TabIndex = 2;
@@ -426,7 +427,7 @@
             this.empPasswordTextBox.BorderSize = 2;
             this.empPasswordTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.empPasswordTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.empPasswordTextBox.Location = new System.Drawing.Point(94, 122);
+            this.empPasswordTextBox.Location = new System.Drawing.Point(94, 78);
             this.empPasswordTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.empPasswordTextBox.Multiline = false;
             this.empPasswordTextBox.Name = "empPasswordTextBox";
@@ -468,7 +469,7 @@
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1068, 59);
+            this.panel4.Size = new System.Drawing.Size(1069, 59);
             this.panel4.TabIndex = 4;
             // 
             // label1
@@ -479,15 +480,15 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(12, 6);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(287, 48);
+            this.label1.Size = new System.Drawing.Size(304, 48);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Products Detail";
+            this.label1.Text = "Employee Detail";
             // 
             // EmployeeDetail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1068, 645);
+            this.ClientSize = new System.Drawing.Size(1069, 653);
             this.Controls.Add(this.panel1);
             this.Name = "EmployeeDetail";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;

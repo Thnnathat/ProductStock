@@ -15,17 +15,19 @@ namespace ProductStock.Views.Compunents
     {
 
         private Form activeForm;
+
         public EmployeeItems()
         {
             InitializeComponent();
+            empDataGridView.AllowUserToAddRows = false;
         }
 
         private void OnLoadEmployeeItems(object sender, EventArgs e)
         {
-            showProdTable();
+            showEmpTable();
         }
 
-        private void showProdTable()
+        private void showEmpTable()
         {
             try
             {
@@ -51,7 +53,7 @@ namespace ProductStock.Views.Compunents
         {
             DBProject db = new DBProject();
             string search = (searchProdText.Texts).Trim();
-            string query = "SELECT id, password, prefix, first_name, last_name, role FROM employees WHERE id LIKE '%" + search + "%' OR name LIKE '%" + search + "%' OR type_name LIKE '%" + search + "%' OR price LIKE '%" + search + "%' OR color LIKE '%" + search + "%'";
+            string query = "SELECT id, password, prefix, first_name, last_name, role FROM employees WHERE id LIKE '%" + search + "%' OR password LIKE '%" + search + "%' OR prefix LIKE '%" + search + "%' OR first_name LIKE '%" + search + "%' OR last_name LIKE '%" + search + "%' OR role LIKE '%" + search + "%'";
             DataTable dt = db.displayData(query);
             if (dt != null)
             {
@@ -67,13 +69,14 @@ namespace ProductStock.Views.Compunents
                 {
                     DataGridView dgv = empDataGridView;
                     string empid = dgv.SelectedRows[0].Cells[0].Value + string.Empty;
-                    EmployeeDetail prodDetail = new EmployeeDetail();
+                    EmployeeDetail empDetail = new EmployeeDetail();
                     if (activeForm != null)
                         activeForm.Close();
-                    activeForm = prodDetail;
-                    prodDetail.dgv = dgv;
-                    prodDetail.empId = empid;
-                    prodDetail.Show();
+                    activeForm = empDetail;
+                    empDetail.dgv = dgv;
+                    empDetail.empId = empid;
+                    empDetail.mode = "viewMode";
+                    empDetail.Show();
                 }
 
             }
@@ -83,7 +86,18 @@ namespace ProductStock.Views.Compunents
         public void reloadData()
         {
             searchProdText.Texts = "";
-            showProdTable();
+            showEmpTable();
+        }
+
+        private void addEmpBtn_Click(object sender, EventArgs e)
+        {
+            EmployeeDetail empDetail = new EmployeeDetail();
+            if (activeForm != null)
+                activeForm.Close();
+            activeForm = empDetail;
+            empDetail.btnName = addEmpBtn.Name;
+            empDetail.dgv = empDataGridView; 
+            empDetail.Show();
         }
     }
 }

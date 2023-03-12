@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.prodDataGridView = new System.Windows.Forms.DataGridView();
@@ -147,6 +148,9 @@
             // 
             this.dataGridViewTextBoxColumn6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.dataGridViewTextBoxColumn6.DataPropertyName = "product_count";
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(2);
+            this.dataGridViewTextBoxColumn6.DefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridViewTextBoxColumn6.HeaderText = "Count";
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
             // 
@@ -164,6 +168,7 @@
             // 
             // addProdBtn
             // 
+            this.addProdBtn.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.addProdBtn.BackColor = System.Drawing.Color.Orange;
             this.addProdBtn.BackgroundColor = System.Drawing.Color.Orange;
             this.addProdBtn.BorderColor = System.Drawing.Color.PaleVioletRed;
@@ -173,7 +178,7 @@
             this.addProdBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addProdBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addProdBtn.ForeColor = System.Drawing.Color.White;
-            this.addProdBtn.Location = new System.Drawing.Point(668, 10);
+            this.addProdBtn.Location = new System.Drawing.Point(663, 10);
             this.addProdBtn.Name = "addProdBtn";
             this.addProdBtn.Size = new System.Drawing.Size(150, 40);
             this.addProdBtn.TabIndex = 2;
@@ -290,6 +295,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn name;
         private System.Windows.Forms.DataGridViewTextBoxColumn id;
         private System.Windows.Forms.DataGridView prodDataGridView;
+        private CustomControls.RJControls.RJButton addProdBtn;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
@@ -298,6 +304,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn color_hex;
         private System.Windows.Forms.DataGridViewImageColumn image;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
-        private CustomControls.RJControls.RJButton addProdBtn;
     }
 }
