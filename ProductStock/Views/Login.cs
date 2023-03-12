@@ -42,7 +42,7 @@ namespace ProductStock
             string Password;
             EmpID = empIDTextBox.Texts;
             Password = empPasswordTextBox.Texts;
-            AEmp = db.getAEmpolyee(EmpID, Password);
+            AEmp = db.getAEmpolyee(EmpID);
             if (AEmp.EmpID != null && AEmp.Password != null)
             {
                 if (EmpID == AEmp.EmpID && Password == AEmp.Password)

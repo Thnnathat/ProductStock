@@ -163,6 +163,16 @@ namespace ProductStock.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap image_gdc9f050a2_640 {
+            get {
+                object obj = ResourceManager.GetObject("image-gdc9f050a2_640", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Neovim_Logo {
             get {
                 object obj = ResourceManager.GetObject("Neovim_Logo", resourceCulture);

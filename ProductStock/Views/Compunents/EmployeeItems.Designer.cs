@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.searchProdText = new CustomControls.RJControls.RJTextBox();
             this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.type_name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -37,42 +36,21 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.prodDataGridView = new System.Windows.Forms.DataGridView();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.empDataGridView = new System.Windows.Forms.DataGridView();
             this.employeeId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.password = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.prefix = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.firstName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lastName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.role = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.searchProdText = new CustomControls.RJControls.RJTextBox();
             this.panel4.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.prodDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.empDataGridView)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // searchProdText
-            // 
-            this.searchProdText.BackColor = System.Drawing.SystemColors.Window;
-            this.searchProdText.BorderColor = System.Drawing.Color.Transparent;
-            this.searchProdText.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(77)))), ((int)(((byte)(0)))));
-            this.searchProdText.BorderRadius = 10;
-            this.searchProdText.BorderSize = 2;
-            this.searchProdText.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.searchProdText.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.searchProdText.Location = new System.Drawing.Point(273, 14);
-            this.searchProdText.Margin = new System.Windows.Forms.Padding(4);
-            this.searchProdText.Multiline = false;
-            this.searchProdText.Name = "searchProdText";
-            this.searchProdText.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.searchProdText.PasswordChar = false;
-            this.searchProdText.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.searchProdText.PlaceholderText = "";
-            this.searchProdText.Size = new System.Drawing.Size(474, 31);
-            this.searchProdText.TabIndex = 0;
-            this.searchProdText.Texts = "";
-            this.searchProdText.UnderlinedStyle = false;
             // 
             // name
             // 
@@ -134,7 +112,7 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.prodDataGridView);
+            this.panel2.Controls.Add(this.empDataGridView);
             this.panel2.Controls.Add(this.panel4);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 0);
@@ -142,22 +120,65 @@
             this.panel2.Size = new System.Drawing.Size(856, 545);
             this.panel2.TabIndex = 4;
             // 
-            // prodDataGridView
+            // empDataGridView
             // 
-            this.prodDataGridView.BackgroundColor = System.Drawing.Color.White;
-            this.prodDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.prodDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.empDataGridView.BackgroundColor = System.Drawing.Color.White;
+            this.empDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.empDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.employeeId,
             this.password,
             this.prefix,
             this.firstName,
             this.lastName,
             this.role});
-            this.prodDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.prodDataGridView.Location = new System.Drawing.Point(0, 59);
-            this.prodDataGridView.Name = "prodDataGridView";
-            this.prodDataGridView.Size = new System.Drawing.Size(856, 486);
-            this.prodDataGridView.TabIndex = 6;
+            this.empDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.empDataGridView.Location = new System.Drawing.Point(0, 59);
+            this.empDataGridView.Name = "empDataGridView";
+            this.empDataGridView.Size = new System.Drawing.Size(856, 486);
+            this.empDataGridView.TabIndex = 6;
+            this.empDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.OnEmpCellClick);
+            // 
+            // employeeId
+            // 
+            this.employeeId.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.employeeId.DataPropertyName = "id";
+            this.employeeId.HeaderText = "Employee ID";
+            this.employeeId.Name = "employeeId";
+            // 
+            // password
+            // 
+            this.password.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.password.DataPropertyName = "password";
+            this.password.HeaderText = "Password";
+            this.password.Name = "password";
+            // 
+            // prefix
+            // 
+            this.prefix.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.prefix.DataPropertyName = "prefix";
+            this.prefix.HeaderText = "Prefix";
+            this.prefix.Name = "prefix";
+            // 
+            // firstName
+            // 
+            this.firstName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.firstName.DataPropertyName = "first_name";
+            this.firstName.HeaderText = "First Name";
+            this.firstName.Name = "firstName";
+            // 
+            // lastName
+            // 
+            this.lastName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.lastName.DataPropertyName = "last_name";
+            this.lastName.HeaderText = "Last Name";
+            this.lastName.Name = "lastName";
+            // 
+            // role
+            // 
+            this.role.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.role.DataPropertyName = "role";
+            this.role.HeaderText = "Role";
+            this.role.Name = "role";
             // 
             // panel1
             // 
@@ -175,41 +196,28 @@
             this.id.HeaderText = "Product ID";
             this.id.Name = "id";
             // 
-            // employeeId
+            // searchProdText
             // 
-            this.employeeId.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.employeeId.HeaderText = "Employee ID";
-            this.employeeId.Name = "employeeId";
-            // 
-            // password
-            // 
-            this.password.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.password.HeaderText = "Password";
-            this.password.Name = "password";
-            // 
-            // prefix
-            // 
-            this.prefix.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.prefix.HeaderText = "Prefix";
-            this.prefix.Name = "prefix";
-            // 
-            // firstName
-            // 
-            this.firstName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.firstName.HeaderText = "First Name";
-            this.firstName.Name = "firstName";
-            // 
-            // lastName
-            // 
-            this.lastName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.lastName.HeaderText = "Last Name";
-            this.lastName.Name = "lastName";
-            // 
-            // role
-            // 
-            this.role.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.role.HeaderText = "Role";
-            this.role.Name = "role";
+            this.searchProdText.BackColor = System.Drawing.SystemColors.Window;
+            this.searchProdText.BorderColor = System.Drawing.Color.Transparent;
+            this.searchProdText.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(77)))), ((int)(((byte)(0)))));
+            this.searchProdText.BorderRadius = 10;
+            this.searchProdText.BorderSize = 2;
+            this.searchProdText.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.searchProdText.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.searchProdText.Location = new System.Drawing.Point(273, 14);
+            this.searchProdText.Margin = new System.Windows.Forms.Padding(4);
+            this.searchProdText.Multiline = false;
+            this.searchProdText.Name = "searchProdText";
+            this.searchProdText.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.searchProdText.PasswordChar = false;
+            this.searchProdText.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.searchProdText.PlaceholderText = "";
+            this.searchProdText.Size = new System.Drawing.Size(474, 31);
+            this.searchProdText.TabIndex = 0;
+            this.searchProdText.Texts = "";
+            this.searchProdText.UnderlinedStyle = false;
+            this.searchProdText.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.searchProdKeyPress);
             // 
             // EmployeeItems
             // 
@@ -219,10 +227,11 @@
             this.Controls.Add(this.panel1);
             this.Name = "EmployeeItems";
             this.Text = "EmployeeItems";
+            this.Load += new System.EventHandler(this.OnLoadEmployeeItems);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.prodDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.empDataGridView)).EndInit();
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -239,7 +248,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.DataGridView prodDataGridView;
+        private System.Windows.Forms.DataGridView empDataGridView;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.DataGridViewTextBoxColumn id;
         private System.Windows.Forms.DataGridViewTextBoxColumn employeeId;

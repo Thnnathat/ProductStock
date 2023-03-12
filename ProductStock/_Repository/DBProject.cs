@@ -3,8 +3,12 @@ using Org.BouncyCastle.Utilities;
 using ProductStock.Models;
 using System;
 using System.Data;
+using System.Drawing;
+using System.IO;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
+using System.Xml.Linq;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace ProductStock._Repository
 {
@@ -29,7 +33,7 @@ namespace ProductStock._Repository
             return conn;
         }
 
-        public EmployeeModel getAEmpolyee(string EmpID, string password)
+        public EmployeeModel getAEmpolyee(string EmpID)
         {
             MySqlConnection conn = GetConnection();
             EmployeeModel AEmp = new EmployeeModel();
@@ -47,6 +51,7 @@ namespace ProductStock._Repository
                     AEmp.LastName = reader.GetString(4);
                     AEmp.Role = reader.GetString(5);
                     AEmp.Image = reader.GetFieldValue<byte[]>(6);
+                    AEmp.DateTime = reader.GetString(7);
                 }
 
             }
@@ -58,7 +63,7 @@ namespace ProductStock._Repository
             return AEmp;
         }
 
-        public DataTable prodDisplay(string query)
+        public DataTable displayData(string query)
         {
             string sql = query;
             MySqlConnection conn = GetConnection();
@@ -69,5 +74,78 @@ namespace ProductStock._Repository
             conn.Close();
             return prodDt;
         }
+
+        public bool removeData(string table, string id)
+        {
+            MySqlConnection conn = GetConnection();
+            try
+            {
+                string sql = "DELETE FROM " + table + " where id='" + id + "';";
+                MySqlCommand cmd = new MySqlCommand(sql, conn);
+                MySqlDataReader reader = cmd.ExecuteReader();
+                conn.Close();
+                return true;
+            }
+            catch
+            {
+                conn.Close();
+                return false;
+            }
+        }
+
+        public bool updateData(string query)
+        {
+            MySqlConnection conn = GetConnection();
+            try
+            {
+                string sql = query;
+                MySqlCommand cmd = new MySqlCommand(sql, conn);
+                cmd.ExecuteNonQuery();
+                conn.Close();
+                return true;
+            }
+            catch
+            {
+                conn.Close();
+                return false;
+            }
+        }
+
+        public bool addProductPara(string sql, string id, string name, string type_name, string price, string color, string color_hex, byte[] image, string product_count)
+        {
+            MySqlConnection conn = GetConnection();
+            try
+            {
+                MySqlCommand cmd = new MySqlCommand(sql, conn);
+
+                cmd.Parameters.Add("@id", MySqlDbType.VarChar, 255);
+                cmd.Parameters.Add("@name", MySqlDbType.VarChar, 255);
+                cmd.Parameters.Add("@type_name", MySqlDbType.VarChar, 255);
+                cmd.Parameters.Add("@price", MySqlDbType.Double);
+                cmd.Parameters.Add("@color", MySqlDbType.VarChar, 255);
+                cmd.Parameters.Add("@color_hex", MySqlDbType.VarChar, 255);
+                cmd.Parameters.Add("@image", MySqlDbType.Blob);
+                cmd.Parameters.Add("@product_count", MySqlDbType.Int64);
+
+                cmd.Parameters["@id"].Value = id;
+                cmd.Parameters["@name"].Value = name;
+                cmd.Parameters["@type_name"].Value = type_name;
+                cmd.Parameters["@price"].Value = price;
+                cmd.Parameters["@color"].Value = color;
+                cmd.Parameters["@color_hex"].Value = color_hex;
+                cmd.Parameters["@image"].Value = image;
+                cmd.Parameters["@product_count"].Value = product_count;
+                cmd.ExecuteNonQuery();
+                conn.Close();
+                return true;
+            }
+            catch
+            {
+                conn.Close();
+                return false;
+            }
+        }
+
     }
 }
+

@@ -16,7 +16,7 @@ namespace ProductStock.Models
         private string typeName;
         private string price;
         private string color;
-        private string color_hex;
+        private string colorHex;
         private byte[] image;
         private int productCount;
 
@@ -25,7 +25,7 @@ namespace ProductStock.Models
         public string TypeName { get => typeName; set => typeName = value; }
         public string Price { get => price; set => price = value; }
         public string Color { get => color; set => color = value; }
-        public string Color_hex { get => color_hex; set => color_hex = value; }
+        public string ColorHex { get => colorHex; set => colorHex = value; }
         public byte[] Image { get => image; set => image = value; }
         public int ProductCount { get => productCount; set => productCount = value; }
     }

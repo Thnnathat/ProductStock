@@ -66,7 +66,7 @@ def inserDatabase(data):
         try:
             mycursor = conn.cursor()
             sql = "INSERT INTO products(id, name, type_name, price, color, color_hex, image, product_count) VALUES(%s,%s,%s,%s,%s,%s,%s,%s)"
-            value = (i[0], i[1], i[2], i[3], i[4]["name"], i[4]["hex"], image, '0')
+            value = (i[0], i[1], i[2], i[3], i[4]["name"], "#"+i[4]["hex"], image, '0')
             mycursor.execute(sql, value)
             conn.commit()
             print(count)

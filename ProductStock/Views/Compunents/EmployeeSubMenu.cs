@@ -73,10 +73,5 @@ namespace ProductStock.Views.Compunents
             OpenChildForm(new EmployeeItems(), sender);
         }
 
-        private void empDetailBtn_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new EmployeeDetail(),sender);
-        }
-
     }
 }

@@ -76,7 +76,8 @@ namespace ProductStock.Views.Compunents
 
         private void prodDetailBtn_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ProductDetail(), sender);
+            ProductDetail productDetail = new ProductDetail();
+            OpenChildForm(productDetail, sender);
         }
 
         private void prodStockBtn_Click(object sender, EventArgs e)

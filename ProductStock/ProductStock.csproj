@@ -170,11 +170,20 @@
     <EmbeddedResource Include="RJTextbox.resx">
       <DependentUpon>RJTextbox.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\Compunents\EmployeeDetail.resx">
+      <DependentUpon>EmployeeDetail.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\Compunents\EmployeeItems.resx">
       <DependentUpon>EmployeeItems.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Compunents\EmployeeSubMenu.resx">
       <DependentUpon>EmployeeSubMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Compunents\ProdStock.resx">
+      <DependentUpon>ProdStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Compunents\ProductDetail.resx">
+      <DependentUpon>ProductDetail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Compunents\ProductItems.resx">
       <DependentUpon>ProductItems.cs</DependentUpon>
@@ -263,6 +272,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Neovim_Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-gdc9f050a2_640.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

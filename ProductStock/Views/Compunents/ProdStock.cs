@@ -16,5 +16,10 @@ namespace ProductStock.Views.Compunents
         {
             InitializeComponent();
         }
+
+        private void panel5_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

@@ -30,7 +30,6 @@
         {
             this.indexMenuPannel = new System.Windows.Forms.Panel();
             this.prodStockBtn = new System.Windows.Forms.Button();
-            this.prodDetailBtn = new System.Windows.Forms.Button();
             this.prodListBtn = new System.Windows.Forms.Button();
             this.prodMenuContainerPanel = new System.Windows.Forms.Panel();
             this.indexMenuPannel.SuspendLayout();
@@ -40,7 +39,6 @@
             // 
             this.indexMenuPannel.BackColor = System.Drawing.Color.RoyalBlue;
             this.indexMenuPannel.Controls.Add(this.prodStockBtn);
-            this.indexMenuPannel.Controls.Add(this.prodDetailBtn);
             this.indexMenuPannel.Controls.Add(this.prodListBtn);
             this.indexMenuPannel.Dock = System.Windows.Forms.DockStyle.Top;
             this.indexMenuPannel.Location = new System.Drawing.Point(0, 0);
@@ -58,31 +56,13 @@
             this.prodStockBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.prodStockBtn.ForeColor = System.Drawing.Color.Gainsboro;
             this.prodStockBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.prodStockBtn.Location = new System.Drawing.Point(494, 0);
+            this.prodStockBtn.Location = new System.Drawing.Point(248, 0);
             this.prodStockBtn.Name = "prodStockBtn";
             this.prodStockBtn.Size = new System.Drawing.Size(252, 33);
             this.prodStockBtn.TabIndex = 2;
             this.prodStockBtn.Text = "Product Stock";
             this.prodStockBtn.UseVisualStyleBackColor = false;
             this.prodStockBtn.Click += new System.EventHandler(this.prodStockBtn_Click);
-            // 
-            // prodDetailBtn
-            // 
-            this.prodDetailBtn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.prodDetailBtn.BackColor = System.Drawing.Color.RoyalBlue;
-            this.prodDetailBtn.FlatAppearance.BorderSize = 0;
-            this.prodDetailBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.prodDetailBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.prodDetailBtn.ForeColor = System.Drawing.Color.Gainsboro;
-            this.prodDetailBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.prodDetailBtn.Location = new System.Drawing.Point(245, 0);
-            this.prodDetailBtn.Name = "prodDetailBtn";
-            this.prodDetailBtn.Size = new System.Drawing.Size(252, 33);
-            this.prodDetailBtn.TabIndex = 1;
-            this.prodDetailBtn.Text = "Product Detail";
-            this.prodDetailBtn.UseVisualStyleBackColor = false;
-            this.prodDetailBtn.Click += new System.EventHandler(this.prodDetailBtn_Click);
             // 
             // prodListBtn
             // 
@@ -128,7 +108,6 @@
         #endregion
 
         private System.Windows.Forms.Panel indexMenuPannel;
-        private System.Windows.Forms.Button prodDetailBtn;
         private System.Windows.Forms.Button prodListBtn;
         private System.Windows.Forms.Button prodStockBtn;
         private System.Windows.Forms.Panel prodMenuContainerPanel;

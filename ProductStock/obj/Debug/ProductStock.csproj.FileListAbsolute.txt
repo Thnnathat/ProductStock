@@ -106,3 +106,6 @@ E:\Computer Engineering\Term IV\Projects\ProblemsSolvingLab\ProductStock\Product
 E:\Computer Engineering\Term IV\Projects\ProblemsSolvingLab\ProductStock\ProductStock\obj\Debug\ProductStock.Views.Compunents.EmployeeItems.resources
 E:\Computer Engineering\Term IV\Projects\ProblemsSolvingLab\ProductStock\ProductStock\obj\Debug\ProductStock.Views.Compunents.EmployeeSubMenu.resources
 E:\Computer Engineering\Term IV\Projects\ProblemsSolvingLab\ProductStock\ProductStock\obj\Debug\ProductStock.Views.Compunents.ProductSubMenu.resources
+E:\Computer Engineering\Term IV\Projects\ProblemsSolvingLab\ProductStock\ProductStock\obj\Debug\ProductStock.Views.Compunents.ProductDetail.resources
+E:\Computer Engineering\Term IV\Projects\ProblemsSolvingLab\ProductStock\ProductStock\obj\Debug\ProductStock.Views.Compunents.ProdStock.resources
+E:\Computer Engineering\Term IV\Projects\ProblemsSolvingLab\ProductStock\ProductStock\obj\Debug\ProductStock.Views.Compunents.EmployeeDetail.resources

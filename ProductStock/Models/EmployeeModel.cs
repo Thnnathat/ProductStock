@@ -6,23 +6,25 @@ using System.Threading.Tasks;
 
 namespace ProductStock.Models
 {
-   public class EmployeeModel
+    public class EmployeeModel
     {
 
-       private string empID;
-       private string password;
-       private string prefix;
-       private string firstName;
-       private string lastName;
-       private string role;
-       private byte[] image;
+        private string empID;
+        private string password;
+        private string prefix;
+        private string firstName;
+        private string lastName;
+        private string role;
+        private byte[] image;
+        private string dateTime;
 
-       public string EmpID { get => empID; set => empID = value; }
-       public string Password { get => password; set => password = value; }
-       public string Prefix { get => prefix; set => prefix = value; }
-       public string FirstName { get => firstName; set => firstName = value; }
-       public string LastName { get => lastName; set => lastName = value; }
-       public string Role { get => role; set => role = value; }
-       public byte[] Image { get => image; set => image = value; }
+        public string EmpID { get => empID; set => empID = value; }
+        public string Password { get => password; set => password = value; }
+        public string Prefix { get => prefix; set => prefix = value; }
+        public string FirstName { get => firstName; set => firstName = value; }
+        public string LastName { get => lastName; set => lastName = value; }
+        public string Role { get => role; set => role = value; }
+        public byte[] Image { get => image; set => image = value; }
+        public string DateTime { get => dateTime; set => dateTime = value; }
     }
 }
