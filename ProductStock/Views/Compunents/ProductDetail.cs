@@ -66,7 +66,7 @@ namespace ProductStock.Views.Compunents
             disableAllTextBox();
         }
 
-        // ตอนนี้ edit ไม่ได้ เนื่องจาก inStock กับ outStock อ้างอิงค์ถึง product อยู่ (วิธีแก้ สินค้าที่มี stock แล้ว ไม่ให้แก้ไข id) -> แก้ไขแล้ว
+        // edit ไม่ได้ เนื่องจาก inStock กับ outStock อ้างอิงค์ถึง product อยู่ (วิธีแก้ สินค้าที่มี stock แล้ว ไม่ให้แก้ไข id) -> แก้ไขแล้ว
         private void enableEditMode()
         {
             mode = "editMode";
@@ -162,7 +162,7 @@ namespace ProductStock.Views.Compunents
             this.Close();
         }
 
-        //Remove ไม่ได้ ต้อง remove Stock ก่อน -> แก้แล้ว
+        //Remove ไม่ได้ ต้อง remove Stock ก่อน (วิธีแก้ ลบ stock ก่อน ตาด้วยลบ product)-> แก้แล้ว
         private void removeProdBtn_Click(object sender, EventArgs e)
         {
             var check = MessageBox.Show("Do you want to remove the product?", "Remove product.", MessageBoxButtons.YesNoCancel);
