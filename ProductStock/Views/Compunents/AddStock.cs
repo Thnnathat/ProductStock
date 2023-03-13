@@ -102,7 +102,6 @@ namespace ProductStock.Views.Compunents
                 int stockCount = db.getProductCount(sql);
                 sql = "UPDATE products SET product_count=@product_count WHERE id='"+prodModel.Id+"'";
                 bool success = db.updateProdCount(sql, stockCount);
-                MessageBox.Show(stockCount.ToString());
                 return true;
             }
             catch

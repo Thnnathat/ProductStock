@@ -303,5 +303,8 @@
   <ItemGroup>
     <None Include="Resources\image-gdc9f050a2_640.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Note.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

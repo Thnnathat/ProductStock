@@ -32,7 +32,7 @@ namespace ProductStock.Views.Compunents
             {
                 string query;
                 DBProject db = new DBProject();
-                query = "SELECT * FROM products";
+                query = "SELECT id, name, type_name, price, color, color_hex, product_count FROM products";
                 DataTable dt = db.displayData(query);
                 if (dt != null)
                 {
@@ -48,7 +48,7 @@ namespace ProductStock.Views.Compunents
         {
             DBProject db = new DBProject();
             string search = (searchProdText.Texts).Trim();
-            string query = "SELECT * FROM products WHERE id LIKE '%" + search + "%' OR name LIKE '%" + search + "%' OR type_name LIKE '%" + search + "%' OR price LIKE '%" + search + "%' OR color LIKE '%" + search + "%'";
+            string query = "SELECT id, name, type_name, price, color, color_hex, product_count FROM products WHERE id LIKE '%" + search + "%' OR name LIKE '%" + search + "%' OR type_name LIKE '%" + search + "%' OR price LIKE '%" + search + "%' OR color LIKE '%" + search + "%'";
             DataTable dt = db.displayData(query);
             if (dt != null)
             {
@@ -58,22 +58,29 @@ namespace ProductStock.Views.Compunents
 
         private void OnProductCellClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (prodDataGridView.SelectedRows.Count > 0 && prodDataGridView.SelectedRows.Count != prodDataGridView.RowCount) // make sure user select at least 1 row 
+            if (prodDataGridView.SelectedRows.Count > 0 && prodDataGridView.SelectedRows.Count != prodDataGridView.RowCount && prodDataGridView.CurrentCell != null) // make sure user select at least 1 row 
             {
-                DataGridView dgv = prodDataGridView;
+                //DataGridView dgv = prodDataGridView; !
                 ProductDetail prodDetail = new ProductDetail();
                 if (activeForm != null)
                     activeForm.Close();
                 activeForm = prodDetail;
                 //prodDetail.dgv = dgv; !
-                prodDetail.prodId = dgv.Rows[0].Cells[0].Value.ToString();
-                prodDetail.Show();
+
+                int index = e.RowIndex;
+                if (index != -1)
+                {
+                    DataGridViewRow selectedRow = prodDataGridView.Rows[index];
+                    prodDetail.prodId = selectedRow.Cells[0].Value.ToString();
+                    prodDetail.Show();
+                }
             }
         }
 
         public void reloadData()
         {
             searchProdText.Texts = "";
+            prodDataGridView.Refresh();
             showProdTable();
         }
 

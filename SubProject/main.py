@@ -6,10 +6,10 @@ import os
 from conn import Conn;
 import time
 
-def getIkeaData():
+def getIkeaData(keyword):
     constants = ikea_api.Constants(country="us", language="en")
     search = ikea_api.Search(constants)
-    endpoint = search.search("ALEX", limit=1000)
+    endpoint = search.search(keyword, limit=100)
     data = ikea_api.run(endpoint)
     return data
 
@@ -74,9 +74,11 @@ def inserDatabase(data):
         except Exception as e:
             print(e)
         conn.close();
-        time.sleep(0.1)
+        time.sleep(0.5)
 
 if __name__ == "__main__":
-    ikeaData = getIkeaData()
-    data = ikeaCleanData(ikeaData)
-    inserDatabase(data)
+    keyword = ["HEMNES", "ALEX", "FEJKA", "LIGHT"];
+    for i in keyword:
+        ikeaData = getIkeaData(i)
+        data = ikeaCleanData(ikeaData)
+        inserDatabase(data)
