@@ -10,6 +10,7 @@ using System.Threading;
 using System.Windows.Forms;
 using System.Xml.Linq;
 using static System.Net.Mime.MediaTypeNames;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ProgressBar;
 
 namespace ProductStock._Repository
 {
@@ -273,6 +274,43 @@ namespace ProductStock._Repository
             else
             {
                 return null;
+            }
+        }
+
+        public bool updateProdCount(string sql, int prodCount)
+        {
+            MySqlConnection conn = GetConnection();
+            try
+            {
+                MySqlCommand cmd = new MySqlCommand(sql, conn);
+                cmd.Parameters.Add("@product_count", MySqlDbType.Int64);
+                cmd.Parameters["@product_count"].Value = prodCount;
+                cmd.ExecuteNonQuery();
+                conn.Close();
+                return true;
+            }
+            catch
+            {
+                conn.Close();
+                return false;
+            }
+        }
+
+        public int getProductCount(string sql)
+        {
+            MySqlConnection conn = GetConnection();
+            try
+            {
+                MySqlCommand cmd = new MySqlCommand(sql, conn);
+                int stock_count = int.Parse(cmd.ExecuteScalar().ToString());
+                conn.Close();
+                return stock_count;
+            }
+            catch
+            {
+                conn.Close();
+                MessageBox.Show("Count product error.");
+                return 0;
             }
         }
     }

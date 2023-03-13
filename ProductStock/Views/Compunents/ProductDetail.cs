@@ -63,7 +63,7 @@ namespace ProductStock.Views.Compunents
             disableAllTextBox();
         }
 
-        // ตอนนี้ edit ไม่ได้ เนื่องจาก inStock กับ outStock อ้างอิงค์ถึง product อยู่
+        // ตอนนี้ edit ไม่ได้ เนื่องจาก inStock กับ outStock อ้างอิงค์ถึง product อยู่ (วิธีแก้ สินค้าที่มี stock แล้ว ไม่ให้แก้ไข id)
         private void enableEditMode()
         {
             mode = "editMode";
@@ -72,7 +72,6 @@ namespace ProductStock.Views.Compunents
             selectImageBtn.Visible = true;
             enableAllTextBox();
             prodCountTextBox.Enabled = false;
-            prodCountTextBox.Texts = "0"; // ต้องทำ Product Count ติดไว้
         }
 
         private void addProdMode()
@@ -87,7 +86,7 @@ namespace ProductStock.Views.Compunents
             selectImageBtn.Visible = true;
             stockBtn.Visible = false;
             prodCountTextBox.Visible = false;
-            prodCountTextBox.Texts = "0"; // ต้องทำ Product Count
+            prodCountTextBox.Texts = "0"; // ค่าเริ่มต้น = 0
             countLabel.Visible = false;
         }
 
@@ -149,12 +148,13 @@ namespace ProductStock.Views.Compunents
             this.Close();
         }
 
-        private void reloadProdList()
+        public void reloadProdList()
         {
             obj.reloadData();
             this.Close();
         }
 
+        //Remove ไม่ได้ ต้อง remove Stock ก่อน
         private void removeProdBtn_Click(object sender, EventArgs e)
         {
             DBProject db = new DBProject();
@@ -236,6 +236,8 @@ namespace ProductStock.Views.Compunents
 
         private void stockBtn_Click(object sender, EventArgs e)
         {
+            disableEditMode();
+            showProdDetail();
             ProdStock prodStock = new ProdStock();
             prodStock.prodModel = prodModel;
             prodStock.Show();
