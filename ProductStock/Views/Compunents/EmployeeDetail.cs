@@ -194,16 +194,20 @@ namespace ProductStock.Views.Compunents
 
         private void removeEmpBtn_Click(object sender, EventArgs e)
         {
-            DBProject db = new DBProject();
-            bool deleteSucess = db.removeData("employees", AEmp.EmpID);
-            if (deleteSucess)
+            var check = MessageBox.Show("Do you want to remove the employee?", "Remove employee.", MessageBoxButtons.YesNoCancel);
+            if (check == DialogResult.Yes) //Creates the yes function
             {
-                MessageBox.Show("Delete success.", "Delete product");
-                reloadEmpList();
-            }
-            else
-            {
-                MessageBox.Show("Delete failed.", "Delete product", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                DBProject db = new DBProject();
+                bool deleteSucess = db.removeData("employees", AEmp.EmpID);
+                if (deleteSucess)
+                {
+                    MessageBox.Show("Delete success.", "Delete product");
+                    reloadEmpList();
+                }
+                else
+                {
+                    MessageBox.Show("Delete failed.", "Delete product", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
             }
         }
 

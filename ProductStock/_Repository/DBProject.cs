@@ -70,6 +70,41 @@ namespace ProductStock._Repository
             return null;
         }
 
+        public ProductModel getAProductCount(string prodId)
+        {
+            try
+            {
+                MySqlConnection conn = GetConnection();
+                ProductModel AProd = new ProductModel();
+                try
+                {
+                    string sql = "select * from products where id='" + prodId + "';";
+                    MySqlCommand cmd = new MySqlCommand(sql, conn);
+                    MySqlDataReader reader = cmd.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        AProd.Id = reader.GetString(0);
+                        AProd.Name = reader.GetString(1);
+                        AProd.TypeName = reader.GetString(2);
+                        AProd.Price = reader.GetString(3);
+                        AProd.Color = reader.GetString(4);
+                        AProd.ColorHex = reader.GetString(5);
+                        AProd.Image = reader.GetFieldValue<byte[]>(6);
+                        AProd.ProductCount = reader.GetInt32(7);
+                    }
+                }
+                catch (Exception e)
+                {
+                    MessageBox.Show(e.ToString());
+                }
+                conn.Close();
+                return AProd;
+            }
+            catch { MessageBox.Show("Connect database failed."); };
+            return null;
+        }
+
+
         public DataTable displayData(string query)
         {
             string sql = query;
@@ -139,7 +174,7 @@ namespace ProductStock._Repository
                 cmd.Parameters.Add("@color", MySqlDbType.VarChar, 255);
                 cmd.Parameters.Add("@color_hex", MySqlDbType.VarChar, 255);
                 cmd.Parameters.Add("@image", MySqlDbType.Blob);
-                cmd.Parameters.Add("@product_count", MySqlDbType.Int64);
+                cmd.Parameters.Add("@product_count", MySqlDbType.Int32);
 
                 cmd.Parameters["@id"].Value = id;
                 cmd.Parameters["@name"].Value = name;
@@ -149,6 +184,39 @@ namespace ProductStock._Repository
                 cmd.Parameters["@color_hex"].Value = color_hex;
                 cmd.Parameters["@image"].Value = image;
                 cmd.Parameters["@product_count"].Value = product_count;
+                cmd.ExecuteNonQuery();
+                conn.Close();
+                return true;
+            }
+            catch
+            {
+                conn.Close();
+                return false;
+            }
+        }
+
+        public bool prodDetailRepo(string sql, string id, string name, string type_name, string price, string color, string color_hex, byte[] image)
+        {
+            MySqlConnection conn = GetConnection();
+            try
+            {
+                MySqlCommand cmd = new MySqlCommand(sql, conn);
+
+                cmd.Parameters.Add("@id", MySqlDbType.VarChar, 255);
+                cmd.Parameters.Add("@name", MySqlDbType.VarChar, 255);
+                cmd.Parameters.Add("@type_name", MySqlDbType.VarChar, 255);
+                cmd.Parameters.Add("@price", MySqlDbType.Double);
+                cmd.Parameters.Add("@color", MySqlDbType.VarChar, 255);
+                cmd.Parameters.Add("@color_hex", MySqlDbType.VarChar, 255);
+                cmd.Parameters.Add("@image", MySqlDbType.Blob);
+
+                cmd.Parameters["@id"].Value = id;
+                cmd.Parameters["@name"].Value = name;
+                cmd.Parameters["@type_name"].Value = type_name;
+                cmd.Parameters["@price"].Value = price;
+                cmd.Parameters["@color"].Value = color;
+                cmd.Parameters["@color_hex"].Value = color_hex;
+                cmd.Parameters["@image"].Value = image;
                 cmd.ExecuteNonQuery();
                 conn.Close();
                 return true;
@@ -283,7 +351,7 @@ namespace ProductStock._Repository
             try
             {
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
-                cmd.Parameters.Add("@product_count", MySqlDbType.Int64);
+                cmd.Parameters.Add("@product_count", MySqlDbType.Int32);
                 cmd.Parameters["@product_count"].Value = prodCount;
                 cmd.ExecuteNonQuery();
                 conn.Close();

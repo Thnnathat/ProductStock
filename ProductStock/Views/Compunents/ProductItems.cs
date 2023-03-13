@@ -65,7 +65,8 @@ namespace ProductStock.Views.Compunents
                 if (activeForm != null)
                     activeForm.Close();
                 activeForm = prodDetail;
-                prodDetail.dgv = dgv;
+                //prodDetail.dgv = dgv; !
+                prodDetail.prodId = dgv.Rows[0].Cells[0].Value.ToString();
                 prodDetail.Show();
             }
         }

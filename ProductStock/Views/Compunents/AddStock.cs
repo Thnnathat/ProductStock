@@ -16,8 +16,9 @@ namespace ProductStock.Views.Compunents
     {
 
         public ProductModel prodModel;
-        ProductItems obj3 = (ProductItems)Application.OpenForms["ProductItems"];
-        ProductDetail obj4 = (ProductDetail)Application.OpenForms["ProductDetail"];
+        InStock obj3 = (InStock)Application.OpenForms["InStock"];
+        ProductItems obj4 = (ProductItems)Application.OpenForms["ProductItems"];
+        ProductDetail obj5 = (ProductDetail)Application.OpenForms["ProductDetail"];
 
         public AddStock()
         {
@@ -113,7 +114,9 @@ namespace ProductStock.Views.Compunents
         // มีปัญหา หน้า Product reload ไม่ได้ หน้าต่างอัพเดทไม่ได้ แก้ไขการโหลดข้อมูล
         private void reloadStockList()
         {
-            obj4.reloadProdList();
+            obj3.reloadData();
+            obj4.reloadData();
+            obj5.reloadData();
             this.Close();
         }
 

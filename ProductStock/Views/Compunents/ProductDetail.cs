@@ -20,11 +20,14 @@ namespace ProductStock.Views.Compunents
     public partial class ProductDetail : Form
     {
 
-        public DataGridView dgv;
+        //ไม่สามรถ reload เพจได้ (วิธีแก้ เปลี่ยนจาก datagrid view เป็นการนำเอา id ไป query ใหม่) -> แก้ไขแล้ว
+
+        // public DataGridView dgv; !
         ProductModel prodModel;
         ProductItems obj = (ProductItems)Application.OpenForms["ProductItems"];
         public string btnName;
         private string mode;
+        public string prodId;
 
         public ProductDetail()
         {
@@ -63,7 +66,7 @@ namespace ProductStock.Views.Compunents
             disableAllTextBox();
         }
 
-        // ตอนนี้ edit ไม่ได้ เนื่องจาก inStock กับ outStock อ้างอิงค์ถึง product อยู่ (วิธีแก้ สินค้าที่มี stock แล้ว ไม่ให้แก้ไข id)
+        // ตอนนี้ edit ไม่ได้ เนื่องจาก inStock กับ outStock อ้างอิงค์ถึง product อยู่ (วิธีแก้ สินค้าที่มี stock แล้ว ไม่ให้แก้ไข id) -> แก้ไขแล้ว
         private void enableEditMode()
         {
             mode = "editMode";
@@ -72,6 +75,7 @@ namespace ProductStock.Views.Compunents
             selectImageBtn.Visible = true;
             enableAllTextBox();
             prodCountTextBox.Enabled = false;
+            prodIdTextBox.Enabled = false;
         }
 
         private void addProdMode()
@@ -96,19 +100,18 @@ namespace ProductStock.Views.Compunents
             {
                 addProdMode();
             }
+            getProdDetail();
+        }
 
-            if (dgv != null)
+        private void getProdDetail()
+        {
+            DBProject db = new DBProject();
+            prodModel = new ProductModel();
+            prodModel = db.getAProductCount(prodId);
+
+            if (prodModel != null)
             {
                 mode = "viewMode";
-                prodModel = new ProductModel();
-                prodModel.Id = dgv.SelectedRows[0].Cells[0].Value + string.Empty;
-                prodModel.Name = dgv.SelectedRows[0].Cells[1].Value + string.Empty;
-                prodModel.TypeName = dgv.SelectedRows[0].Cells[2].Value + string.Empty;
-                prodModel.Price = dgv.SelectedRows[0].Cells[3].Value + string.Empty;
-                prodModel.Color = dgv.SelectedRows[0].Cells[4].Value + string.Empty;
-                prodModel.ColorHex = dgv.SelectedRows[0].Cells[5].Value + string.Empty;
-                prodModel.Image = (byte[])dgv.SelectedRows[0].Cells[6].Value;
-                prodModel.ProductCount = (int)dgv.SelectedRows[0].Cells[7].Value;
                 showProdDetail();
                 disableEditMode();
             }
@@ -132,6 +135,11 @@ namespace ProductStock.Views.Compunents
             }
         }
 
+        public void reloadData()
+        {
+            getProdDetail(); 
+        }
+
         private void editProdBtn_Click(object sender, EventArgs e)
         {
             enableEditMode();
@@ -148,25 +156,42 @@ namespace ProductStock.Views.Compunents
             this.Close();
         }
 
-        public void reloadProdList()
+        private void reloadProdList()
         {
             obj.reloadData();
             this.Close();
         }
 
-        //Remove ไม่ได้ ต้อง remove Stock ก่อน
+        //Remove ไม่ได้ ต้อง remove Stock ก่อน -> แก้แล้ว
         private void removeProdBtn_Click(object sender, EventArgs e)
         {
-            DBProject db = new DBProject();
-            bool deleteSucess = db.removeData("products", prodModel.Id);
-            if (deleteSucess)
+            var check = MessageBox.Show("Do you want to remove the product?", "Remove product.", MessageBoxButtons.YesNoCancel);
+            if (check == DialogResult.Yes)
             {
-                MessageBox.Show("Delete success.", "Delete product");
-                reloadProdList();
-            }
-            else
-            {
-                MessageBox.Show("Delete failed.", "Delete product", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                bool deleteSuccess = false;
+                DBProject db = new DBProject();
+                if (prodModel.ProductCount > 0)
+                {
+                    db.removeData("in_stocks", prodModel.Id);
+                    db.removeData("out_stocks", prodModel.Id);
+                    deleteSuccess = db.removeData("products", prodModel.Id);
+                }
+                else
+                {
+                    deleteSuccess = db.removeData("products", prodModel.Id);
+                }
+                {
+
+                }
+                if (deleteSuccess)
+                {
+                    MessageBox.Show("Delete success.", "Delete product");
+                    reloadProdList();
+                }
+                else
+                {
+                    MessageBox.Show("Delete failed.", "Delete product", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
             }
         }
 
@@ -185,7 +210,7 @@ namespace ProductStock.Views.Compunents
             color_hex = prodColorHexTextBox.Texts;
             byte[] image;
 
-            //แก้แบบ EmployeeDetail เลย (เห้อออ)
+            //แก้แบบ EmployeeDetail เลย (เห้อออ) -> แก้ไขแล้ว
             try
             {
                 MemoryStream ms = new MemoryStream();
@@ -201,8 +226,8 @@ namespace ProductStock.Views.Compunents
             DBProject db = new DBProject();
             if (mode == "editMode")
             {
-                query = "UPDATE products SET id=@id, name=@name, type_name=@type_name, price=@price, color=@color, color_hex=@color_hex, image=@image, product_count=@product_count where id='" + prodModel.Id + "';";
-                Success = db.prodDetailRepo(query, id, name, type_name, price, color, color_hex, image, product_count);
+                query = "UPDATE products SET id=@id, name=@name, type_name=@type_name, price=@price, color=@color, color_hex=@color_hex, image=@image where id='" + prodModel.Id + "';";
+                Success = db.prodDetailRepo(query, id, name, type_name, price, color, color_hex, image);
             }
 
             else if (mode == "addProdMode")
