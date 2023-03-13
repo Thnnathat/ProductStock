@@ -19,6 +19,7 @@ namespace ProductStock.Views.Compunents
         InStock obj3 = (InStock)Application.OpenForms["InStock"];
         ProductItems obj4 = (ProductItems)Application.OpenForms["ProductItems"];
         ProductDetail obj5 = (ProductDetail)Application.OpenForms["ProductDetail"];
+        OutStock obj6 = (OutStock)Application.OpenForms["OutStock"];
 
         public AddStock()
         {
@@ -30,7 +31,7 @@ namespace ProductStock.Views.Compunents
             this.Close();
         }
 
-        private void addProdBtn_Click(object sender, EventArgs e)// แก้ชื่อ function.
+        private void addProdBtn_Click(object sender, EventArgs e)// แก้ชื่อ function. addStock
         {
             DBProject db = new DBProject();
             string sql = "INSERT INTO in_stocks(id) VALUES(@id)";
@@ -68,12 +69,15 @@ namespace ProductStock.Views.Compunents
                 string[] stock_id;
                 sql = "SELECT stock_id FROM in_stocks WHERE id='" + prodModel.Id + "' LIMIT " + count + "";
                 stock_id = db.getInStock(sql);
-                for (int i = 0; i < stock_id.Length; i++)
+                if (count <= stock_id.Length)
                 {
-                    sql = "INSERT INTO out_stocks(id, stock_id) VALUES(@id, @stock_id)";
-                    success = db.transferProdStock(sql, prodModel.Id, stock_id[i]);
-                    sql = "DELETE FROM in_stocks WHERE id='" + prodModel.Id + "' AND stock_id='" + stock_id[i] + "'";
-                    success = db.removeStock(sql);
+                    for (int i = 0; i < stock_id.Length; i++)
+                    {
+                        sql = "INSERT INTO out_stocks(id, stock_id) VALUES(@id, @stock_id)";
+                        db.transferProdStock(sql, prodModel.Id, stock_id[i]);
+                        sql = "DELETE FROM in_stocks WHERE id='" + prodModel.Id + "' AND stock_id='" + stock_id[i] + "'";
+                        success = db.removeStock(sql);
+                    }
                 }
                 if (success)
                 {
@@ -100,7 +104,7 @@ namespace ProductStock.Views.Compunents
                 string sql;
                 sql = "SELECT COUNT(*) FROM in_stocks WHERE id='" + prodModel.Id + "'";
                 int stockCount = db.getProductCount(sql);
-                sql = "UPDATE products SET product_count=@product_count WHERE id='"+prodModel.Id+"'";
+                sql = "UPDATE products SET product_count=@product_count WHERE id='" + prodModel.Id + "'";
                 bool success = db.updateProdCount(sql, stockCount);
                 return true;
             }
@@ -110,15 +114,18 @@ namespace ProductStock.Views.Compunents
             }
         }
 
-        // มีปัญหา หน้า Product reload ไม่ได้ หน้าต่างอัพเดทไม่ได้ แก้ไขการโหลดข้อมูล
+        // มีปัญหา หน้า Product reload ไม่ได้ หน้าต่างอัพเดทไม่ได้ แก้ไขการโหลดข้อมูล -> แก้ไขแล้ว
         private void reloadStockList()
         {
-            obj3.reloadData();
-            obj4.reloadData();
-            obj5.reloadData();
+            if (obj3 != null)
+                obj3.reloadData();
+            if (obj4 != null)
+                obj4.reloadData();
+            if (obj5 != null)
+                obj5.reloadData();
+            if (obj6 != null)
+                obj6.reloadData();
             this.Close();
         }
-
-
     }
 }

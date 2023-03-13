@@ -65,6 +65,7 @@ namespace ProductStock.Views.Compunents
             editModePanel.Visible = false;
             selectImageBtn.Visible = false;
             disableAllTextBox();
+            empDetailTitle.Text = "Employee Detail";
         }
 
         private void enableEditMode()
@@ -74,12 +75,14 @@ namespace ProductStock.Views.Compunents
             editModePanel.Visible = true;
             selectImageBtn.Visible = true;
             enableAllTextBox();
+            empDetailTitle.Text = "Edit Employee";
         }
 
 
         private void reloadEmpList()
         {
-            obj2.reloadData();
+            if (obj2 != null)
+                obj2.reloadData();
             dgv.Update();
             dgv.Refresh();
             this.Close();
@@ -95,6 +98,7 @@ namespace ProductStock.Views.Compunents
             cancelEditBtn.Visible = false;
             editEmpBtn.Visible = false;
             selectImageBtn.Visible = true;
+            empDetailTitle.Text = "Add Employee";
         }
 
         private void showEmpDeail()
@@ -183,12 +187,12 @@ namespace ProductStock.Views.Compunents
 
             if (Success)
             {
-                MessageBox.Show("success.", "Edit product");
+                MessageBox.Show("success.", "Action status");
                 reloadEmpList();
             }
             else
             {
-                MessageBox.Show("failed.", "Edit product", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("failed.", "Action status", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 

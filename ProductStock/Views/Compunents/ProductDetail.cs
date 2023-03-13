@@ -28,6 +28,7 @@ namespace ProductStock.Views.Compunents
         public string btnName;
         private string mode;
         public string prodId;
+        private Form activeForm;
 
         public ProductDetail()
         {
@@ -64,6 +65,7 @@ namespace ProductStock.Views.Compunents
             editModePanel.Visible = false;
             selectImageBtn.Visible = false;
             disableAllTextBox();
+            prodDetailTitle.Text = "Product Detail";
         }
 
         // edit ไม่ได้ เนื่องจาก inStock กับ outStock อ้างอิงค์ถึง product อยู่ (วิธีแก้ สินค้าที่มี stock แล้ว ไม่ให้แก้ไข id) -> แก้ไขแล้ว
@@ -76,6 +78,7 @@ namespace ProductStock.Views.Compunents
             enableAllTextBox();
             prodCountTextBox.Enabled = false;
             prodIdTextBox.Enabled = false;
+            prodDetailTitle.Text = "Edit Product";
         }
 
         private void addProdMode()
@@ -92,6 +95,7 @@ namespace ProductStock.Views.Compunents
             prodCountTextBox.Visible = false;
             prodCountTextBox.Texts = "0"; // ค่าเริ่มต้น = 0
             countLabel.Visible = false;
+            prodDetailTitle.Text = "Add Product";
         }
 
         private void OnProductDetailLoad(object sender, EventArgs e)
@@ -100,7 +104,10 @@ namespace ProductStock.Views.Compunents
             {
                 addProdMode();
             }
-            getProdDetail();
+            else
+            {
+                getProdDetail();
+            }
         }
 
         private void getProdDetail()
@@ -137,7 +144,7 @@ namespace ProductStock.Views.Compunents
 
         public void reloadData()
         {
-            getProdDetail(); 
+            getProdDetail();
         }
 
         private void editProdBtn_Click(object sender, EventArgs e)
@@ -158,7 +165,8 @@ namespace ProductStock.Views.Compunents
 
         private void reloadProdList()
         {
-            obj.reloadData();
+            if (obj != null)
+                obj.reloadData();
             this.Close();
         }
 
@@ -170,19 +178,10 @@ namespace ProductStock.Views.Compunents
             {
                 bool deleteSuccess = false;
                 DBProject db = new DBProject();
-                if (prodModel.ProductCount > 0)
-                {
-                    db.removeData("in_stocks", prodModel.Id);
-                    db.removeData("out_stocks", prodModel.Id);
-                    deleteSuccess = db.removeData("products", prodModel.Id);
-                }
-                else
-                {
-                    deleteSuccess = db.removeData("products", prodModel.Id);
-                }
-                {
+                db.removeData("in_stocks", prodModel.Id);
+                db.removeData("out_stocks", prodModel.Id);
+                deleteSuccess = db.removeData("products", prodModel.Id);
 
-                }
                 if (deleteSuccess)
                 {
                     MessageBox.Show("Delete success.", "Delete product");
@@ -238,12 +237,12 @@ namespace ProductStock.Views.Compunents
 
             if (Success)
             {
-                MessageBox.Show("success.", "Edit product");
+                MessageBox.Show("success.", "Action status");
                 reloadProdList();
             }
             else
             {
-                MessageBox.Show("failed.", "Edit product", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("failed.", "Action status", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -261,9 +260,12 @@ namespace ProductStock.Views.Compunents
 
         private void stockBtn_Click(object sender, EventArgs e)
         {
+            if (activeForm != null)
+                activeForm.Close();
             disableEditMode();
             showProdDetail();
             ProdStock prodStock = new ProdStock();
+            activeForm = prodStock;
             prodStock.prodModel = prodModel;
             prodStock.Show();
         }

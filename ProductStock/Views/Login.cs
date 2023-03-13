@@ -30,8 +30,7 @@ namespace ProductStock
 
         private void exitBtn_Click(object sender, EventArgs e)
         {
-            //Application.Exit();
-            this.Close();
+            Application.Exit();
         }
 
         private void loginHandler()

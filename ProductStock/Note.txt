@@ -1,8 +1,9 @@
 ﻿Problems:
 Employee ที่ login อยู่สามารถแก้ไขตัวเองไปเป็น staff ได้ (วิธีแก้ ทำให้แก้ไขตัวเองไปเป็น staff ไม่ได้)-> ไม่แก้
-รูปใน product list view ทำให้ช้า (วิธีแก้ ไม่ให้แสดงภาพ)
+รูปใน product list view ทำให้ช้า (วิธีแก้ ไม่ให้แสดงภาพ) -> แก้ไขแล้ว
 
 Bug:
 ลบข้อมูลแล้ว ProductItems ไม่ reload (วิธีแก้ ให้ ProductItems refresh data grid view) -> แก้ไขแล้ว
+เมื่อเปิดหน้าอื่นแล้วจะเกิดค่า null เมื่อเรียกใช้ reload โปรแกรมจะผิดพลาด (วิธีแก้ เช็คค่า null ของฟอร์มก่อนทำการ reload) -> แก้ไขแล้ว
 
 Test case:

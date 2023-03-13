@@ -59,7 +59,7 @@
             this.prodNameTextBox = new CustomControls.RJControls.RJTextBox();
             this.prodIdTextBox = new CustomControls.RJControls.RJTextBox();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.prodDetailTitle = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -537,24 +537,24 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.RoyalBlue;
-            this.panel4.Controls.Add(this.label1);
+            this.panel4.Controls.Add(this.prodDetailTitle);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1070, 59);
             this.panel4.TabIndex = 4;
             // 
-            // label1
+            // prodDetailTitle
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(12, 6);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(287, 48);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Products Detail";
+            this.prodDetailTitle.AutoSize = true;
+            this.prodDetailTitle.BackColor = System.Drawing.Color.Transparent;
+            this.prodDetailTitle.Font = new System.Drawing.Font("Microsoft Tai Le", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prodDetailTitle.ForeColor = System.Drawing.Color.White;
+            this.prodDetailTitle.Location = new System.Drawing.Point(12, 6);
+            this.prodDetailTitle.Name = "prodDetailTitle";
+            this.prodDetailTitle.Size = new System.Drawing.Size(287, 48);
+            this.prodDetailTitle.TabIndex = 1;
+            this.prodDetailTitle.Text = "Products Detail";
             // 
             // ProductDetail
             // 
@@ -586,7 +586,7 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label prodDetailTitle;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel3;
